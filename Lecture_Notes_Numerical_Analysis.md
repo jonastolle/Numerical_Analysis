@@ -8,10 +8,11 @@
 
 ## Floating point numbers
 
+We refer to [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html)
+
 A floating point number $x$ has the representation
 $$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjEyMjU5MDIsLTE4NjcxNzYxNzVdfQ
-==
+eyJoaXN0b3J5IjpbNzE5OTQxMzIwLC0xODY3MTc2MTc1XX0=
 -->
