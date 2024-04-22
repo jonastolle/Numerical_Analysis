@@ -24,9 +24,10 @@ $$f=\sum_{i=1}^d b_i 2^{-i},\quad b_i\in \{0,1\},$$
 
 for a fixed integer $d$, which we call *precision*.
 
-A floating point number $x$ has the representation
+A general floating point number $x$ has the representation
 $$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mzg5NTQ5MSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ
+==
 -->
