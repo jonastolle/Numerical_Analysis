@@ -17,15 +17,12 @@ We refer to
 Instead of $\mathbb{R}$, we shall introduce the set of (binary) *floating-point numbers* $\mathbb{F}$ whose members are zero and all numbers of the form
 $$\pm(1+f)\cdot 2^e$$,
 where $e$ is an integer called the *exponent*, and $1+f$ is called the *mantissa* or *significand*, in which,
-
 $$f=\sum_{i=1}^d b_i 2^{-i},\quad b_i\in \{0,1\},$$
-
 for a fixed integer $d$, which we call *precision*.
-
 A general floating point number $x$ has the representation
 $$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTA0NTYxNSwtMTUwMTE3OTI3NSwtMT
-g2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbLTE4NzAxOTU2MTMsLTE1MDExNzkyNzUsLT
+E4NjcxNzYxNzVdfQ==
 -->
