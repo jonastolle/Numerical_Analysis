@@ -14,12 +14,16 @@ We refer to
 
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
 
-Instead of $\mathbb{R}$, we shall introduce the set o
+Instead of $\mathbb{R}$, we shall introduce the set of (binary) *floating-point numbers* $\mathbb{F}$ whose members are zero and all numbers of the form
+
+$$\pm(1+f)\cdot 2^e$$,
+
+where $e$ is an integer
 
 A floating point number $x$ has the representation
 $$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMyODYxMjcsLTE4NjcxNzYxNzVdfQ
+eyJoaXN0b3J5IjpbLTE5OTUzMjYzODksLTE4NjcxNzYxNzVdfQ
 ==
 -->
