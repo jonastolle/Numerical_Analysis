@@ -17,7 +17,7 @@ We refer to
 Instead of $\mathbb{R}$, we shall introduce the set of (binary) *floating-point numbers* $\mathbb{F}$.
 
 A general floating point number $x$ has the representation
-$$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
+$$x=\pm (d_0.d_1 d_2 \ldots d_p)_k \cdot k^e$$
 
 Binary floating point numbers are zero and all numbers of the form
 $$\pm(1+f)\cdot 2^e$$,
@@ -27,7 +27,7 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLT
-E4NzAxOTU2MTMsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
-
+eyJoaXN0b3J5IjpbMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMT
+AzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2
+NzE3NjE3NV19
 -->
