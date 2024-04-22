@@ -18,12 +18,13 @@ Instead of $\mathbb{R}$, we shall introduce the set of (binary) *floating-point 
 
 $$\pm(1+f)\cdot 2^e$$,
 
-where $e$ is an integer
+where $e$ is an integer called the *exponent*, and $1+f$ is called the *mantissa* or *significand*, in which,
+
+$$f=\sum_{i=1}^d b_i 2^{-i},\quad b_i\in \{0,1\}$$
 
 A floating point number $x$ has the representation
 $$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUzMjYzODksLTE4NjcxNzYxNzVdfQ
-==
+eyJoaXN0b3J5IjpbMTIxMzQxOTUwMiwtMTg2NzE3NjE3NV19
 -->
