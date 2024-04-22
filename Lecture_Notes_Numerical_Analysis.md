@@ -6,8 +6,10 @@
 
 *Last updated: 22.4.2024*
 
-#
+## Floating point numbers
+
+Floating point numbers have the representatio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgxNDUyNDgsLTE4NjcxNzYxNzVdfQ
+eyJoaXN0b3J5IjpbLTExNTU4OTkyMDUsLTE4NjcxNzYxNzVdfQ
 ==
 -->
