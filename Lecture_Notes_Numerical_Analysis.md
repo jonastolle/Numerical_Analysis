@@ -8,8 +8,10 @@
 
 ## Floating point numbers
 
-Floating point numbers have the representatio
+A floating point number $x$ has the representation
+$$x=\pm (d_0.d_1 d_2 \ldots d_9)_k \cdot k^e$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU4OTkyMDUsLTE4NjcxNzYxNzVdfQ
+eyJoaXN0b3J5IjpbLTIwNjEyMjU5MDIsLTE4NjcxNzYxNzVdfQ
 ==
 -->
