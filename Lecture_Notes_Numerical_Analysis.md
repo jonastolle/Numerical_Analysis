@@ -9,7 +9,7 @@
 ## Floating-point numbers
 
 We refer to
--  [\[Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
+-  [\[Tobin A. Driscoll and Richard J. Braun, Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
 - ...
 
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
@@ -27,6 +27,7 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLT
-E1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLT
+E4NzAxOTU2MTMsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
+
 -->
