@@ -30,9 +30,10 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 ### Numerical differentiation
 
 Recall Taylor's theorem, for a twice differentiable function $f:\mathbb{R}\to\mathbb{R}$,
-$$f(x)=f(x_0)+f'(x_0)(x-x_0)+\frac{1}{2}(x
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)+\frac{1}{2}(x-x_0)^2 f''(\xi),$$
+for any $x_0,x\in\mathbb{R}$, where $\xi\in [x_0,x]$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzQyMjQxOSwxMDgxNTYwMjY1LC0xNT
+eyJoaXN0b3J5IjpbMTI0NjgxMzQ2MSwxMDgxNTYwMjY1LC0xNT
 U5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0xNTAx
 MTc5Mjc1LC0xODY3MTc2MTc1XX0=
 -->
