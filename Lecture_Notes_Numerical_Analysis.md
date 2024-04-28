@@ -39,7 +39,7 @@ By setting $x:=z+h$, $x_0:=z$, we obtain the useful equivalent formula
 $$f(z+h)=f(z)+f'(z)h+\frac{1}{2} f''(\xi)h^2,$$
 for every $z,h\in\mathbb{R}$, $\xi\in [z,z+h]$.
 
-## Convergence rate
+## Rate of convergence ($Q$
 
 Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* of $(x_k)$. Define the $\limsup$ (*limes superior*) as
 $$\limsup_{k\to\infty}x_k:=\lim_{k\to\infty}s_k\in[-\infty,+\infty].$$
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzg2OTY4NCwtMTExODAwMDY2OCwtND
-E0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAy
-OTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNzkyNzUsLTE4NjcxNz
-YxNzVdfQ==
+eyJoaXN0b3J5IjpbOTM1NjkyNTQ4LC0xMTE4MDAwNjY4LC00MT
+Q2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5
+OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2NzE3Nj
+E3NV19
 -->
