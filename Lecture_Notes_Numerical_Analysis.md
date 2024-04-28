@@ -35,12 +35,15 @@ for any $x_0,x\in\mathbb{R}$, where $\xi\in [x_0,x]$.
 
 What is that ξ (= "xi")? Under certain assumptions elementary functions have their series expansions. If the series is truncated, we have the Taylor polynomial. However, the residual has an explicit expression but due to application of an intermediate value theorem, the exact location of the point ξ is not known, i.e. "generic".
 
+We note that by setting $x:=z+h$, $x_0:=z$, we obtain the equivalent formula
+$$f(z+h)=f(z)+f'(x_0)(x-x_0)+\frac{1}{2}(x-x_0)^2 f''(\xi),$$
+
 ## Convergence rate
 
 
 ## Finding roots of functions
 
-Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x
+Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x)=0$.
 
 ### Bisection method
 
@@ -48,7 +51,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzM5MjI5NSwxMDgxNTYwMjY1LC0xNT
-U5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0xNTAx
-MTc5Mjc1LC0xODY3MTc2MTc1XX0=
+eyJoaXN0b3J5IjpbLTE4ODgwNTM5ODcsMTA4MTU2MDI2NSwtMT
+U1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUw
+MTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
