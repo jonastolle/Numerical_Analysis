@@ -54,9 +54,15 @@ We observe that $C(p^*)<\infty$ for some $p^*> 0$ implies $C(p)=0$ for every $0\
 >**Proof**. Write
 >$$\frac{|x_{k+1}-x|}{|x_k-x|^p}=\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}.$$
 
-Thus, there exists a (possibly infinite) p^* such that
+Thus, there exists a (possibly infinite) $p^*$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^*,\\C(p^*)&\text{if}\;\;p=p^*,\\\infty &\text{if}\;\;p>p^*.\end{cases}$$
-The number $p^*$ is called *order of convergence* for the sequence $(x_k)$ 
+The number $p^*$ is called *order of convergence* for the sequence $(x_k)$ and determines the *rate of convergence* as follows:
+
+- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*. 
+- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*.
+- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*.
+- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*.
+- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*.
 
 >The *rate of convergence* can be used interchangeably with the *order of convergence*. However, there is some caution necessary, as different authors use different terminology here. Usually, the order of convergence always refers to the same thing, namely, the α-exponent in the denominator of the limit defining the order of convergence. Most confusingly, some authors call the order of convergence "rate of convergence", as e.g. [here](https://www.math-cs.gordon.edu/courses/ma342/handouts/rate.pdf). The English [Wikipedia article](https://en.wikipedia.org/wiki/Rate_of_convergence) calls it the order of convergence, whereas here the rate of convergence is the constant in the definition, which also determines the speed of convergence, together with the order of convergence. So, please always check the context, as the use of the terminology should be clear from it. If there is no definition, try to figure out what is meant in each text. As a rule of thumb: The "order of convergence" is a unique terminology in numerical analysis. The "rate of convergence" can mean at least two different things. I will use both words for the same thing, but will try to make clear what I mean from case to case. In any case, to be sure, use "order of convergence". My PhD advisor usually said that in mathematics "it's all hollow words" (meaning that one should check the definition).
 
@@ -70,7 +76,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjMwNDE5OSwtMTExODAwMDY2OCwtND
+eyJoaXN0b3J5IjpbMTQ1MzI1OTQzNCwtMTExODAwMDY2OCwtND
 E0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAy
 OTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNzkyNzUsLTE4NjcxNz
 YxNzVdfQ==
