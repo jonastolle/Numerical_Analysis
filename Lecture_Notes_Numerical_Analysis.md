@@ -39,7 +39,7 @@ By setting $x:=z+h$, $x_0:=z$, we obtain the useful equivalent formula
 $$f(z+h)=f(z)+f'(z)h+\frac{1}{2} f''(\xi)h^2,$$
 for every $z,h\in\mathbb{R}$, $\xi\in [z,z+h]$.
 
-## Rate of convergence ($Q$
+## Rate of convergence ($Q$-convergence)
 
 Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* of $(x_k)$. Define the $\limsup$ (*limes superior*) as
 $$\limsup_{k\to\infty}x_k:=\lim_{k\to\infty}s_k\in[-\infty,+\infty].$$
@@ -61,7 +61,7 @@ The number $p^*$ is called *order of convergence* for the sequence $(x_k)$ and d
 - If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*. 
 - If $p^*=1$ and $1>C(1)>1$ then we say the convergence is *linear*.
 - If $p^*>1$ or $C(1)=0$ then we say the convergence is *superlinear*.
-- If $p^*2$ then we say the convergence is *quadratic*.
+- If $p^*=2$ then we say the convergence is *quadratic*.
 - If $p^*=3$ then we say the convergence is *cubic*, etc.
 
 When working with convergence estimates it is often useful to use the following approximation:
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1NjkyNTQ4LC0xMTE4MDAwNjY4LC00MT
-Q2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5
-OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2NzE3Nj
-E3NV19
+eyJoaXN0b3J5IjpbLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLT
+QxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMw
+Mjk5MzU5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MT
+c2MTc1XX0=
 -->
