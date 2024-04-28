@@ -48,7 +48,7 @@ Other than a limit, it always exists, but can be $\pm\infty$. If $(x_k)$ is boun
 >**Examples**. (1) $x_k:=(-1)^k$, then $s_k=1$, and $\limsup_{k\to\infty}x_k=1$.
 > (2) $x_k=\sin(k)$, then $s_k=1$, and $\limsup_{k\to\infty}x_k=1$.
 
-Assume that $\lim_{k\to\infty}x_k=x$, and thus, $\lim_{k\to\infty}|x_k-x|=0$, and assume that there exists some large index $M\in\mathbb{N}$ such that $x_k\not=x$ for all $k\ge M$. Then we define the following quantity for $p\ge 0$
+Assume that $\lim_{k\to\infty}x_k=x$ and that there exists some large index $M\in\mathbb{N}$ such that $x_k\not=x$ for all $k\ge M$. Then we define the following quantity for $p\ge 0$
 $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
 We observe that $C(p^*)<\infty$ for some $p^*> 0$ implies $C(p)=0$ for every $0\le p<p^*$. If $C(p^*)>0$ for some $p^*> 0$ then $C(p)=\infty$ for any $p>p^*$.
 >**Proof**. By the submultiplicative property of $\limsup$,
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUyNzY0OTUsMTI0Nzk3MjYxMiwtMT
-k4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1
-NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOT
-U2MTMsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOT
+g3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2
+MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NT
+YxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
