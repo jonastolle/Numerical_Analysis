@@ -41,7 +41,7 @@ for every $z,h\in\mathbb{R}$, $\xi\in [z,z+h]$.
 
 ## Rate of convergence ($Q$-convergence)
 
-Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* of $(x_k)$. Define the $\limsup$ (*limes superior*) as
+Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* (that is, large indicies $l\ge k$) of $(x_k)$. Define the $\limsup$ (*limes superior*) as
 $$\limsup_{k\to\infty}x_k:=\lim_{k\to\infty}s_k\in[-\infty,+\infty].$$
 Other than a limit, it always exists, but can be $\pm\infty$. If $(x_k)$ is bounded, the $\limsup$ is the largest limit of a converging subsequence. If $\lim_{k\to\infty} x_k\in (-\infty,\infty)$ exists, then $\lim_{k\to\infty}x_k=\limsup_{k\to\infty}x_k$. The opposite is not true.
 
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1MzA4NTEyLC0xOTg3ODU3MDI2LC0xMT
-E4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIz
-ODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OT
-I3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMT
+ExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTky
+MzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNz
+kyNzUsLTE4NjcxNzYxNzVdfQ==
 -->
