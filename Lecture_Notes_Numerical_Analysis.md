@@ -52,7 +52,7 @@ Assume that $\lim_{k\to\infty}x_k=x$, and that there is some large index $M\in\m
 $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
 We observe that $C(p^*)<\infty$ for some $p^*> 0$ implies $C(p)=0$ for every $0\le p<p^*$. If $C(p^*)>0$ for some $p^*> 0$ then $C(p)=\infty$ for any $p>p^*$.
 >**Proof**. By properties of $\limsup$,
->$$\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}\le\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}\limsup_{k\to\infty}|x_k-x|^{p^*-p}=C(p^*).$$
+>$$\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}\le\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}\limsup_{k\to\infty}|x_k-x|^{p^*-p}=C(p^*)\cdot 0=0.$$
 
 Thus, there exists a (possibly infinite) $p^*$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^*,\\C(p^*)&\text{if}\;\;p=p^*,\\\infty &\text{if}\;\;p>p^*.\end{cases}$$
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNzY3OTAsMTI0Nzk3MjYxMiwtMTk4Nz
-g1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAy
-NjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MT
-MsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbMTA0NzE1ODA2MSwxMjQ3OTcyNjEyLC0xOT
+g3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2
+MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NT
+YxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
