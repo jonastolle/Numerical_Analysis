@@ -40,13 +40,15 @@ What is that ξ (= "xi")? Under certain assumptions elementary functions have th
 
 ## Finding roots of functions
 
+Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x
+
 ### Bisection method
 
 ### Secant method
 
-### Newto
+### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MzExNzEzLDEwODE1NjAyNjUsLTE1NT
-kyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1MDEx
-NzkyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbLTQ0NzM5MjI5NSwxMDgxNTYwMjY1LC0xNT
+U5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0xNTAx
+MTc5Mjc1LC0xODY3MTc2MTc1XX0=
 -->
