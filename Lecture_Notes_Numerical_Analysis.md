@@ -51,8 +51,8 @@ Other than a limit, it always exists, but can be $\pm\infty$. If $(x_k)$ is boun
 Assume that $\lim_{k\to\infty}x_k=x$, and that there is some large index $M\in\mathbb{N}$ such that $x_k\not=x$ for all $k\ge M$. Then we define the following quantity for $p\ge 0$
 $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
 We observe that $C(p^*)<\infty$ for some $p^*> 0$ implies $C(p)=0$ for every $0\le p<p^*$. If $C(p^*)>0$ for some $p^*> 0$ then $C(p)=\infty$ for any $p>p^*$.
->**Proof**. Write
->$$\frac{|x_{k+1}-x|}{|x_k-x|^p}=\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}.$$
+>**Proof**. By properties of $\limsup$,
+>$$\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}.$$
 
 Thus, there exists a (possibly infinite) $p^*$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^*,\\C(p^*)&\text{if}\;\;p=p^*,\\\infty &\text{if}\;\;p>p^*.\end{cases}$$
@@ -80,8 +80,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMT
-ExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTky
-MzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNz
-kyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbLTU0NTYxNTE1LDEyNDc5NzI2MTIsLTE5OD
+c4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYw
+MjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1Nj
+EzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1XX0=
 -->
