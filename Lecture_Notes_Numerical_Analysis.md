@@ -25,9 +25,13 @@ where $e$ is an integer called the *exponent*, and $1+f$ is called the *mantissa
 $$f=\sum_{i=1}^d b_i 2^{-i},\quad b_i\in \{0,1\},$$
 for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
+## Condition number and stability
 
+### Numerical differentiation
+
+Recall
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMT
-AzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2
-NzE3NjE3NV19
+eyJoaXN0b3J5IjpbLTEzMzc5MTU5NjIsMTA4MTU2MDI2NSwtMT
+U1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUw
+MTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
