@@ -85,13 +85,13 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 ### Newton's method
 
 ## Literature
-1. Anne Greenbaum and Tim P. Chartier.  _Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms_, Princeton University Press, 2012.
-2. L. Ridgway Scott.  _Numerical Analysis_, Princeton University Press, 2011.
+1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
+2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
 3.  Qingkai Kong, Timmy Siauw, and Alexandre Bayen. [Python Programming and Numerical Methods. A Guide for Engineers and Scientists](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html).  Academic Press, 2020.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
-5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  _Solving Ordinary Differential Equations I: Nonstiff Problems._ Springer, 2nd ed., 1993.
+5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzM1NzU3NSwxNjYzMzY1NzA3LDEyND
+eyJoaXN0b3J5IjpbMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyND
 c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
 NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
 U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
