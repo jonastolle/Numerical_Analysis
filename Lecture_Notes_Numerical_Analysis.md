@@ -26,7 +26,8 @@ $$(d_0. d_1 d_2 \ldots d_p)_k:=\sum_{i=0}^p d_i k^{-i}$$
 is called *mantissa* or *significand*. The exponent $e$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
 If $k=10$, we can read the usual decimal commas from the mantissa. If $k=2$, we have binary floats. In the binary case, we observe that we can always choose $d_0=1$, hence saving one bit, which can be expressed by $e$. We refer to this as *normalization*. The mantissa is always contained in the interval $[1,2)$.
 
-> **Example.** Toy
+>**Example.** (Toy floating point system). Floats of the type
+>$$(1.b_1b_2)_2$ with exponents $-1,
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -106,7 +107,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDA4MjkyMiw0MjEyODIzNjcsNzY0Nj
+eyJoaXN0b3J5IjpbMTEwMTI4MzQ0NSw0MjEyODIzNjcsNzY0Nj
 QwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcs
 MTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5OD
 c4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYw
