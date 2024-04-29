@@ -1,6 +1,8 @@
 # Numerical Analysis
 
-**Jonas Tölle**
+**Jonas Tölle**[^1]
+
+[^1]: [jonas.tolle@aalto.fi](mailto:jonas.tolle@aalto.fi)
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
@@ -91,9 +93,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyND
-c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
-NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
-U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
-XX0=
+eyJoaXN0b3J5IjpbMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2Nj
+MzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAw
+MDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzOD
+IsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNzkyNzUs
+LTE4NjcxNzYxNzVdfQ==
 -->
