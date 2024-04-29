@@ -19,7 +19,8 @@
 ## Floating-point numbers
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
 
-Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* $\mathbb{F}$. They come with different bases, precis
+Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* $\mathbb{F}$. They come with different bases, precisions and exponent ranges, and other features. The basic representation is
+$$x=\pm (d_0. d_1 d_2 \ldots d_p)_k\cdot k^e,$$
 
 Ge
 
@@ -107,7 +108,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NDEzMjQ4LDQyMTI4MjM2Nyw3NjQ2ND
+eyJoaXN0b3J5IjpbNzM0OTMzOTE1LDQyMTI4MjM2Nyw3NjQ2ND
 AxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywx
 Njc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nz
 g1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAy
