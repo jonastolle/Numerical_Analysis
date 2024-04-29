@@ -38,7 +38,7 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 > $\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
 > Important quantity, $(1.01)_2-1$=\frac{1}{4}$, the so-called *machine epsilon*.
 
-Define the machine epsilon by $\varepsilon:=(1.00\ldots 01)_2-1$.
+Define the machine epsilon by $\varepsilon:=k^{-p}=(1.00\ldots 01)_2-1$.
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -118,11 +118,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0Mj
-EyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3
-LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyND
-c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
-NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
-U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
-XX0=
+eyJoaXN0b3J5IjpbLTIwNzc3ODA3MDUsLTE0MDAwMDA3NjQsMT
+QwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIz
+MDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNj
+YzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgw
+MDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4Mz
+gyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1
+LC0xODY3MTc2MTc1XX0=
 -->
