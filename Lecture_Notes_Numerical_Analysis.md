@@ -85,12 +85,17 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 ### Newton's method
 
 ## Literature
-We refer to
--  [\[Tobin A. Driscoll and Richard J. Braun, Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
-- ...
+- 1. Anne Greenbaum and Tim P. Chartier.  _Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms_, Princeton University Press, 2012.
 
+2. L. Ridgway Scott.  _Numerical Analysis_, Princeton University Press, 2011.
+
+3.  Qingkai Kong, Timmy Siauw, and Alexandre Bayen. _Python Programming and Numerical Methods. A Guide for Engineers and Scientists_.  Academic Press, 2020.
+
+4. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  _Solving Ordinary Differential Equations I: Nonstiff Problems._ Springer, 2nd ed., 1993.
+5.  [\[Tobin A. Driscoll and Richard J. Braun, Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkzOTUxMTMsMTY2MzM2NTcwNywxMj
+eyJoaXN0b3J5IjpbLTEwODAwODczODcsMTY2MzM2NTcwNywxMj
 Q3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2
 MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OT
 M1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3
