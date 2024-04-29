@@ -4,7 +4,7 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 28.4.2024*
+*Last updated: 29.4.2024*
 
 ## Floating-point numbers
 
@@ -80,8 +80,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOT
-g3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2
-MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NT
-YxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbLTYwNDE1OTM0OCwxNjYzMzY1NzA3LDEyND
+c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
+NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
+U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
+XX0=
 -->
