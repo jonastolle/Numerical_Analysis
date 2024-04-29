@@ -21,10 +21,10 @@
 
 Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* $\mathbb{F}$. They come with different bases, precisions and exponent ranges, and other features. The basic representation is
 $$x=\pm (d_0. d_1 d_2 \ldots d_p)_k\cdot k^e.$$
-$k\in\{2,3,\ldots,\}$ is called *base* or *radix*, $p\in\mathbb{N}_0:=\mathbb{N}\cup\{0\}$ is called the precision, $d_i$, $i\in\{0,\ldots,p\}$ and sequence of numbers
+$k\in\mathbb{N}\setminus\{1\}$ is called *base* or *radix*, $p\in\mathbb{N}_0:=\mathbb{N}\cup\{0\}$ is called the precision, $d_i$, $i\in\{0,\ldots,p\}$, and the sequence of numbers
 $$(d_0. d_1 d_2 \ldots d_p)_k:=\sum_{i=0}^p d_i k^{-i}$$
 is called *mantissa* or *significand*. The exponent $e$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
-Ge
+If $k=10$, we can read the usual decimal commas from the mantissa. If $k=2$, we have binary flotas.
 
 Binary floating point numbers are zero and all numbers of the form
 $$\pm(1+f)\cdot 2^e$$,
@@ -110,10 +110,10 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM3MTI4NTMsNDIxMjgyMzY3LDc2ND
-Y0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3
-LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOT
-g3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2
-MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NT
-YxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbMzM2ODcxMTkyLDQyMTI4MjM2Nyw3NjQ2ND
+AxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywx
+Njc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nz
+g1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAy
+NjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MT
+MsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
 -->
