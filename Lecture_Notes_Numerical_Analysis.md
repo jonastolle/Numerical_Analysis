@@ -25,7 +25,7 @@ $k\in\mathbb{N}\setminus\{1\}$ is called *base* or *radix*, $p\in\mathbb{N}_0:=\
 $$(d_0. d_1 d_2 \ldots d_p)_k:=\sum_{i=0}^p d_i k^{-i}$$
 is called *mantissa* or *significand*. The exponent $e$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
 If $k=10$, we can read the usual decimal commas from the mantissa:
-$$(1.01)_{10}=1\cdot 10^0+0\cdot 10^{-1}+1\
+$$(1.01)_{10}=1\cdot 10^0+0\cdot 10^{-1}+1\cdot 10^{-2}=1.01.$$
 If $k=2$, we have binary floats. In the binary case, we observe that we can always choose $d_0=1$, hence saving one bit, which can be expressed by $e$. We refer to this as *normalization*. The mantissa is always contained in the interval $[1,2)$.
 
 >**Example.** (Toy floating point system). Binary floats of the type
@@ -109,10 +109,10 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQzMDg1NDcsNDIxMjgyMzY3LDc2ND
-Y0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3
-LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOT
-g3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2
-MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NT
-YxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0Nj
+QwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcs
+MTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5OD
+c4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYw
+MjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1Nj
+EzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1XX0=
 -->
