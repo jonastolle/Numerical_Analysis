@@ -27,6 +27,10 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
 ## Condition number and stability
 
+###Stability of an algorithm
+
+**Definition.** An algorithm or numerical process is called *stable* if small changes in the input produce small changes in the output. It is called *unstable* if large changes in the output ar
+
 ### Numerical differentiation
 
 Recall Taylor's theorem, for a twice differentiable function $f:\mathbb{R}\to\mathbb{R}$,
@@ -93,9 +97,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2Nj
-MzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAw
-MDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzOD
-IsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1MDExNzkyNzUs
-LTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbMTA4NTk4Mzc5NiwxNjUyNzYxMzA3LDE2Nz
+kxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3
+MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NS
+wtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywt
+MTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
