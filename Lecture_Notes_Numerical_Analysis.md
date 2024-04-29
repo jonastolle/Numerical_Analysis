@@ -8,9 +8,7 @@
 
 ## Floating-point numbers
 
-We refer to
--  [\[Tobin A. Driscoll and Richard J. Braun, Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
-- ...
+
 
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
 
@@ -38,6 +36,8 @@ for any $x_0,x\in\mathbb{R}$, where $\xi\in [x_0,x]$.
 By setting $x:=z+h$, $x_0:=z$, we obtain the useful equivalent formula
 $$f(z+h)=f(z)+f'(z)h+\frac{1}{2} f''(\xi)h^2,$$
 for every $z,h\in\mathbb{R}$, $\xi\in [z,z+h]$.
+
+
 
 ## Rate of convergence ($Q$-convergence)
 
@@ -70,6 +70,10 @@ for some constant $C>0$, not necessarily $C(p^*)$.
 
 >The *rate of convergence* can be used interchangeably with the *order of convergence*. However, there is some caution necessary, as different authors use different terminology here. Usually, the order of convergence always refers to the same thing, namely, the α-exponent in the denominator of the limit defining the order of convergence. Most confusingly, some authors call the order of convergence "rate of convergence", as e.g. [here](https://www.math-cs.gordon.edu/courses/ma342/handouts/rate.pdf). The English [Wikipedia article](https://en.wikipedia.org/wiki/Rate_of_convergence) calls it the order of convergence, whereas here the rate of convergence is the constant in the definition, which also determines the speed of convergence, together with the order of convergence. So, please always check the context, as the use of the terminology should be clear from it. If there is no definition, try to figure out what is meant in each text. As a rule of thumb: The "order of convergence" is a unique terminology in numerical analysis. The "rate of convergence" can mean at least two different things. I will use both words for the same thing, but will try to make clear what I mean from case to case. In any case, to be sure, use "order of convergence". My PhD advisor usually said that in mathematics "it's all hollow words" (meaning that one should check the definition).
 
+## Little $o$-notation
+
+
+
 ## Finding roots of functions
 
 Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x)=0$.
@@ -79,10 +83,16 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 ### Secant method
 
 ### Newton's method
+
+## Literature
+We refer to
+-  [\[Tobin A. Driscoll and Richard J. Braun, Fundamentals of Numerical Computation, Floating-point numbers\]](https://fncbook.github.io/fnc/intro/floating-point.html)
+- ...
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDE1OTM0OCwxNjYzMzY1NzA3LDEyND
-c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
-NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
-U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
-XX0=
+eyJoaXN0b3J5IjpbLTEyNDkzOTUxMTMsMTY2MzM2NTcwNywxMj
+Q3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2
+MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OT
+M1OSwtMTg3MDE5NTYxMywtMTUwMTE3OTI3NSwtMTg2NzE3NjE3
+NV19
 -->
