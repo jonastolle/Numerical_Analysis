@@ -9,12 +9,12 @@
 *Last updated: 29.4.2024*
 
 > **Intended learning outcomes.** After the course, the student will be able to...
-> - explain the fundamental concepts of numerical analysis, like condition number, stablilty and convergence rate.
+> - explain the fundamental concepts of numerical analysis, like condition number, stablilty, and convergence rate.
 > - construct the floating point numbers.
 > - discuss and employ basic numerical algorithms like Newton's method.
 > - use the Monte-Carlo method in basic problems in analysis and geometry.
 > - apply different methods of interpolation polynomials and numerical quadrature rules.
-> - understand the Euler scheme and more general algorithms for solving ordinary differential equations.
+> - understand the Euler scheme and linear multi-step methods for solving ordinary differential equations.
 
 ## Floating-point numbers
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
@@ -106,9 +106,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NjYxMjgsMTY1Mjc2MTMwNywxNjc5MT
-EyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAy
-NiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLT
-E1NTkyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MTMsLTE1
-MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
+eyJoaXN0b3J5IjpbLTc3MDUzMDcyMiwxNjUyNzYxMzA3LDE2Nz
+kxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3
+MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NS
+wtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywt
+MTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
