@@ -10,7 +10,8 @@
 
 > **Intended learning outcomes.** After the course, the student will be able to...
 > - explain the fundamental concepts of numerical analysis. 
-> - apply different methods of interpolation polyn
+> - discuss and ae
+> - apply different methods of interpolation polynomials and numerical quadrature rules.
 
 ## Floating-point numbers
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
@@ -102,9 +103,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTcxODc0NSwxNjUyNzYxMzA3LDE2Nz
-kxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3
-MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NS
-wtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywt
-MTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbNzk2Mzk2MjgyLDE2NTI3NjEzMDcsMTY3OT
+ExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcw
+MjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC
+0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0x
+NTAxMTc5Mjc1LC0xODY3MTc2MTc1XX0=
 -->
