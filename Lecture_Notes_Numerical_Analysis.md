@@ -19,10 +19,9 @@
 ## Floating-point numbers
 > The set of real numbers $\mathbb{R}$ is infinite in two ways: it is unbounded and continuous. In most practical computing, the second kind of infiniteness is more consequential than the first kind, so we turn our attention there first.
 
-Instead of $\mathbb{R}$, we shall introduce the set of (binary) *floating-point numbers* $\mathbb{F}$.
+Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* $\mathbb{F}$. They come with different bases, precis
 
-A general floating point number $x$ has the representation
-$$x=\pm (d_0.d_1 d_2 \ldots d_p)_k \cdot k^e$$
+Ge
 
 Binary floating point numbers are zero and all numbers of the form
 $$\pm(1+f)\cdot 2^e$$,
@@ -108,10 +107,10 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MD
-IyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAs
-MTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMT
-E4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIz
-ODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywtMTUwMTE3OT
-I3NSwtMTg2NzE3NjE3NV19
+eyJoaXN0b3J5IjpbOTQ5NDEzMjQ4LDQyMTI4MjM2Nyw3NjQ2ND
+AxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywx
+Njc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nz
+g1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAy
+NjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTksLTE4NzAxOTU2MT
+MsLTE1MDExNzkyNzUsLTE4NjcxNzYxNzVdfQ==
 -->
