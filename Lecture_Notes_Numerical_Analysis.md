@@ -32,7 +32,7 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
 ## Condition number and stability
 
-###Stability of an algorithm
+### Stability of an algorithm
 
 **Definition.** An algorithm or numerical process is called *stable* if small changes in the input produce small changes in the output. It is called *unstable* if large changes in the output are produced by small changes in the input.
 
@@ -106,7 +106,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4Njc3NDMxLDE2NTI3NjEzMDcsMTY3OT
+eyJoaXN0b3J5IjpbOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OT
 ExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcw
 MjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC
 0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0x
