@@ -23,13 +23,14 @@ Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* 
 $$x=\pm (d_0. d_1 d_2 \ldots d_p)_k\cdot k^e.$$
 $k\in\mathbb{N}\setminus\{1\}$ is called *base* or *radix*, $p\in\mathbb{N}_0:=\mathbb{N}\cup\{0\}$ is called the precision, $d_i$, $i\in\{0,\ldots,p\}$, and the sequence of numbers
 $$(d_0. d_1 d_2 \ldots d_p)_k:=\sum_{i=0}^p d_i k^{-i}$$
-is called *mantissa* or *significand*. The exponent $e$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
+is called *mantissa* or *significand*. The exponent $e\in\mathbb{Z}$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
 If $k=10$, we can read the usual decimal commas from the mantissa:
 $$(1.01)_{10}=1\cdot 10^0+0\cdot 10^{-1}+1\cdot 10^{-2}=1.01.$$
 If $k=2$, we have binary floats. In the binary case, we observe that we can always choose $d_0=1$, hence saving one bit, which can be expressed by $e$. We refer to this as *normalization*. The mantissa is always contained in the interval $[1,2)$.
 
 >**Example.** (Toy floating point system). Binary floats of the type
 >$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
+>Clearly, $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$. Hence
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -109,10 +110,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0Nj
-QwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcs
-MTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5OD
-c4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYw
-MjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1Nj
-EzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1XX0=
+eyJoaXN0b3J5IjpbLTE2NDk3MTQ0NzIsMTQwMDcyNjY2NCw0Mj
+EyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3
+LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyND
+c5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYx
+NjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5Mz
+U5LC0xODcwMTk1NjEzLC0xNTAxMTc5Mjc1LC0xODY3MTc2MTc1
+XX0=
 -->
