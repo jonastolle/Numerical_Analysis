@@ -33,7 +33,7 @@ for a fixed integer $d$, which we call *precision*. Here, $f\in [1,2)$.
 
 An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly bounded condition number). It is unstable if any step is ill-conditioned (i.e. the condition number may become arbitrarily large).
 
-
+>**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
 
 ### Numerical differentiation
 
@@ -101,9 +101,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyOTEwMDk0LDE2NTI3NjEzMDcsMTY3OT
-ExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcw
-MjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC
-0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0xODcwMTk1NjEzLC0x
-NTAxMTc5Mjc1LC0xODY3MTc2MTc1XX0=
+eyJoaXN0b3J5IjpbLTg4ODc4NzA2OCwxNjUyNzYxMzA3LDE2Nz
+kxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3
+MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NS
+wtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3MDE5NTYxMywt
+MTUwMTE3OTI3NSwtMTg2NzE3NjE3NV19
 -->
