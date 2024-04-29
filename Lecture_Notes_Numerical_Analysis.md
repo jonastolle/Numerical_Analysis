@@ -22,8 +22,8 @@
 Instead of $\mathbb{R}$, we shall introduce the set of *floating-point numbers* $\mathbb{F}$. They come with different bases, precisions and exponent ranges, and other features. The basic representation is
 $$x=\pm (d_0. d_1 d_2 \ldots d_p)_k\cdot k^e,$$
 where all the parameters are integers. $k$ is called *base* or *radix*, $p\ge 0$ is called the precision, $d_i$, $i\in\{0,\ldots,p\}$ and sequence of numbers
-$$(d_0. d_1 d_2 \ldots d_p)_k=\sum_{i=0}^p d_$$
-is called *mantissa* or *significand*
+$$(d_0. d_1 d_2 \ldots d_p)_k:=\sum_{i=0}^p d_i k^{-i}$$
+is called *mantissa* or *significand*. The exponent $e$ is bounded $m\le e\le M$, where $m,M\in\mathbb{Z}$.
 Ge
 
 Binary floating point numbers are zero and all numbers of the form
@@ -110,7 +110,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjg4MzE1MSw0MjEyODIzNjcsNzY0Nj
+eyJoaXN0b3J5IjpbMTYwNTE4ODcyOCw0MjEyODIzNjcsNzY0Nj
 QwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcs
 MTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5OD
 c4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYw
