@@ -36,7 +36,7 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 > $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
 > $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
 > $\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
-> Important quantity, $(1.01)_2-1$=\frac{1}{4}$, the so-called *machine epsilon*.
+> Important quantity, $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
 
 Define the machine epsilon by $\varepsilon:=k^{-p}=(1.00\ldots 01)_2-1$.
 
@@ -118,7 +118,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc3ODA3MDUsLTE0MDAwMDA3NjQsMT
+eyJoaXN0b3J5IjpbLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMT
 QwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIz
 MDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNj
 YzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgw
