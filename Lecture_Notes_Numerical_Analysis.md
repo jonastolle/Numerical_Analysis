@@ -104,8 +104,6 @@ $$\text{(relative error in the output)}\approx K(x)\times \text{(relative error 
 
 An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly bounded condition number). It is unstable if any step is ill-conditioned (i.e. the condition number may become arbitrarily large).
 
-A problem can hence be well-conditioned but the algorithm can be un
-
 *Forward error analysis (FEA)* is asking:
 "How far are we from the true solution?" 
 
@@ -126,6 +124,8 @@ A problem can hence be well-conditioned but the algorithm can be un
 > Hence the sum of two floating point numbers is backwards stable.
 
 >**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
+
+A problem can hence be well-conditioned but the algorithm can be unstable.
 
 ### Numerical differentiation
 
@@ -195,7 +195,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDQwMzEyNywtMjEyNzI1MDk2LDExMj
+eyJoaXN0b3J5IjpbMTY1MTU1Mzk5NCwtMjEyNzI1MDk2LDExMj
 kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
 NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
 EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
