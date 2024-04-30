@@ -127,7 +127,7 @@ An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly 
 Well-conditioned problems may have unstable algorithms. For stability, each step has to be well conditioned. Some ill-conditioned steps produce an unstable algorithm. Ill-conditioned problems cannot be reliably solved with a stable algorithm.
 
 >**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number is:
->$$K(x)=\frac{\sqrt{1+x}}{2\sqrt{1+x}}
+>$$K(x)=\frac{x}{2\sqrt{1+x}(\sqrt{1+x}-1)}=\frac{}{}$$
 
 ### Numerical differentiation
 
@@ -197,11 +197,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIwNDUxODIsLTIxMjcyNTA5NiwxMT
-I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
-MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
-kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
-NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
-Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
-MTAzMDI5OTM1OV19
+eyJoaXN0b3J5IjpbNjU0NDYwMTUyLC0yMTI3MjUwOTYsMTEyOT
+M2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2
+NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MT
+M4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3
+MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OC
+wtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEw
+MzAyOTkzNTldfQ==
 -->
