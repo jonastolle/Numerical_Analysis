@@ -198,12 +198,11 @@ $$\log(|x_{k+1}-x|)\approx\log\left(C|x_k-x|^{p^{*}}\right)=\log(C)+\log\left(|x
 
 ## Landau's little $o$- and big $O$-notation
 
-Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notation) under a CC Share 
+Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notation) under a Creative Commons BY-SA 4.0 license.
 
 The Landau notation is an amazing tool applicable in all of real analysis. The reason it is so convenient and widely used is because it underlines a key principle of real analysis, namely ''estimation''. Loosely speaking, the Landau notation introduces two operators which can be called the "order of magnitude" operators, which essentially compare the magnitude of two given functions.
 
-== The little-''o'' ==
-The '''little-''o'' ''' provides a function that is of lower order of magnitude than a given function, that is the function <math>o(g(x))</math> is of a lower order than the function <math>g(x)</math>. Formally,
+The '''little-''o'' ''' provides a function that is of lower order of magnitude than a given function, that is the function $o(g(x))$ is of a lower order than the function <math>g(x)</math>. Formally,
 
 === Definition ===
 Let <math>A\subseteq\mathbb{R}</math> and let <math>c\in\mathbb{R}</math>
@@ -274,11 +273,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTAzODM3LC0xMjE5NDQ5NzQsLTEyMT
-k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
-NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMj
-EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
-MDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLD
-E2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTEx
-MjI2MF19
+eyJoaXN0b3J5IjpbLTE4Njk5NDc1MjAsLTEyMTk0NDk3NCwtMT
+IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
+MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
+0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
+MDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOT
+IsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5
+MTEyMjYwXX0=
 -->
