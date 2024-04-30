@@ -176,7 +176,8 @@ Assume that $\lim_{k\to\infty}x_k=x$ and that there exists some large index $M\i
 $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
 We observe that $C(p^{*})<\infty$ for some $p^{*}> 0$ implies $C(p)=0$ for every $0\le p<p^{*}$. If $C(p^{*})>0$ for some $p^{*}> 0$ then $C(p)=\infty$ for any $p>p^{*}$.
 >**Proof**. By the submultiplicative property of $\limsup$,
->$$\begin{split}C(p)=&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}|x_k-x|^{p^{*}-p}\right]\\\le&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}\end{split}$$
+>$$C(p)=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}|x_k-x|^{p^{*}-p}\right]$$
+>$$\le\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}$$
 
 Thus, there exists a (possibly infinite) $p^{*}$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^{*},\\C(p^{*})&\text{if}\;\;p=p^{*},\\\infty &\text{if}\;\;p>p^{*}.\end{cases}$$
@@ -217,11 +218,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Njk3NjE0LC0xMjIxNzE2NzY5LDYxMD
-Y2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAw
-OSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLT
-E0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQw
-MTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMT
-Y3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4
-NTcwMjZdfQ==
+eyJoaXN0b3J5IjpbLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MT
+A2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEw
+MDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC
+0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0
+MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LD
+E2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3
+ODU3MDI2XX0=
 -->
