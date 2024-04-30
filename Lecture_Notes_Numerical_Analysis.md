@@ -253,9 +253,9 @@ Let $f:[a,x]\to\mathbb{R}$ be differentiable on $[a,b]$. Then,
 As $x\to a$, $f(x)=f(a)+O(x-a)$.
 
 #### Taylor's Theorem
-Let $f:[a,x]\to\mathbb{R}$ be $n$-times differentiable on <math>[a,b]</math>. Then,
+Let $f:[a,x]\to\mathbb{R}$ be $n$-times differentiable on $[a,b]$. Then,
 
-As <math>x\to a</math>, <math>f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)</math>
+As $x\to a$, $f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)$.
 
 
 ## Finding roots of functions
@@ -275,11 +275,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDcwNzIxNiwtMTIxOTQ0OTc0LC0xMj
-E5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMz
-NjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLT
-IxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAw
-MDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5Mi
-wxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LDE2Nzkx
-MTIyNjBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMT
+IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
+MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
+0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
+MDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOT
+IsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5
+MTEyMjYwXX0=
 -->
