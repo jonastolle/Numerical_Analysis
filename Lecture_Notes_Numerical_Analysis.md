@@ -61,7 +61,10 @@ $k=2$, 64 bits, where:
 - The sign: 1 bit;
 - The exponent 11 bits;
 - The mantissa 52 bits.
-- 
+
+Exponent field | Number | Type of number
+--|-|------
+$00\ldots 0=0$ | $\pm (0.b_1 b_2\ldots b_{52}
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -141,11 +144,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NjY1MywxMTI5MzY4MzIwLC0xOTM0Mj
-Y5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3
-LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNz
-YxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEy
-LC0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMT
-A4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwtMTg3
-MDE5NTYxM119
+eyJoaXN0b3J5IjpbLTEyOTY5NzIwNDYsMTEyOTM2ODMyMCwtMT
+kzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4
+MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMT
+Y1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3
+MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MD
+IwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTks
+LTE4NzAxOTU2MTNdfQ==
 -->
