@@ -93,7 +93,10 @@ Assume that $f:\mathbb{R}\to\mathbb{R}$ "solution map" of the problem, input num
 **Definition.** The *absolute condition number* $C(x)$ is defined by the relation
 $$|y-\hat{y}|\approx C(x)|x-\hat{x}|.$$
 The *relative condition number* $K(x)$ is defined by the relation
-$$\left|\frac{y-\hat{y}{y}\right 
+$$\left|\frac{y-\hat{y}}{y}\right|\approx K(x)\left|\frac{x-\hat{x}}{x}\right|$$
+
+By the normalization, we guarantee that
+"relative error in the output
 
 ### Stability of algorithms
 
@@ -171,7 +174,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzODk4NjE5LC0yMTI3MjUwOTYsMTEyOT
+eyJoaXN0b3J5IjpbNTMxMjU3MzcwLC0yMTI3MjUwOTYsMTEyOT
 M2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2
 NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MT
 M4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3
