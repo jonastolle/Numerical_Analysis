@@ -1,3 +1,8 @@
+```xml
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+```
 # Numerical Analysis
 
 **Jonas Tölle**[^1]
@@ -216,11 +221,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mz
-k1MTEwMDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5
-ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LD
-c2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYx
-MzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC
-0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4
-MTU2MDI2NV19
+eyJoaXN0b3J5IjpbMzMyMTY0MDA1LC0xMjIxNzE2NzY5LDg4Mj
+k3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMy
+MCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LD
+QyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEw
+MTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3MDcsMT
+I0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0
+NjE2MDIwXX0=
 -->
