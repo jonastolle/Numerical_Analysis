@@ -49,10 +49,13 @@ For the rounding function $\text{round}:\mathbb{R}\to\mathbb{F}$, we have 5 alte
 - Rounding to $0$
 - Rounding away from $0$
 
-It holds that $\text{round}(x)=x(1+\delta)$, where $|\delta|<\frac{\varepsilon}{2}$, where $\varepsilon$ denotes the machine epsilon.
+It holds that $\text{round}(x)=x(1+\delta)$, where $|\delta|<\frac{\varepsilon}{2}$, where $\varepsilon$ denotes the machine epsilon. Note that usually $\delta$ depends on $x$.
 There is a way to define the standard arithmetic operations on $\mathbb{F}$ such that
 $$a\oplus b=\text{round}(a+b)=(a+b)(1+\delta_1)$$.
-$$a
+$$a\ominus b=\text{round}(a-b)=(a-b)(1+\delta_2)$$.
+Here, generally $\delta_1\not=\delta_2$.
+
+### IEEE "Dou
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -132,11 +135,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjY4NDI2LDExMjkzNjgzMjAsLTE5Mz
-QyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIz
-NjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NT
-I3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2
-MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMC
-wxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0x
-ODcwMTk1NjEzXX0=
+eyJoaXN0b3J5IjpbLTE1NzkwMzQ2MDksMTEyOTM2ODMyMCwtMT
+kzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4
+MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMT
+Y1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3
+MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MD
+IwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTks
+LTE4NzAxOTU2MTNdfQ==
 -->
