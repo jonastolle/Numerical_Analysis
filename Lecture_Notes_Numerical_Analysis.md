@@ -124,9 +124,9 @@ An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly 
 > Thus the relative error for each term is less or equal to $\varepsilon+\frac{\varepsilon^2}{4}$.
 > Hence the sum of two floating point numbers is backwards stable.
 
->**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
+Well-conditioned problems may have unstable algorithms. For stability, each step has to be well conditioned. Some ill-conditioned steps produce an unstable algorithm. Ill-conditioned problems cannot
 
-A problem can hence be well-conditioned but the algorithm can be unstable.
+>**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
 
 ### Numerical differentiation
 
@@ -196,11 +196,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE1OTU5MjIsLTIxMjcyNTA5NiwxMT
-I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
-MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
-kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
-NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
-Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
-MTAzMDI5OTM1OV19
+eyJoaXN0b3J5IjpbMjAzNjc5NTU3OCwtMjEyNzI1MDk2LDExMj
+kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
+NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
+EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
+NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
+gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
+MDMwMjk5MzU5XX0=
 -->
