@@ -241,19 +241,19 @@ We will now consider few examples which demonstrate the power of this notation.
 
 #### Differentiability
 
-Let $f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}$ and <math> x_0 \in \mathcal{U}</math>.
+Let $f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}$ and $x_0 \in \mathcal{U}$.
 
-Then <math>f</math> is differentiable at <math>x_0</math> if and only if
+Then $f$ is differentiable at $x_0$ if and only if
 
-There exists a <math>\lambda \in\mathbb{R}</math> such that as <math>x\to x_0</math>, <math>f(x) = f(x_0) + \lambda(x-x_0)+o\left( |x-x_0|\right)</math>.
+There exists a $\lambda \in\mathbb{R}$ such that as $x\to x_0$, $f(x) = f(x_0) + \lambda(x-x_0)+o\left( |x-x_0|\right)$.
 
 #### Mean Value Theorem
-Let <math>f:[a,x]\to\mathbb{R}</math> be differentiable on <math>[a,b]</math>. Then,
+Let $f:[a,x]\to\mathbb{R}$ be differentiable on $[a,b]$. Then,
 
-As <math>x\to a</math>, <math>f(x)=f(a)+O(x-a)</math>
+As $x\to a$, $f(x)=f(a)+O(x-a)$.
 
 #### Taylor's Theorem
-Let <math>f:[a,x]\to\mathbb{R}</math> be ''n''-times differentiable on <math>[a,b]</math>. Then,
+Let $f:[a,x]\to\mathbb{R}$ be $n$-times differentiable on <math>[a,b]</math>. Then,
 
 As <math>x\to a</math>, <math>f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)</math>
 
@@ -275,11 +275,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEwODIxLC0xMjE5NDQ5NzQsLTEyMT
-k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
-NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMj
-EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
-MDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLD
-E2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTEx
-MjI2MF19
+eyJoaXN0b3J5IjpbLTg5NDcwNzIxNiwtMTIxOTQ0OTc0LC0xMj
+E5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMz
+NjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLT
+IxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAw
+MDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5Mi
+wxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LDE2Nzkx
+MTIyNjBdfQ==
 -->
