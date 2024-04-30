@@ -144,7 +144,9 @@ Well-conditioned problems may have unstable algorithms. For stability, each step
 >1. $t_1:=1+x$, well-conditioned, $x$ close to $0$.
 >2. $t_2:=\sqrt{t_1}$, relatively well-conditioned, also absolutely well conditioned, because $t_1$ is close to $1$.
 >3. $t_3:=t_2-1$, ill-conditioned, relative condition number of this step: $K_3(t_2)=\left|\frac{t_2}{t_2-1}\right|$, which becomes unbounded for $t_2$ close to $1$!
->On the other hand, the problem is well-conditioned. Solution
+>On the other hand, the problem is well-conditioned. Solve it by writing:
+>$$f(x)=\sqrt{1+x}-1=\frac{(\sqrt{1+x}+1)(\sqrt{1+x}-1)}{\sqrt{1+x}+1}=\frac{x}{\sqrt{1+x}+1},$$
+>which can be evaluated directly.
 
 ### Numerical differentiation
 
@@ -214,7 +216,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYyODYyMDEsMTYzOTUxMTAwOSwtMj
+eyJoaXN0b3J5IjpbLTExMzQ1NjUwNTgsMTYzOTUxMTAwOSwtMj
 EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
 MDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLD
 E2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTEx
