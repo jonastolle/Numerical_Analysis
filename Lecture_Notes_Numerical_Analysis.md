@@ -105,13 +105,13 @@ $$\text{(relative error in the output)}\approx K(x)\times \text{(relative error 
 An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly bounded condition number). It is unstable if any step is ill-conditioned (i.e. the condition number may become arbitrarily large).
 
 *Forward error analysis (FEA)* is asking:
-"How far are we from the true solution?"
-> **Example.** $\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=(x(1+\delta_1)+y
+"How far are we from the true solution?" 
 
 *Backward error analysis (BEA)* is asking:
 "Given the answer, what was the problem?"
-
-
+> **Example.**
+> $$\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=((x(1+\delta_1)+y(1+\delta_2))(1+\delta_3)$$
+> FEA: 
 
 >**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
 
@@ -183,7 +183,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODk2MDI1NywtMjEyNzI1MDk2LDExMj
+eyJoaXN0b3J5IjpbLTU4NzgzMDk0OSwtMjEyNzI1MDk2LDExMj
 kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
 NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
 EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
