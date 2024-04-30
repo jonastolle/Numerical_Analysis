@@ -32,7 +32,7 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 >$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
 > Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and $(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
 > $e$ |    |      |    |
-> -|-|-|-|-|-
+> -|-|-|-|-
 > $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
 > $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
 > $\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
@@ -67,12 +67,12 @@ $k=2$, 64 bits, where:
 Exponent field | Number | Type of number
 --|-|------
 $00\ldots 00=0$ | $\pm (0.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | $0$ or *subnormal*
-$00\ldots 01=1$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ |
-$00\ldots 10=2$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1021}$ |
-$\ldots$ | $\ldots$ |
+$00\ldots 01=1$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | 
+$00\ldots 10=2$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1021}$ | 
+$\ldots$ | $\ldots$ | 
 $01\ldots 11=1023$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{0}$ |
-$\ldots$ | $\ldots$ |
-$11\ldots 10=2046$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{1023}$ |
+$\ldots$ | $\ldots$ | 
+$11\ldots 10=2046$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{1023}$ | 
 $11\ldots 11=2047$ | $\pm \infty$ if $b_1=b_2=\ldots=b_{52}=0$, otherwise *NaN* |*exception*
 
 Thus, there are two zeros, two infinities and NaN which denotes "*not a number*". The smallest positive normalized number is:
@@ -216,11 +216,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMj
-IxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUw
-OTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NC
-wxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAy
-MjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLD
-E2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTEx
-ODAwMDY2OF19
+eyJoaXN0b3J5IjpbMTA4NzU0Njg0OCwtMTIyMTcxNjc2OSw2MT
+A2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEw
+MDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC
+0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0
+MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LD
+E2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3
+ODU3MDI2XX0=
 -->
