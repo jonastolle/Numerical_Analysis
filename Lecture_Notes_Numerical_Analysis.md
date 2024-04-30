@@ -1,7 +1,7 @@
 ```xml
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 ```
 # Numerical Analysis
 
@@ -221,7 +221,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMTY0MDA1LC0xMjIxNzE2NzY5LDg4Mj
+eyJoaXN0b3J5IjpbNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mj
 k3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMy
 MCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LD
 QyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEw
