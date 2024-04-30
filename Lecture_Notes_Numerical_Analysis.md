@@ -101,8 +101,8 @@ Now,
 $$y-\hat{y}=f(x)-f(\hat{x})=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
 Thus, $C(x)=|f'(x)|$.
 Furthermore,
-$$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
-Thus, $C(x)=|f'(x)|$.
+$$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}\frac{x-\hat{x}}{x}\frac{x}{f(x)}$$
+Thus, $K(x)=\left|\frac{x f'(x)}{f(x)}\right|$.
 
 ### Stability of algorithms
 
@@ -204,11 +204,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQ2NDcwODQsLTIxMjcyNTA5NiwxMT
-I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
-MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
-kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
-NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
-Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
-MTAzMDI5OTM1OV19
+eyJoaXN0b3J5IjpbNzcxNjQwMjIwLC0yMTI3MjUwOTYsMTEyOT
+M2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2
+NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MT
+M4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3
+MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OC
+wtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEw
+MzAyOTkzNTldfQ==
 -->
