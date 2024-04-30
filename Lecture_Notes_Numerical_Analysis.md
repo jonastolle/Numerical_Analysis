@@ -97,6 +97,8 @@ $$\left|\frac{y-\hat{y}}{y}\right|\approx K(x)\left|\frac{x-\hat{x}}{x}\right|$$
 
 By the normalization, we guarantee that
 $$\text{(relative error in the output)}\approx K(x)\times \text{(relative error in the input)}.$$
+Now,
+$$y-\hat{y}=f(x)-f(\hat{x})=\underbrace\frac{f(x)-f(\hat{x})}{x-\hat{x}}(x-\hat{x})$$
 
 ### Stability of algorithms
 
@@ -198,7 +200,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODAyNzI0NSwtMjEyNzI1MDk2LDExMj
+eyJoaXN0b3J5IjpbMTA3NjM2Njg5NywtMjEyNzI1MDk2LDExMj
 kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
 NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
 EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
