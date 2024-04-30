@@ -40,7 +40,10 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 
 Define the machine epsilon by $\varepsilon:=2^{-p}=(1.00\ldots 01)_2-1$.
 
-###Riy
+### Rounding
+
+For the rounding function $\text{round}:\mathbb{R}\to\mathbb{F}$, we have 4 alternartive definitions:
+-  
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -120,11 +123,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjQyNzEwMSwxMTI5MzY4MzIwLC0xOT
-M0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgy
-MzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNj
-UyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcy
-NjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMj
-AsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwt
-MTg3MDE5NTYxM119
+eyJoaXN0b3J5IjpbLTExOTUyMTMxODUsMTEyOTM2ODMyMCwtMT
+kzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4
+MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMT
+Y1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3
+MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MD
+IwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEwMzAyOTkzNTks
+LTE4NzAxOTU2MTNdfQ==
 -->
