@@ -113,12 +113,13 @@ An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly 
 > Set:
 > $$\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=((x(1+\delta_1)+y(1+\delta_2))(1+\delta_3).$$
 > FEA:
-> $$\text{fl}(x+y)=x+y+x(\delta_1+\delta_2+\delta_1\delta_3)+y(\delta_1+\delta_3+\delta_2\delta_3).$$
+> $$\text{fl}(x+y)=x+y+x(\delta_1+\delta_2+\delta_1\delta_3)+y(\delta_2+\delta_3+\delta_2\delta_3).$$
 > The absolute error is
 > $$|\text{fl}(x+y)-(x+y)|\le(|x|+|y|)\left(\varepsilon+\frac{\varepsilon^2}{4}\right).$$
 > The relative error is:
 >  $$\left|\frac{\text{fl}(x+y)-(x+y)}{x+y}\right|\le\frac{(|x|+|y|)\left(\varepsilon+\frac{\varepsilon^2}{4}\right)}{|x+y|}.$$
 > BEA:
+> $$\text{fl}(x+y)=x(1+\delta_1)(1+\delta_3)+y(1+\delta_2)+\delta_3+\delta_2\delta_3).$$
 
 >**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number 
 
@@ -190,7 +191,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzEyMjAxNSwtMjEyNzI1MDk2LDExMj
+eyJoaXN0b3J5IjpbMTgyOTA1OTMwNSwtMjEyNzI1MDk2LDExMj
 kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
 NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
 EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
