@@ -196,9 +196,9 @@ $$\log(|x_{k+1}-x|)\approx\log\left(C|x_k-x|^{p^{*}}\right)=\log(C)+\log\left(|x
 
 >The *rate of convergence* can be used interchangeably with the *order of convergence*. However, there is some caution necessary, as different authors use different terminology here. Usually, the order of convergence always refers to the same thing, namely, the $p^{*}$-exponent in the denominator of the limit defining the order of convergence. Most confusingly, some authors call the order of convergence "rate of convergence", as e.g. [here](https://www.math-cs.gordon.edu/courses/ma342/handouts/rate.pdf). The English [Wikipedia article](https://en.wikipedia.org/wiki/Rate_of_convergence) calls it the order of convergence, whereas here the rate of convergence is the constant in the definition, which also determines the speed of convergence, together with the order of convergence. So, please always check the context, as the use of the terminology should be clear from it. If there is no definition, try to figure out what is meant in each text. As a rule of thumb: The "order of convergence" is a unique terminology in numerical analysis. The "rate of convergence" can mean at least two different things. I will use both words for the same thing, but will try to make clear what I mean from case to case. In any case, to be sure, use "order of convergence". My PhD advisor usually said that in mathematics "it's all hollow words" (meaning that one should check the definition).
 
-## Little $o$-notation
+## Landau's little $o$- and big $O$-notation
 
-
+Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notation).
 
 ## Finding roots of functions
 
@@ -217,11 +217,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOT
-k4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2
-NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMT
-EyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAw
-NzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOS
-w5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMz
-NjU3MDddfQ==
+eyJoaXN0b3J5IjpbLTExNTI5MjM0MjUsLTEyMTk0NDk3NCwtMT
+IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
+MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
+0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
+MDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOT
+IsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5
+MTEyMjYwXX0=
 -->
