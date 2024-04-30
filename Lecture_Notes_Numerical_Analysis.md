@@ -98,7 +98,11 @@ $$\left|\frac{y-\hat{y}}{y}\right|\approx K(x)\left|\frac{x-\hat{x}}{x}\right|$$
 By the normalization, we guarantee that
 $$\text{(relative error in the output)}\approx K(x)\times \text{(relative error in the input)}.$$
 Now,
-$$y-\hat{y}=f(x)-f(\hat{x})=\underbrace\frac{f(x)-f(\hat{x})}{x-\hat{x}}(x-\hat{x})$$
+$$y-\hat{y}=f(x)-f(\hat{x})=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
+Thus, $C(x)=|f'(x)|$.
+Furthermore,
+$$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
+Thus, $C(x)=|f'(x)|$.
 
 ### Stability of algorithms
 
@@ -200,11 +204,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjM2Njg5NywtMjEyNzI1MDk2LDExMj
-kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
-NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
-EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
-NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
-gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
-MDMwMjk5MzU5XX0=
+eyJoaXN0b3J5IjpbLTE4MjQ2NDcwODQsLTIxMjcyNTA5NiwxMT
+I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
+MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
+kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
+NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
+Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
+MTAzMDI5OTM1OV19
 -->
