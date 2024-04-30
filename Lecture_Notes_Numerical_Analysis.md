@@ -53,9 +53,9 @@ It holds that $\text{round}(x)=x(1+\delta)$, where $|\delta|<\frac{\varepsilon}{
 There is a way to define the standard arithmetic operations on $\mathbb{F}$ such that
 $$a\oplus b=\text{round}(a+b)=(a+b)(1+\delta_1),$$
 $$a\ominus b=\text{round}(a-b)=(a-b)(1+\delta_2),$$
-$$a\otimes b=\text{round}(ab)=(ab)(1+\delta_3),$$
-$$a\ofrac b$
-Here, generally $\delta_1\not=\delta_2\not=\delta_3\not=\delta$.
+$$a\otimes b=\text{round}(ab)=ab(1+\delta_3),$$
+$$a\oslash b=\text{round}\frac{a}{b}(1+\delta_4)($
+Here, generally $\delta_i\not=\delta_j$, $i\not=j$.
 
 ### IEEE 754 "Double precision"
 
@@ -164,7 +164,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzQyOTcyNiwxMTI5MzY4MzIwLC0xOT
+eyJoaXN0b3J5IjpbMjEwNTcxMTM5NiwxMTI5MzY4MzIwLC0xOT
 M0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgy
 MzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNj
 UyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcy
