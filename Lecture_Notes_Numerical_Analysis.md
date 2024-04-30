@@ -214,9 +214,9 @@ If $\lim_{x\to c}\frac{f(x)}{g(x)}=0$ then we say that
 
 **Examples.**
 
-- As <math>x\to\infty</math>, (and <math>m<n</math>) <math>x^m=o(x^n)</math>
-- As <math>x\to\infty</math>, (and <math>n\in\mathbb{N}</math>) <math>\ln x=o(x^n)</math>
-* As <math>x\to 0</math>, <math>\sin x=o(1)</math>
+- As $x\to\infty$, (and $m<n$) $x^m=o(x^n)$;
+- As $x\to\infty$, (and $n\in\mathbb{N}$) $\log x=o(x^n)$;
+- As $x\to 0$, $\sin x=o(1)$.
 
 == The Big-''O'' ==
 The '''Big-''O'' ''' provides a function that is at most the same order as that of a given function, that is the function <math>O(g(x))</math> is at most the same order as the function <math>g(x)</math>. Formally,
@@ -234,10 +234,9 @@ If there exists <math>M>0</math> such that <math>\lim_{x\to c}\left| \frac{f(x)}
 * As <math>x\to 0</math>, <math>\sin x=O(x)</math>
 * As <math>x\to \tfrac{\pi}{2}</math>, <math>\sin x=O(1)</math>
 
-== Applications ==
+**Applications.**
 We will now consider few examples which demonstrate the power of this notation.
-
-=== Differentiability ===
+Differentiability ===
 
 Let <math>f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}</math> and <math> x_0 \in \mathcal{U}</math>.
 
@@ -273,7 +272,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI1OTk5MjksLTEyMTk0NDk3NCwtMT
+eyJoaXN0b3J5IjpbLTE3NzU0NTEzMjUsLTEyMTk0NDk3NCwtMT
 IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
 MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
 0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
