@@ -32,7 +32,7 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 $$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
 Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and $(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
  $e$ |    |      |    
- -|-|-|-
+---|--|--|--
  $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
 $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
 $\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
@@ -66,7 +66,7 @@ $k=2$, 64 bits, where:
 - The mantissa 52 bits, precision $p=52$.
 
 Exponent field | Number | Type of number
---|-|------
+--|---|------
 $00\ldots 00=0$ | $\pm (0.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | $0$ or *subnormal*
 $00\ldots 01=1$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | 
 $00\ldots 10=2$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1021}$ | 
@@ -217,7 +217,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2ODg1NzkxLC0xMjIxNzE2NzY5LDYxMD
+eyJoaXN0b3J5IjpbMTE4Njk3NjE0LC0xMjIxNzE2NzY5LDYxMD
 Y2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAw
 OSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLT
 E0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQw
