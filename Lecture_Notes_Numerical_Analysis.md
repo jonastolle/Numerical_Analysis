@@ -28,17 +28,15 @@ If $k=10$, we can read the usual decimal commas from the mantissa:
 $$(1.01)_{10}=1\cdot 10^0+0\cdot 10^{-1}+1\cdot 10^{-2}=1.01.$$
 If $k=2$, we have binary floats. In the binary case, we observe that we can always choose $d_0=1$, hence saving one bit, which can be expressed by $e$. We refer to this as *normalization*. The mantissa is always contained in the interval $[1,2)$.
 
-**Example.** (Toy floating point system). Binary floats of the type
-$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
-Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and $(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
-
- $e$ |    |   |    
----|--|--|--
- $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
-$2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
-$\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
-
-Important quantity, $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
+>**Example.** (Toy floating point system). Binary floats of the type
+>$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
+>Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and >$(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
+> $e$ |    |   |    
+>---|--|--|--
+>$1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
+>$2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
+>$\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
+> Important quantity, $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
 
 Define the machine epsilon by $\varepsilon:=2^{-p}=(1.00\ldots 01)_2-1$.
 
@@ -219,7 +217,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODE0MTUxOCwtMjk5ODgxODA2LC0xMj
+eyJoaXN0b3J5IjpbMTE3NDM5NTIzNiwtMjk5ODgxODA2LC0xMj
 IxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5
 NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLT
 E5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEy
