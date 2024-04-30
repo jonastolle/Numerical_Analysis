@@ -111,7 +111,8 @@ An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly 
 "Given the answer, what was the problem?"
 > **Example.**
 > Set:
-> $$\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=((x(1+\delta_1)+y(1+\delta_2))(1+\delta_3).$$
+> $$\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=((x(1+\delta_1)+y(1+\delta_2))(1+\delta_3),$$
+> where $|\delta_i|<\frac{\varepsilon}{2}$, $i=1,2,3$.
 > FEA:
 > $$\text{fl}(x+y)=x+y+x(\delta_1+\delta_3+\delta_1\delta_3)+y(\delta_2+\delta_3+\delta_2\delta_3).$$
 > The absolute error is
@@ -195,11 +196,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTU1Mzk5NCwtMjEyNzI1MDk2LDExMj
-kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
-NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
-EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
-NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
-gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
-MDMwMjk5MzU5XX0=
+eyJoaXN0b3J5IjpbLTIwMjE1OTU5MjIsLTIxMjcyNTA5NiwxMT
+I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
+MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
+kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
+NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
+Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
+MTAzMDI5OTM1OV19
 -->
