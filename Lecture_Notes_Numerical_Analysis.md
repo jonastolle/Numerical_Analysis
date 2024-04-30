@@ -68,7 +68,8 @@ $00\ldots 00=0$ | $\pm (0.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | $0$ or *sub
 $00\ldots 01=1$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ |
 $00\ldots 10=2$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1021}$ |
 $\ldots$ | $\ldots$ |
-$01\ldots 11=$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1021}$ |
+$01\ldots 11=1023$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{0}$ |
+$11\ldots 11=1023$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{0}$ |
 
 Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmpo) explaining floating point numbers (and a specific version of Newton's algorithm).
 
@@ -148,7 +149,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDI5NTM4MSwxMTI5MzY4MzIwLC0xOT
+eyJoaXN0b3J5IjpbLTU0NTQwMDIzOCwxMTI5MzY4MzIwLC0xOT
 M0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgy
 MzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNj
 UyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcy
