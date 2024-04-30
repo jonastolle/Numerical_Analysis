@@ -231,26 +231,28 @@ If there exists $M>0$ such that $\lim_{x\to c}\left| \frac{f(x)}{g(x)}\right| <M
 
 "As $x\to c$, $f(x)=O(g(x))$"
 
-**Examples ===
-* As <math>x\to 0</math>, <math>\sin x=O(x)</math>
-* As <math>x\to \tfrac{\pi}{2}</math>, <math>\sin x=O(1)</math>
+**Examples.**
+- As $x\to 0$, $\sin x=O(x)$;
+- As $x\to \tfrac{\pi}{2}$, $\sin x=O(1)$.
 
-**Applications.**
+### Applications
+
 We will now consider few examples which demonstrate the power of this notation.
-Differentiability ===
 
-Let <math>f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}</math> and <math> x_0 \in \mathcal{U}</math>.
+#### Differentiability
+
+Let $f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}$ and <math> x_0 \in \mathcal{U}</math>.
 
 Then <math>f</math> is differentiable at <math>x_0</math> if and only if
 
 There exists a <math>\lambda \in\mathbb{R}</math> such that as <math>x\to x_0</math>, <math>f(x) = f(x_0) + \lambda(x-x_0)+o\left( |x-x_0|\right)</math>.
 
-=== Mean Value Theorem ===
+#### Mean Value Theorem
 Let <math>f:[a,x]\to\mathbb{R}</math> be differentiable on <math>[a,b]</math>. Then,
 
 As <math>x\to a</math>, <math>f(x)=f(a)+O(x-a)</math>
 
-=== Taylor's Theorem ===
+#### Taylor's Theorem
 Let <math>f:[a,x]\to\mathbb{R}</math> be ''n''-times differentiable on <math>[a,b]</math>. Then,
 
 As <math>x\to a</math>, <math>f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)</math>
@@ -273,7 +275,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTk0MjMyLC0xMjE5NDQ5NzQsLTEyMT
+eyJoaXN0b3J5IjpbLTE4MzEwODIxLC0xMjE5NDQ5NzQsLTEyMT
 k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
 NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMj
 EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
