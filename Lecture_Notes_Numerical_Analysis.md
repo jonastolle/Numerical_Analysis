@@ -64,7 +64,7 @@ $k=2$, 64 bits, where:
 - The exponent field $0\le\text{ex}\le 2047$: 11 bits, where $e=\text{ex}-1023$, and $-1022\le e\le  1023$, where $\text{ex}=0$ and $\text{ex}=2047$ are special cases.
 - The mantissa 52 bits, precision $p=52$.
 
-Exponent field | Number | Type of number
+Exponent field ($ex$) | Number | Type of number
 --|---|------
 $00\ldots 00=0$ | $\pm (0.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | $0$ or *subnormal*
 $00\ldots 01=1$ | $\pm (1.b_1 b_2\ldots b_{52})_2 \cdot 2^{-1022}$ | 
@@ -217,11 +217,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMj
-IxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5
-NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLT
-E5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEy
-ODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LD
-E2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5
-NzI2MTJdfQ==
+eyJoaXN0b3J5IjpbMTU1NDIyMzQyMCwtMTIxOTQ0OTc0LC0yOT
+k4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2
+NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMT
+EyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAw
+NzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOS
+w5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMz
+NjU3MDddfQ==
 -->
