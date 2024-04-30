@@ -146,7 +146,7 @@ Well-conditioned problems may have unstable algorithms. For stability, each step
 >3. $t_3:=t_2-1$, ill-conditioned, relative condition number of this step: $K_3(t_2)=\left|\frac{t_2}{t_2-1}\right|$, which becomes unbounded for $t_2$ close to $1$!
 >On the other hand, the problem is well-conditioned. Solve it by writing:
 >$$f(x)=\sqrt{1+x}-1=\frac{(\sqrt{1+x}+1)(\sqrt{1+x}-1)}{\sqrt{1+x}+1}=\frac{x}{\sqrt{1+x}+1},$$
->which can be evaluated directly.
+>which can be evaluated directly close to zero.
 
 ### Numerical differentiation
 
@@ -216,11 +216,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ1NjUwNTgsMTYzOTUxMTAwOSwtMj
-EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
-MDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLD
-E2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTEx
-MjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMj
-YsLTExMTgwMDA2NjgsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0x
-NTU5MjM4MzgyXX0=
+eyJoaXN0b3J5IjpbODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMj
+cyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAw
+NzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNj
+c2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIy
+NjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC
+0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1
+OTIzODM4Ml19
 -->
