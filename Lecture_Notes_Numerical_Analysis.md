@@ -51,9 +51,11 @@ For the rounding function $\text{round}:\mathbb{R}\to\mathbb{F}$, we have 5 alte
 
 It holds that $\text{round}(x)=x(1+\delta)$, where $|\delta|<\frac{\varepsilon}{2}$, where $\varepsilon$ denotes the machine epsilon. Note that usually $\delta$ depends on $x$.
 There is a way to define the standard arithmetic operations on $\mathbb{F}$ such that
-$$a\oplus b=\text{round}(a+b)=(a+b)(1+\delta_1)$$.
-$$a\ominus b=\text{round}(a-b)=(a-b)(1+\delta_2)$$.
-Here, generally $\delta_1\not=\delta_2$.
+$$a\oplus b=\text{round}(a+b)=(a+b)(1+\delta_1),$$
+$$a\ominus b=\text{round}(a-b)=(a-b)(1+\delta_2),$$
+$$a\otimes b=\text{round}(ab)=(ab)(1+\delta_3),$$
+$$a\ofrac b$
+Here, generally $\delta_1\not=\delta_2\not=\delta_3\not=\delta$.
 
 ### IEEE 754 "Double precision"
 
@@ -162,11 +164,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3Nzc5MjI2LDExMjkzNjgzMjAsLTE5Mz
-QyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIz
-NjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOTEzODcxMDE3LDE2NT
-I3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1NzA3LDEyNDc5NzI2
-MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2NjgsLTQxNDYxNjAyMC
-wxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0xMDMwMjk5MzU5LC0x
-ODcwMTk1NjEzXX0=
+eyJoaXN0b3J5IjpbMTMwNzQyOTcyNiwxMTI5MzY4MzIwLC0xOT
+M0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgy
+MzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNj
+UyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcy
+NjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNjY4LC00MTQ2MTYwMj
+AsMTA4MTU2MDI2NSwtMTU1OTIzODM4MiwtMTAzMDI5OTM1OSwt
+MTg3MDE5NTYxM119
 -->
