@@ -104,6 +104,9 @@ Furthermore,
 $$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}\frac{x-\hat{x}}{x}\frac{x}{f(x)}$$
 Thus, $K(x)=\left|\frac{x f'(x)}{f(x)}\right|$.
 
+> **Example.** $f(x)=2x$, $f'(x)=2$. Thus, $C(x)=2$, $K(x)=\left|\frac{2x}[2x}\right|=1$.
+> **Example.** $f(x)=\sqrt{x}$.
+
 ### Stability of algorithms
 
 **Definition.** An algorithm or numerical process is called *stable* if small changes in the input produce small changes in the output. It is called *unstable* if large changes in the output are produced by small changes in the input.
@@ -204,11 +207,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNjQwMjIwLC0yMTI3MjUwOTYsMTEyOT
-M2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2
-NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MT
-M4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3
-MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OC
-wtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEw
-MzAyOTkzNTldfQ==
+eyJoaXN0b3J5IjpbLTgwMzY1MjA3MiwtMjEyNzI1MDk2LDExMj
+kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
+NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
+EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
+NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
+gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
+MDMwMjk5MzU5XX0=
 -->
