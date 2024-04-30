@@ -104,8 +104,9 @@ Furthermore,
 $$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}\frac{x-\hat{x}}{x}\frac{x}{f(x)}$$
 Thus, $K(x)=\left|\frac{x f'(x)}{f(x)}\right|$.
 
-> **Example.** $f(x)=2x$, $f'(x)=2$. Thus, $C(x)=2$, $K(x)=\left|\frac{2x}{2x}\right|=1$. This is a well-condition
-> **Example.** $g(x)=\sqrt{x}$, $g'(x)=\frac{1}{2\sqrt{x}}$. Thus, $C(x)$ is becomes unbounded for $x>0$ close to zero.
+> **Example.** $f(x)=2x$, $f'(x)=2$. Thus, $C(x)=2$, $K(x)=\left|\frac{2x}{2x}\right|=1$. This is a well-conditioned problem.
+
+> **Example.** $g(x)=\sqrt{x}$, $g'(x)=\frac{1}{2\sqrt{x}}$. Thus, $C(x)$ is becomes unbounded for $x>0$ close to zero, e.g. $x\approx 10^{-8}$ yields $C(x)\approx 10^4$. On the other hand, $K(x)=\left|\frac{x}{2\sqrt{x}\sqrt{x}}\right|=\frac{1}{2}$.
 
 ### Stability of algorithms
 
@@ -207,7 +208,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTg3NzI1OSwtMjEyNzI1MDk2LDExMj
+eyJoaXN0b3J5IjpbMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMj
 kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
 NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
 EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
