@@ -106,7 +106,7 @@ An algorithm is stable, if every step is well-conditioned (i.e. has a uniformly 
 
 *Forward error analysis (FEA)* is asking:
 "How far are we from the true solution?"
-> **Example.**
+> **Example.** $\text{fl}(x+y):=\text{round}(x)\oplus\text{round}(y)=(x(1+\delta_1)+y
 
 *Backward error analysis (BEA)* is asking:
 "Given the answer, what was the problem?"
@@ -183,11 +183,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NTgzMDk2LC0yMTI3MjUwOTYsMTEyOT
-M2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2
-NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MT
-M4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEyMjYwLDE2NjMzNjU3
-MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNiwtMTExODAwMDY2OC
-wtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1NTkyMzgzODIsLTEw
-MzAyOTkzNTldfQ==
+eyJoaXN0b3J5IjpbMTg1ODk2MDI1NywtMjEyNzI1MDk2LDExMj
+kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
+NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
+EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
+NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
+gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
+MDMwMjk5MzU5XX0=
 -->
