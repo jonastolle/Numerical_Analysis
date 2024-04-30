@@ -215,23 +215,23 @@ If $\lim_{x\to c}\frac{f(x)}{g(x)}=0$ then we say that
 "As $x\to c$, $f(x)=o(g(x))$"
 
 **Examples.**
-- As $x\to\infty$, (and $m<n$) $x^m=o(x^n)$;
-- As $x\to\infty$, (and $n\in\mathbb{N}$) $\log x=o(x^n)$;
+- As $x\to\infty$, (and $m<n$), $x^m=o(x^n)$;
+- As $x\to\infty$, (and $n\in\mathbb{N}$), $\log x=o(x^n)$;
 - As $x\to 0$, $\sin x=o(1)$.
 
 ### The "Big-$O$"
-The "Big-''O'' ''' provides a function that is at most the same order as that of a given function, that is the function <math>O(g(x))</math> is at most the same order as the function <math>g(x)</math>. Formally,
+The "Big-$O$" provides a function that is at most the same order as that of a given function, that is the function $O(g(x))$ is at most the same order as the function $g(x)$. Formally,
 
-=== Definition ===
-Let <math>A\subseteq\mathbb{R}</math> and let <math>c\in\mathbb{R}</math>
+**Definition.**
+Let $A\subseteq\mathbb{R}$ and let $c\in\mathbb{R}$
 
-Let <math>f,g:A\to\mathbb{R}</math>
+Let $f,g:A\to\mathbb{R}$
 
-If there exists <math>M>0</math> such that <math>\lim_{x\to c}\left| \frac{f(x)}{g(x)}\right| <M</math> then we say that
+If there exists $M>0$ such that $\lim_{x\to c}\left| \frac{f(x)}{g(x)}\right| <M$ then we say that
 
-"As <math>x\to c</math>, <math>f(x)=O(g(x))</math>"
+"As $x\to c$, $f(x)=O(g(x))$"
 
-=== Examples ===
+**Examples ===
 * As <math>x\to 0</math>, <math>\sin x=O(x)</math>
 * As <math>x\to \tfrac{\pi}{2}</math>, <math>\sin x=O(1)</math>
 
@@ -273,7 +273,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxMjQ3NDk1LC0xMjE5NDQ5NzQsLTEyMT
+eyJoaXN0b3J5IjpbLTUwNTk0MjMyLC0xMjE5NDQ5NzQsLTEyMT
 k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
 NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMj
 EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
