@@ -139,6 +139,10 @@ Well-conditioned problems may have unstable algorithms. For stability, each step
 >**Example.** Consider evaluating $f(x)=\sqrt{1+x}-1$ for $x$ close to zero. The relative condition number is:
 >$$K(x)=\left|\frac{xf'(x)}{f(x)}\right|=\frac{x}{2\sqrt{1+x}(\sqrt{1+x}-1)}$$
 >$$=\frac{x(\sqrt{1+x}+1)}{2\sqrt{1+x}(\sqrt{1+x}-1)(\sqrt{1+x}+1)}=\frac{\sqrt{1+x}+1}{2\sqrt{1+x}}.$$
+>Consider the following 3 steps;
+>1. $t_1:=1+x$, well-conditioned
+>2. $t_2:=\sqrt{t_1}$, well-conditioned (as $t
+>3. $
 
 ### Numerical differentiation
 
@@ -208,11 +212,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMj
-kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
-NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
-EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
-NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
-gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
-MDMwMjk5MzU5XX0=
+eyJoaXN0b3J5IjpbMTY2MjE0OTczMCwxNjM5NTExMDA5LC0yMT
+I3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQwMDAw
+MDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOTIsMT
+Y3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5MTEy
+MjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMTk4Nzg1NzAyNi
+wtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1NjAyNjUsLTE1
+NTkyMzgzODJdfQ==
 -->
