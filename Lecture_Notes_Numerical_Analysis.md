@@ -88,7 +88,10 @@ Here's an easy-to-follow [video](https://youtu.be/p8u_k2LIZyo?si=Gfi9TId6x6BAcmp
 
 ### Conditioning of problems
 
-Assume that $f:\mathbb{R}\to\mathbb{R}$ "solution map" of the problem, input numbers $x$, $\hat{x}$
+Assume that $f:\mathbb{R}\to\mathbb{R}$ "solution map" of the problem, input numbers $x$, $\hat{x}$, close in value, e.g. $\hat{x}=\text{round}(x)$. Set $y:=f(x)$, $\hat{y}:=f(\hat{x})$.
+
+**Definition.** The *absolute condition number* $C(x)$ is defined by
+\
 
 ### Stability of algorithms
 
@@ -166,11 +169,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Njg4ODA1MiwtMjEyNzI1MDk2LDExMj
-kzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcy
-NjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLDE2NzYwMjIzMDksOT
-EzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTExMjI2MCwxNjYzMzY1
-NzA3LDEyNDc5NzI2MTIsLTE5ODc4NTcwMjYsLTExMTgwMDA2Nj
-gsLTQxNDYxNjAyMCwxMDgxNTYwMjY1LC0xNTU5MjM4MzgyLC0x
-MDMwMjk5MzU5XX0=
+eyJoaXN0b3J5IjpbLTE1NTk0NDE2MTUsLTIxMjcyNTA5NiwxMT
+I5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3
+MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LD
+kxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2
+NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC0xMTE4MDAwNj
+Y4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1OTIzODM4Miwt
+MTAzMDI5OTM1OV19
 -->
