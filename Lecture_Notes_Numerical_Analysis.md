@@ -198,7 +198,64 @@ $$\log(|x_{k+1}-x|)\approx\log\left(C|x_k-x|^{p^{*}}\right)=\log(C)+\log\left(|x
 
 ## Landau's little $o$- and big $O$-notation
 
-Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notation).
+Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notation) under a CC Share 
+
+The Landau notation is an amazing tool applicable in all of real analysis. The reason it is so convenient and widely used is because it underlines a key principle of real analysis, namely ''estimation''. Loosely speaking, the Landau notation introduces two operators which can be called the "order of magnitude" operators, which essentially compare the magnitude of two given functions.
+
+== The little-''o'' ==
+The '''little-''o'' ''' provides a function that is of lower order of magnitude than a given function, that is the function <math>o(g(x))</math> is of a lower order than the function <math>g(x)</math>. Formally,
+
+=== Definition ===
+Let <math>A\subseteq\mathbb{R}</math> and let <math>c\in\mathbb{R}</math>
+
+Let <math>f,g:A\to\mathbb{R}</math>
+
+If <math>\lim_{x\to c}\frac{f(x)}{g(x)}=0</math> then we say that
+
+"As <math>x\to c</math>, <math>f(x)=o(g(x))</math>"
+
+=== Examples ===
+* As <math>x\to\infty</math>, (and <math>m<n</math>) <math>x^m=o(x^n)</math>
+* As <math>x\to\infty</math>, (and <math>n\in\mathbb{N}</math>) <math>\ln x=o(x^n)</math>
+* As <math>x\to 0</math>, <math>\sin x=o(1)</math>
+
+== The Big-''O'' ==
+The '''Big-''O'' ''' provides a function that is at most the same order as that of a given function, that is the function <math>O(g(x))</math> is at most the same order as the function <math>g(x)</math>. Formally,
+
+=== Definition ===
+Let <math>A\subseteq\mathbb{R}</math> and let <math>c\in\mathbb{R}</math>
+
+Let <math>f,g:A\to\mathbb{R}</math>
+
+If there exists <math>M>0</math> such that <math>\lim_{x\to c}\left| \frac{f(x)}{g(x)}\right| <M</math> then we say that
+
+"As <math>x\to c</math>, <math>f(x)=O(g(x))</math>"
+
+=== Examples ===
+* As <math>x\to 0</math>, <math>\sin x=O(x)</math>
+* As <math>x\to \tfrac{\pi}{2}</math>, <math>\sin x=O(1)</math>
+
+== Applications ==
+We will now consider few examples which demonstrate the power of this notation.
+
+=== Differentiability ===
+
+Let <math>f: \mathcal{U} \subseteq \mathbb{R} \to\mathbb{R}</math> and <math> x_0 \in \mathcal{U}</math>.
+
+Then <math>f</math> is differentiable at <math>x_0</math> if and only if
+
+There exists a <math>\lambda \in\mathbb{R}</math> such that as <math>x\to x_0</math>, <math>f(x) = f(x_0) + \lambda(x-x_0)+o\left( |x-x_0|\right)</math>.
+
+=== Mean Value Theorem ===
+Let <math>f:[a,x]\to\mathbb{R}</math> be differentiable on <math>[a,b]</math>. Then,
+
+As <math>x\to a</math>, <math>f(x)=f(a)+O(x-a)</math>
+
+=== Taylor's Theorem ===
+Let <math>f:[a,x]\to\mathbb{R}</math> be ''n''-times differentiable on <math>[a,b]</math>. Then,
+
+As <math>x\to a</math>, <math>f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)</math>
+
 
 ## Finding roots of functions
 
@@ -217,11 +274,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI5MjM0MjUsLTEyMTk0NDk3NCwtMT
-IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
-MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
-0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
-MDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOT
-IsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5
-MTEyMjYwXX0=
+eyJoaXN0b3J5IjpbMjE0MTAzODM3LC0xMjE5NDQ5NzQsLTEyMT
+k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
+NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMj
+EyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4MjcsLTE0MDAw
+MDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcsNzY0NjQwMTkyLD
+E2NzYwMjIzMDksOTEzODcxMDE3LDE2NTI3NjEzMDcsMTY3OTEx
+MjI2MF19
 -->
