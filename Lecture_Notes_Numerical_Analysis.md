@@ -59,7 +59,7 @@ Here, generally $\delta_1\not=\delta_2$.
 
 $k=2$, 64 bits, where:
 - The sign: 1 bit;
-- The exponent field $0\le\text{ex}\le 2046$ 11 bits, where $e=\text{ex}-1023$, and $-1022\le e\le  1023$
+- The exponent field $0\le\text{ex}\le 2047$ 11 bits, where $e=\text{ex}-1023$, and $-1022\le e\le  1023$, where $\text{ex}=0$ and $\text{ex}=2047$ are special cases.
 - The mantissa 52 bits, precision $p=52$.
 
 Exponent field | Number | Type of number
@@ -145,7 +145,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTQ0Mzk3MCwxMTI5MzY4MzIwLC0xOT
+eyJoaXN0b3J5IjpbMjA2ODEwMzYwMCwxMTI5MzY4MzIwLC0xOT
 M0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgy
 MzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNj
 UyNzYxMzA3LDE2NzkxMTIyNjAsMTY2MzM2NTcwNywxMjQ3OTcy
