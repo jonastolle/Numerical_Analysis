@@ -202,20 +202,20 @@ Copied from [Wikibooks](https://en.wikibooks.org/wiki/Real_Analysis/Landau_notat
 
 The Landau notation is an amazing tool applicable in all of real analysis. The reason it is so convenient and widely used is because it underlines a key principle of real analysis, namely ''estimation''. Loosely speaking, the Landau notation introduces two operators which can be called the "order of magnitude" operators, which essentially compare the magnitude of two given functions.
 
-The '''little-''o'' ''' provides a function that is of lower order of magnitude than a given function, that is the function $o(g(x))$ is of a lower order than the function <math>g(x)</math>. Formally,
+The '''little-''o'' ''' provides a function that is of lower order of magnitude than a given function, that is the function $o(g(x))$ is of a lower order than the function $g(x)$. Formally,
 
-=== Definition ===
-Let <math>A\subseteq\mathbb{R}</math> and let <math>c\in\mathbb{R}</math>
+**Definition.**
+Let $A\subseteq\mathbb{R}$ and let $c\in\mathbb{R}$.
+Let $f,g:A\to\mathbb{R}$.
 
-Let <math>f,g:A\to\mathbb{R}</math>
+If $\lim_{x\to c}\frac{f(x)}{g(x)}=0$ then we say that
 
-If <math>\lim_{x\to c}\frac{f(x)}{g(x)}=0</math> then we say that
+"As $x\to c$, $f(x)=o(g(x))$"
 
-"As <math>x\to c</math>, <math>f(x)=o(g(x))</math>"
+**Examples.**
 
-=== Examples ===
-* As <math>x\to\infty</math>, (and <math>m<n</math>) <math>x^m=o(x^n)</math>
-* As <math>x\to\infty</math>, (and <math>n\in\mathbb{N}</math>) <math>\ln x=o(x^n)</math>
+- As <math>x\to\infty</math>, (and <math>m<n</math>) <math>x^m=o(x^n)</math>
+- As <math>x\to\infty</math>, (and <math>n\in\mathbb{N}</math>) <math>\ln x=o(x^n)</math>
 * As <math>x\to 0</math>, <math>\sin x=o(1)</math>
 
 == The Big-''O'' ==
@@ -273,7 +273,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5NDc1MjAsLTEyMTk0NDk3NCwtMT
+eyJoaXN0b3J5IjpbLTE4MzI1OTk5MjksLTEyMTk0NDk3NCwtMT
 IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
 MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
 0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
