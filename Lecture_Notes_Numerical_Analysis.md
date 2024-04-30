@@ -31,8 +31,8 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 >**Example.** (Toy floating point system). Binary floats of the type
 >$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
 > Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and $(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
-> $e$ |    |      |    |
-> -|-|-|-|-
+> $e$ |    |      |    
+> -|-|-|-
 > $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
 > $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
 > $\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
@@ -216,7 +216,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzU0Njg0OCwtMTIyMTcxNjc2OSw2MT
+eyJoaXN0b3J5IjpbLTY5NTk3NzI1MywtMTIyMTcxNjc2OSw2MT
 A2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEw
 MDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC
 0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0
