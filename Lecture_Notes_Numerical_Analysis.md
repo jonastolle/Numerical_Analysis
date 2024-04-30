@@ -173,16 +173,16 @@ Other than a limit, it always exists, but can be $\pm\infty$. If $(x_k)$ is boun
 
 Assume that $\lim_{k\to\infty}x_k=x$ and that there exists some large index $M\in\mathbb{N}$ such that $x_k\not=x$ for all $k\ge M$. Then we define the following quantity for $p\ge 0$
 $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
-We observe that $C(p^*)<\infty$ for some $p^*> 0$ implies $C(p)=0$ for every $0\le p<p^*$. If $C(p^*)>0$ for some $p^*> 0$ then $C(p)=\infty$ for any $p>p^*$.
+We observe that $C(p^{*})<\infty$ for some $p^{*}> 0$ implies $C(p)=0$ for every $0\le p<p^{*}$. If $C(p^{*})>0$ for some $p^{*}> 0$ then $C(p)=\infty$ for any $p>p^{*}$.
 >**Proof**. By the submultiplicative property of $\limsup$,
->$$\begin{split}C(p)=&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}|x_k-x|^{p^*-p}\right]\\\le&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^*}}\limsup_{k\to\infty}|x_k-x|^{p^*-p}=C(p^*)\cdot \begin{cases}0&\text{if}\;\;p<p^*,\\\infty&\text{if}\;\;p>p^*.\end{cases}\end{split}$$
+>$$\begin{split}C(p)=&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}|x_k-x|^{p^{*}-p}\right]\\\le&\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}\end{split}$$
 
-Thus, there exists a (possibly infinite) $p^*$ such that
-$$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^*,\\C(p^*)&\text{if}\;\;p=p^*,\\\infty &\text{if}\;\;p>p^*.\end{cases}$$
-The number $p^*$ is called *order of convergence* for the sequence $(x_k)$ and determines the *rate of convergence* as follows:
+Thus, there exists a (possibly infinite) $p^{*}$ such that
+$$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^{*},\\C(p^{*})&\text{if}\;\;p=p^{*},\\\infty &\text{if}\;\;p>p^{*}.\end{cases}$$
+The number $p^{*}$ is called *order of convergence* for the sequence $(x_k)$ and determines the *rate of convergence* as follows:
 
-- If $p^*=1$ and $C(1)=1$ then we say the convergence is *sublinear*. 
-- If $p^*=1$ and $1>C(1)>1$ then we say the convergence is *linear*.
+- If $p^{*}=1$ and $C(1)=1$ then we say the convergence is *sublinear*. 
+- If $p^{*}=1$ and $1>C(1)>1$ then we say the convergence is *linear*.
 - If $p^*>1$ or $C(1)=0$ then we say the convergence is *superlinear*.
 - If $p^*=2$ then we say the convergence is *quadratic*.
 - If $p^*=3$ then we say the convergence is *cubic*, etc.
@@ -216,11 +216,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMj
-cyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAw
-NzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNj
-c2MDIyMzA5LDkxMzg3MTAxNywxNjUyNzYxMzA3LDE2NzkxMTIy
-NjAsMTY2MzM2NTcwNywxMjQ3OTcyNjEyLC0xOTg3ODU3MDI2LC
-0xMTE4MDAwNjY4LC00MTQ2MTYwMjAsMTA4MTU2MDI2NSwtMTU1
-OTIzODM4Ml19
+eyJoaXN0b3J5IjpbLTU2OTUwNTUzLDg4Mjk3MDk3OSwxNjM5NT
+ExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgy
+NywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3Nj
+Q2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMw
+NywxNjc5MTEyMjYwLDE2NjMzNjU3MDcsMTI0Nzk3MjYxMiwtMT
+k4Nzg1NzAyNiwtMTExODAwMDY2OCwtNDE0NjE2MDIwLDEwODE1
+NjAyNjVdfQ==
 -->
