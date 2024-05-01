@@ -176,7 +176,7 @@ $$C(p):=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}.$$
 We observe that $C(p^{*})<\infty$ for some $p^{*}> 0$ implies $C(p)=0$ for every $0\le p<p^{*}$. If $C(p^{*})>0$ for some $p^{*}> 0$ then $C(p)=\infty$ for any $p>p^{*}$.
 >**Proof**. By the submultiplicative property of $\limsup$,
 >$$C(p)=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}|x_k-x|^{p^{*}-p}\right]$$
->$$\le\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}$$
+>$$\le\left(\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}$$
 
 Thus, there exists a (possibly infinite) $p^{*}$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^{*},\\C(p^{*})&\text{if}\;\;p=p^{*},\\\infty &\text{if}\;\;p>p^{*}.\end{cases}$$
@@ -275,11 +275,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMT
-IxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYz
-MzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC
-0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkzNDI2OTgyNywtMTQw
-MDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4MjM2Nyw3NjQ2NDAxOT
-IsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1Mjc2MTMwNywxNjc5
-MTEyMjYwXX0=
+eyJoaXN0b3J5IjpbLTU0MDUxOTg3MiwtMTY0MzE5MTc2NywtMT
+IxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcx
+Njc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LD
+E2Mzk1MTEwMDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0
+MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMz
+Y3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkxMzg3MTAxNywxNjUy
+NzYxMzA3XX0=
 -->
