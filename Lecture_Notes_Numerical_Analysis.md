@@ -272,14 +272,14 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
 3.  Qingkai Kong, Timmy Siauw, and Alexandre Bayen. [Python Programming and Numerical Methods. A Guide for Engineers and Scientists](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html).  Academic Press, 2020.
-4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
+4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMT
-Y0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4
-MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3Nj
-ksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMjcyNTA5NiwxMTI5
-MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3Mj
-Y2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkx
-Mzg3MTAxN119
+eyJoaXN0b3J5IjpbLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMT
+M5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5
+NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNj
+YsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIx
+MjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMD
+AwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5Miwx
+Njc2MDIyMzA5XX0=
 -->
