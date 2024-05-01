@@ -98,10 +98,10 @@ $$\left|\frac{y-\hat{y}}{y}\right|\approx K(x)\left|\frac{x-\hat{x}}{x}\right|$$
 By the normalization, we guarantee that
 $$\text{(relative error in the output)}\approx K(x)\times \text{(relative error in the input)}.$$
 Now,
-$$y-\hat{y}=f(x)-f(\hat{x})=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
+$$y-\hat{y}=f(x)-f(\hat{x})=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{= f'(x)\;\text{as}\;\hat{x}\to x}(x-\hat{x})$$
 Thus, $C(x)=|f'(x)|$.
 Furthermore,
-$$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\approx f'(x)\;\text{as}\;\hat{x}\to x}\frac{x-\hat{x}}{x}\frac{x}{f(x)}$$
+$$\frac{y-\hat{y}}{y}=\frac{f(x)-f(\hat{x})}{f(x)}=\underbrace{\frac{f(x)-f(\hat{x})}{x-\hat{x}}}_{\ti f'(x)\;\text{as}\;\hat{x}\to x}\frac{x-\hat{x}}{x}\frac{x}{f(x)}$$
 Thus, $K(x)=\left|\frac{x f'(x)}{f(x)}\right|$.
 
 > **Example.** $f(x)=2x$, $f'(x)=2$. Thus, $C(x)=2$, $K(x)=\left|\frac{2x}{2x}\right|=1$. This is a well-conditioned problem.
@@ -275,11 +275,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/intro/floating-point.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLT
-EyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3
-MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OS
-wxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMyMCwtMTkz
-NDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0LDQyMTI4Mj
-M2Nyw3NjQ2NDAxOTIsMTY3NjAyMjMwOSw5MTM4NzEwMTcsMTY1
-Mjc2MTMwN119
+eyJoaXN0b3J5IjpbMTUzMjE1Mjc2MSwtMTM5MzAxMDI2OSwtMT
+Y0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4
+MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3Nj
+ksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMjcyNTA5NiwxMTI5
+MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMDAwNzY0LDE0MDA3Mj
+Y2NjQsNDIxMjgyMzY3LDc2NDY0MDE5MiwxNjc2MDIyMzA5LDkx
+Mzg3MTAxN119
 -->
