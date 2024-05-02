@@ -258,7 +258,7 @@ Let $f:[a,x]\to\mathbb{R}$ be $n$-times differentiable on $[a,b]$. Then,
 As $x\to a$, $f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+\tfrac{(x-a)^{n-1}f^{(n-1)}(a)}{(n-1)!}+O\left( (x-a)^n\right)$.
 
 
-## Finding roots of functions
+## Finding roots of functions and fixed points
 
 Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x)=0$.
 
@@ -268,6 +268,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Newton's method
 
+### Fixed point iteration
+
+## Polynomial interpolation
+
+
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
@@ -275,11 +280,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTA2NDM4MywtMTgxMDEzMjE5MywtOD
-kyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5
-NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2Nz
-Y5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYz
-OTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNj
-k4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcs
-NzY0NjQwMTkyXX0=
+eyJoaXN0b3J5IjpbLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLT
+g5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIx
+OTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNj
+c2OSw2MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2
+Mzk1MTEwMDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0Mj
+Y5ODI3LC0xNDAwMDAwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3
+LDc2NDY0MDE5Ml19
 -->
