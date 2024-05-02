@@ -6,7 +6,7 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 30.4.2024*
+*Last updated: 2.5.2024*
 
 > **Intended learning outcomes.** After the course, the student will be able to...
 > - explain the fundamental concepts of numerical analysis, like condition number, stablilty, and convergence rate;
@@ -275,11 +275,11 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMT
-M5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5
-NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNj
-YsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIx
-MjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3LC0xNDAwMD
-AwNzY0LDE0MDA3MjY2NjQsNDIxMjgyMzY3LDc2NDY0MDE5Miwx
-Njc2MDIyMzA5XX0=
+eyJoaXN0b3J5IjpbLTQ1OTA2NDM4MywtMTgxMDEzMjE5MywtOD
+kyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5
+NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2Nz
+Y5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYz
+OTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNj
+k4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2NCw0MjEyODIzNjcs
+NzY0NjQwMTkyXX0=
 -->
