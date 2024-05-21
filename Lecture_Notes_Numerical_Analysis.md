@@ -270,6 +270,9 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 ### Fixed point iteration
 
+**Banach's Fixed Point Theorem.** Suppose that $\varphi$ is a *contraction*, that is, there exists a constant $L<1$ such that
+
+
 ## Polynomial interpolation
 
 
@@ -280,7 +283,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjgyMTcyNiwtMTY0Nzc3MzQxNSwtMT
+eyJoaXN0b3J5IjpbLTE1ODMwMjM5MSwtMTY0Nzc3MzQxNSwtMT
 gxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQz
 MTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxOD
 A2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4
