@@ -274,6 +274,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 $$|\varphi(x)-\varphi(y)|\le L|x-y|$$
 for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\mathbb{R}$ of $\varphi$, i.e., $\varphi(x_\ast)=x_\ast$, and the fixed point iteration $\varphi_n:=\underbrace{\varphi\circ\ldots\circ\varphi}_{n\text{-times}}$ satisfies $\lim_{n\to\infty}\varphi_n(x_0)=x_{\ast}$ for any starting point $x_0\in\mathbb{R}$.
 
+**Proof.**
+
 ## Polynomial interpolation
 
 
@@ -284,11 +286,11 @@ for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\ma
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTkxMzYzNiwtMTY0Nzc3MzQxNSwtMT
-gxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQz
-MTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxOD
-A2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4
-ODI5NzA5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNj
-gzMjAsLTE5MzQyNjk4MjcsLTE0MDAwMDA3NjQsMTQwMDcyNjY2
-NCw0MjEyODIzNjddfQ==
+eyJoaXN0b3J5IjpbMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xOD
+EwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMx
+OTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MD
+YsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4
+Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2OD
+MyMCwtMTkzNDI2OTgyNywtMTQwMDAwMDc2NCwxNDAwNzI2NjY0
+LDQyMTI4MjM2N119
 -->
