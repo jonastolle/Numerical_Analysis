@@ -277,7 +277,11 @@ for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\ma
 **Proof.**  We prove that the  sequence $\{\varphi_k(x_0)\}_{k=0}^{\infty}=\{x_k\}_{k=0}^{\infty}$ is a Cauchy sequence. Let $k>j$. Then, by the triangle inequality,
 $$|x_k-x_j|\le\underbrace{|x_k-x_{k-1}|+|x_{k-1}-x_{k-2}|+\ldots+|x_{j+1}-x_j|}_{(k-j)\text{-summands}}.$$
 Furthermore,
-$$|x_m-x_{m-1}|=|\varphi(x_{m-1})-\varphi(x_{m-2})|\le L|x_{m-1}-x_{m-2}|\le L^{m-1}|x_1-x_0|$$
+$$|x_m-x_{m-1}|=|\varphi(x_{m-1})-\varphi(x_{m-2})|\le L|x_{m-1}-x_{m-2}|\le L^{m-1}|x_1-x_0|.$$
+Hence, by the geometric series,
+$$|x_k-x_j|\le L^j\frac{1-L^{k-j}}{1-L}|x_1-x_0|.$$
+If $k>N$, $j>N$, then
+$$|x_k-x_j|\le L
 
 ## Polynomial interpolation
 
@@ -289,7 +293,7 @@ $$|x_m-x_{m-1}|=|\varphi(x_{m-1})-\varphi(x_{m-2})|\le L|x_{m-1}-x_{m-2}|\le L^{
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzQzMjg0OCwtMTI4NjM2OTc4LDM5Nj
+eyJoaXN0b3J5IjpbMTIzNzI2MTAxNCwtMTI4NjM2OTc4LDM5Nj
 U0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4
 ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5Nz
 QsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYx
