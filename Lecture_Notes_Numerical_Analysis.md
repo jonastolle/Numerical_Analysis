@@ -274,10 +274,10 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 $$|\varphi(x)-\varphi(y)|\le L|x-y|$$
 for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\mathbb{R}$ of $\varphi$, i.e., $\varphi(x_\ast)=x_\ast$, and the fixed point iteration $\varphi_n:=\underbrace{\varphi\circ\ldots\circ\varphi}_{n\text{-times}}$ satisfies $\lim_{n\to\infty}\varphi_n(x_0)=x_{\ast}$ for any starting point $x_0\in\mathbb{R}$.
 
-**Proof.**  Let We prove that the  sequence $\{x_k\}_{k=0}^{\infty}$ is a Cauchy sequence. Let $k>j$. Then, by the triangle inequality,
+**Proof.**  We prove that the  sequence $\{\varphi_k(x_0)\}_{k=0}^{\infty}=\{x_k\}_{k=0}^{\infty}$ is a Cauchy sequence. Let $k>j$. Then, by the triangle inequality,
 $$|x_k-x_j|\le\underbrace{|x_k-x_{k-1}|+|x_{k-1}-x_{k-2}|+\ldots+|x_{j+1}-x_j|}_{(k-j)\text{-summands}}.$$
 Furthermore,
-$$|x_m-x_{m-1}|=|\varphi(x_{m-1
+$$|x_m-x_{m-1}|=|\varphi(x_{m-1})-\varphi(x_{m-2})|\le L|x_{m-1}-x_{m-2}|\le L^{m-1}|x_1-x_0|$$
 
 ## Polynomial interpolation
 
@@ -289,11 +289,11 @@ $$|x_m-x_{m-1}|=|\varphi(x_{m-1
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ3ODE2ODksLTEyODYzNjk3OCwzOT
-Y1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4
-ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OT
-c0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2
-MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MT
-EwMDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0xOTM0MjY5ODI3
-LC0xNDAwMDAwNzY0XX0=
+eyJoaXN0b3J5IjpbLTI0NzQzMjg0OCwtMTI4NjM2OTc4LDM5Nj
+U0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4
+ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5Nz
+QsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYx
+MDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMT
+AwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4Mjcs
+LTE0MDAwMDA3NjRdfQ==
 -->
