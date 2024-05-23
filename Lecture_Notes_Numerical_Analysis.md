@@ -281,7 +281,9 @@ $$|x_m-x_{m-1}|=|\varphi(x_{m-1})-\varphi(x_{m-2})|\le L|x_{m-1}-x_{m-2}|\le L^{
 Hence, by the geometric series,
 $$|x_k-x_j|\le L^j\frac{1-L^{k-j}}{1-L}|x_1-x_0|.$$
 If $k>N$, $j>N$, then
-$$|x_k-x_j|\le L
+$$|x_k-x_j|\le L^N\frac{1}{1-L}|x_1-x_0|\to 0$$
+as $N\to\infty$, which proves that $\{x_k\}$ is a Cauchy sequence.
+The existence of a fixed point follows from the continuity of $\varphi$ as follows.
 
 ## Polynomial interpolation
 
@@ -293,7 +295,7 @@ $$|x_k-x_j|\le L
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzI2MTAxNCwtMTI4NjM2OTc4LDM5Nj
+eyJoaXN0b3J5IjpbLTkyMTIwNzUwNCwtMTI4NjM2OTc4LDM5Nj
 U0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4
 ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5Nz
 QsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYx
