@@ -6,7 +6,7 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 21.5.2024*
+*Last updated: 23.5.2024*
 
 > **Intended learning outcomes.** After the course, the student will be able to...
 > - explain the fundamental concepts of numerical analysis, like condition number, stablilty, and convergence rate;
@@ -274,7 +274,8 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 $$|\varphi(x)-\varphi(y)|\le L|x-y|$$
 for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\mathbb{R}$ of $\varphi$, i.e., $\varphi(x_\ast)=x_\ast$, and the fixed point iteration $\varphi_n:=\underbrace{\varphi\circ\ldots\circ\varphi}_{n\text{-times}}$ satisfies $\lim_{n\to\infty}\varphi_n(x_0)=x_{\ast}$ for any starting point $x_0\in\mathbb{R}$.
 
-**Proof.**  We prove that
+**Proof.**  We prove that the  sequence $\{x_k\}_{k=0}^{\infty}$ is a Cauchy sequence. Let $k>j$. Then
+$$|x_k-x_j|\le|x_k-x_{k-1}|+|x_{k-1}-x_{k-2}|+\ldots+
 
 ## Polynomial interpolation
 
@@ -286,7 +287,7 @@ for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\ma
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTczMjk0MywtMTI4NjM2OTc4LDM5Nj
+eyJoaXN0b3J5IjpbMTU5Mjk1NTcyNywtMTI4NjM2OTc4LDM5Nj
 U0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4
 ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5Nz
 QsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYx
