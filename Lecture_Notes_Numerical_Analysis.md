@@ -431,7 +431,7 @@ $$\begin{pmatrix}
 $$p_n(x_j)=q_n(x_j)=0,\quad\text{for any}\quad j=0,1,\ldots,n.$$
 Hence $p_n-q_n$ has $n+1$ distinct roots. As $\deg(p_n-q_n)\le \max(\deg p_n,\deg q_n)=n$, the only polynomial with $n+1$ roots is the polynomial which is constantly zero. Hence,
 $$p_n=q_n.$$
-We have used the 
+We have used the corollary to the fundamental theorem of algebra which states that every non-constant real polynomial of degree $m$ has at most $m$ zeros. $\Box$
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -440,11 +440,11 @@ We have used the
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyNzk1ODYzLC0yMTA2MTk5NTgzLDE2ND
-UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
-Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
-0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
-NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4OD
-E4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5
-LDg4Mjk3MDk3OV19
+eyJoaXN0b3J5IjpbMTgxNjQ1MDEwNCwtMjEwNjE5OTU4MywxNj
+Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
+OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
+wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
+NjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5OD
+gxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2
+OSw4ODI5NzA5NzldfQ==
 -->
