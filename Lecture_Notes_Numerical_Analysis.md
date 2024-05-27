@@ -278,7 +278,8 @@ Every step reduces the error by factor $\frac{1}{2}$. The convergence rate is th
 Assume that $f\in C^1$. For an intial value $x_0$, consider the iteration
 $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 > **Heuristics.** If $f(x_\ast)=0$ and $f\in C^2$, by the Taylor expansion,
-> $$0=f(x)=f(x_0)
+> $$0=f(x_\ast)=f(x_0)+(x_\ast-x_0)f'(x_0)+\frac{(x_\ast-x_0)^2}{2}f''(\xi)$$
+> \ffor 
 
 ### Secant method
 
@@ -338,11 +339,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDc4NDIzNywtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
-MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
-LTIxMjcyNTA5Nl19
+eyJoaXN0b3J5IjpbODMzMTU3MDYsLTMzNjU3NTI2MSwtMTk5Mj
+QzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMw
+LC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLT
+EzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIx
+OTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMz
+Y2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0y
+MTI3MjUwOTZdfQ==
 -->
