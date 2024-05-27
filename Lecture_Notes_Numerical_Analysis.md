@@ -263,6 +263,8 @@ As $x\to a$, $f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+
 
 Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x)=0$.
 
+**Definition.** If $f:\mathbb{R}^n\to\mathbb{R}$ is $n$-times continuuo, $f\in C^n$
+
 ### Bisection method
 
 ### Secant method
@@ -288,7 +290,7 @@ The existence of a fixed point follows from the continuity of $\varphi$ (as cont
 $$x_\ast=\lim_{k\to\infty}x_k=\lim_{k\to\infty}x_{k+1}=\lim_{k\to\infty}\varphi(x_k)=\varphi(\lim_{k\to\infty}x_k)=\varphi(x_\ast).$$
 $\Box$
 
-**Theorem**. Assume that $
+**Theorem**. Assume that $\varphi\in C^n$.
 
 ## Polynomial interpolation
 
@@ -300,11 +302,11 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTU3NjkwNiwxMDE3ODI5Njc0LC0xMj
-g2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMy
-MTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3Nj
-csLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEy
-MjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MD
-k3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMyMCwt
-MTkzNDI2OTgyN119
+eyJoaXN0b3J5IjpbLTIxNDQ5NjQ4MDAsMTAxNzgyOTY3NCwtMT
+I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
+MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
+Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
+MjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5Nz
+A5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAs
+LTE5MzQyNjk4MjddfQ==
 -->
