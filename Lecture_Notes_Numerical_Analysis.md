@@ -405,8 +405,11 @@ $$1,\quad x-x_0,\quad (x-x_0)(x-x_1),\quad\ldots,\quad \prod_{j=0}^{n-1}(x-x_j).
 
 **Definition.** Define Newton's interpolation polynomials by
 $$p_n(x)=a_0+a_1(x-x_0)+\ldots+a_n\prod_{j=0}^{n-1} (x-x_j)$$
-in such a way that 
-
+in such a way that $p_n(x_i)=y_i$.
+Clearly,
+$$p(x_0)=y_0\quad\Rightarrow a_0=y_0,$$
+and
+$$p(x_1)=a_0+a_1(x_1-x_0)=y_1\quad \Rightarrow \quad a_1
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -415,7 +418,7 @@ in such a way that
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTM4MjYyNiwtMjEwNjE5OTU4MywxNj
+eyJoaXN0b3J5IjpbLTM4NjkzOTc2OCwtMjEwNjE5OTU4MywxNj
 Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
 OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
 wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
