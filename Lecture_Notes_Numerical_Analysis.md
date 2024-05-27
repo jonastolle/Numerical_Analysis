@@ -305,7 +305,10 @@ for large $k$, and thus the rate of convergence is at least $p$. If $\varphi^{(p
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge K$$
 for $\xi$ sufficiently close to $x_\ast$. Thus
 $$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
-which implies that the rate of convergence cannot be higher than $p$.  
+which implies that the rate of convergence cannot be higher than $p$. Thus the rate of convergence is percisely $p$. $\Box$
+
+> **Note.** From the above proof, we expect that *close to the fixed point $x_\ast$* means
+> $$|x_[k+1}-x_\ast|\approx \frac{|\va
 
 ## Polynomial interpolation
 
@@ -317,11 +320,11 @@ which implies that the rate of convergence cannot be higher than $p$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NjQ2MDcyLC0xOTkyNDMzNzQ5LDEwMT
-c4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0
-MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OS
-wtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5
-OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MT
-Y3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMjcyNTA5Niwx
-MTI5MzY4MzIwXX0=
+eyJoaXN0b3J5IjpbLTIwNjA3NTEyODMsLTE5OTI0MzM3NDksMT
+AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
+MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMj
+Y5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwt
+Mjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMT
+cxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2
+LDExMjkzNjgzMjBdfQ==
 -->
