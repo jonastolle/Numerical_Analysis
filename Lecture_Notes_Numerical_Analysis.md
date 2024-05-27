@@ -292,7 +292,7 @@ $\Box$
 
 **Theorem**. Assume that $\varphi\in C^p$ for $p\ge 1$. Furthermore, assume that has a fixed point $x_\ast$ and assume that
 $$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0$$ for $p\ge 2$ and
-$$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\varphi_k$ converges to $x_\ast$ at least with order $p$, p
+$$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\{\varphi_k(x_0)\}$ converges to $x_\ast$ at least with rate $p$, provided that the starting point $x_0$ is sufficiently close to $x_\ast$. If, in addition, $\varphi^{(p)}(x_\ast)\not=0$, then the rate of convergence is precisely $p$.
 
 ## Polynomial interpolation
 
@@ -304,7 +304,7 @@ $$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\varphi_k$ converges 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI5NTc5NTUsMTAxNzgyOTY3NCwtMT
+eyJoaXN0b3J5IjpbLTEyNzgzOTYxMjksMTAxNzgyOTY3NCwtMT
 I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
 MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
 Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
