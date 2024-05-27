@@ -285,8 +285,8 @@ $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 **Theorem.** If $f\in C^2$ and $x_0$ is sufficiently good (i.e. close to the root $x_\ast$) and if $f'(x_\ast)\not=0$, then Newton's method converges quadratically.
 
 **Proof.** By Taylor's expansion, it follows that
-$$x_\ast=x_k-\frac{f(x_k)}{f'(x_k)}-\frac{(x_\ast-x_k)^2}{2}\frac{f''(\xi_k)}{f'(x_k)}.$$
-Take $x_{k+1}$ from the method and substract,
+$$x_\ast=x_k-\frac{f(x_k)}{f'(x_k)}-\frac{(x_\ast-x_k)^2}{2}\frac{f''(\xi_k)}{f'(x_k)}$$
+for some $\xi_k\in [x_\ast,x_k]$. Take $x_{k+1}$ from the method and substract,
 $$x_{k+1}-x_\ast=(x_\ast-x_k)^2\underbrace{\frac{f''(\xi_k)}{2f'(x_k)}}_{\le D}.$$
 In other words,
 $$|x_{k+1}-x_\ast|\le D |x_k-x^\ast|^2,$$
@@ -298,6 +298,8 @@ $$x_{k+1}-x_\ast=(x_\ast-x_k)^2\frac{f''(\xi_k)}{2\underbrace{f'(x_k)}_{\to0}}$$
 as $k\to\infty$.
 By Taylor's expansion,
 $$f'(x_k)=\underbrace{f'(x_\ast)}_{=0}+(x_k-x_\ast)f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)$$
+for some $\eta_k\in [x_\ast,x_k]$, and hence
+$$x_{k+1}-x
 
 ### Secant method
 
@@ -357,11 +359,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA0MTUyMDksLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
-EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
-MTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNj
-YzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5
-LC0yMTI3MjUwOTZdfQ==
+eyJoaXN0b3J5IjpbMTg3NzE0MzgxMywtMzM2NTc1MjYxLC0xOT
+kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
+MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
+wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
+MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
+MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
+LTIxMjcyNTA5Nl19
 -->
