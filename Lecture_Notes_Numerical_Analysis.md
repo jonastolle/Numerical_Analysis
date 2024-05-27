@@ -361,7 +361,9 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 
 ## Polynomial interpolation
 
-**Idea.** Approximate a function $f:\mathbb{R}\to\mathbb{R}$ over $[a,b]$ by a polynomial $p$ such that in data points $(x_i,y_i)$, $i\
+**Idea.** Approximate a function $f:\mathbb{R}\to\mathbb{R}$ over $[a,b]$ by a polynomial $p$ such that in data points $(x_i,y_i)$, $i=0,1,\ldots, n$, the approximation is *exact*, that is,
+$$f(x_i)=y_i=p(x_i),\quad\text{for all}\quad  i=0,1,\ldots, n.$$
+We may call $x_i$
 
 ### Newton's interpolation
 
@@ -375,7 +377,7 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjM1NzA5OCwtMzM2NTc1MjYxLC0xOT
+eyJoaXN0b3J5IjpbMTY3NzE5Njk2NCwtMzM2NTc1MjYxLC0xOT
 kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
 MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
 wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
