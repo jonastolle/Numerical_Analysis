@@ -367,7 +367,7 @@ We may call $x_i$ *node* and $y_i$ *value*.
 We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for $i\not=j$.
 
 > **Note.** Interpolation polynomials are not per se unique, for instance the data $\{(-1,1),(1,1)\}$ can be interpolated by
-> $p=1$, $q
+> $p(x)=1$, $q(x)=x^2$, or $r(x)=x^4-x^2+1$. However, we will see later that $p$ is the unique interpolation polynomial with $\deg p\le 1= n$
 
 ### Newton's interpolation
 
@@ -381,7 +381,7 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE0ODE2MTcsLTMzNjU3NTI2MSwtMT
+eyJoaXN0b3J5IjpbLTExNjk5NjUxNDEsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
 MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
 EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
