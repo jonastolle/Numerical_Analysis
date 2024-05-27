@@ -369,7 +369,8 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 > **Note.** Interpolation polynomials are not per se unique, for instance the data $\{(-1,1),(1,1)\}$ can be interpolated by
 > $p(x)=1$, $q(x)=x^2$, or $r(x)=x^4-x^2+1$. However, we will see later that $p$ is the unique interpolation polynomial with $\deg p\le 1= n$.
 
-**Example.**
+**Example.** $(1,2)$, $(2,3)$, $(3,6)$, as data set $\{(x_i,y_i)\;\colon\;i=0,1,2\}$ on the interval $[1,3]$.
+We are looking for a polynomial $p_2(x)=\sium
 
 ### Newton's interpolation
 
@@ -383,11 +384,11 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
-MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
-LTIxMjcyNTA5Nl19
+eyJoaXN0b3J5IjpbMTIwNjQzNjM1OCwxNjQ1MjAzNzg1LC0zMz
+Y1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2
+OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5My
+wtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0x
+MjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNz
+E2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5Nzks
+MTYzOTUxMTAwOV19
 -->
