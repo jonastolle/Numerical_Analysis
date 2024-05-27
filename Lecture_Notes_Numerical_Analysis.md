@@ -273,11 +273,13 @@ Let us analyze the convergence rate. Let $[a,b]$ be an interval. After $k$ steps
 $$\frac{b-a}{2^k}\le 2\delta\quad\Leftrightarrow\quad 2^{k+1}\ge \frac{b-a}{\delta}\quad\Leftrightarrow\quad k\ge \log_2\left(\frac{b-a}{\delta}\right)-1.$$
 Every step reduces the error by factor $\frac{1}{2}$. The convergence rate is thus linear.
 
+### Newton's method
+
+
 ### Secant method
 
+Sometimes it can be difficult or computationally expensive to compute the derivative $f'(x_k)$. Newton 's method can be adapted by approximating the derviative by the differential quotient
 
-
-### Newton's method
 
 ### Fixed point iteration
 
@@ -331,7 +333,7 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDcyNzU0NSwtMzM2NTc1MjYxLC0xOT
+eyJoaXN0b3J5IjpbMTA1NTYxMjgxMiwtMzM2NTc1MjYxLC0xOT
 kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
 MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
 wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
