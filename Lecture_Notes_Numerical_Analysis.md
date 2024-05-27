@@ -433,6 +433,10 @@ Hence $p_n-q_n$ has $n+1$ distinct roots. As $\deg(p_n-q_n)\le \max(\deg p_n,\de
 $$p_n=q_n.$$
 We have used the corollary to the fundamental theorem of algebra which states that every non-constant real polynomial of degree $m$ has at most $m$ zeros. $\Box$
 
+### Divided differences
+
+
+
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
@@ -440,7 +444,7 @@ We have used the corollary to the fundamental theorem of algebra which states th
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjQ1MDEwNCwtMjEwNjE5OTU4MywxNj
+eyJoaXN0b3J5IjpbLTU5NjY4OTEyNCwtMjEwNjE5OTU4MywxNj
 Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
 OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
 wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
