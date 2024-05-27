@@ -279,8 +279,10 @@ Assume that $f\in C^1$. For an intial value $x_0$, consider the iteration
 $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 > **Heuristics.** If $f(x_\ast)=0$ and $f\in C^2$, by the Taylor expansion,
 > $$0=f(x_\ast)=f(x_0)+(x_\ast-x_0)f'(x_0)+\frac{(x_\ast-x_0)^2}{2}f''(\xi)$$
-> for $\xi\in [x_0,x_\ast]$, and thus, neglecting the 2nd order term,
-> $$x_\ast \approx x_0-\frac{f(x_0)}{f'(x_0)}$$
+> for $\xi\in [x_0,x_\ast]$, and upon neglecting the 2nd order term,
+> $$x_\ast \approx x_0-\frac{f(x_0)}{f'(x_0)}.$$
+
+**Theorem.** If $f\in C^2$ and $x_0$ is sufficiently good (i.e. close to the root $x_\ast$) and if $f'(x_\ast)\not=0$, then Nje
 
 ### Secant method
 
@@ -340,11 +342,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0OTA5MTE2LC0zMzY1NzUyNjEsLTE5OT
-I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
-MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
-0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
-MTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2Mz
-M2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwt
-MjEyNzI1MDk2XX0=
+eyJoaXN0b3J5IjpbLTQ4NTc3NTY1NCwtMzM2NTc1MjYxLC0xOT
+kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
+MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
+wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
+MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
+MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
+LTIxMjcyNTA5Nl19
 -->
