@@ -6,7 +6,7 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 23.5.2024*
+*Last updated: 27.5.2024*
 
 > **Intended learning outcomes.** After the course, the student will be able to...
 > - explain the fundamental concepts of numerical analysis, like condition number, stablilty, and convergence rate;
@@ -177,6 +177,7 @@ We observe that $C(p^{*})<\infty$ for some $p^{*}> 0$ implies $C(p)=0$ for every
 >**Proof**. By the submultiplicative property of $\limsup$,
 >$$C(p)=\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^p}=\limsup_{k\to\infty}\left[\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}|x_k-x|^{p^{*}-p}\right]$$
 >$$\le\left(\limsup_{k\to\infty}\frac{|x_{k+1}-x|}{|x_k-x|^{p^{*}}}\right)\cdot\left(\limsup_{k\to\infty}|x_k-x|^{p^{*}-p}\right)=C(p^{*})\cdot \begin{cases}0&\text{if}\;\;p<p^{*},\\\infty&\text{if}\;\;p>p^{*}.\end{cases}$$
+>$\Box$
 
 Thus, there exists a (possibly infinite) $p^{*}$ such that
 $$C(p)=\begin{cases}0&\text{if}\;\;0\le p<p^{*},\\C(p^{*})&\text{if}\;\;p=p^{*},\\\infty &\text{if}\;\;p>p^{*}.\end{cases}$$
@@ -283,7 +284,7 @@ $$|x_k-x_j|\le L^j\frac{1-L^{k-j}}{1-L}|x_1-x_0|.$$
 If $k>N$, $j>N$, then
 $$|x_k-x_j|\le L^N\frac{1}{1-L}|x_1-x_0|\to 0$$
 as $N\to\infty$, which proves that $\{x_k\}$ is a Cauchy sequence.
-The existence of a fixed point follows from the continuity of $\varphi$ (as contractions are uniformly continuous, in fact, even Lipschitz continuous) as follows.
+The existence of a fixed point follows from the continuity of $\varphi$ (as contractions are uniformly continuous, in fact, even Lipschitz continuous) as follows. $\Box$
 
 ## Polynomial interpolation
 
@@ -295,11 +296,11 @@ The existence of a fixed point follows from the continuity of $\varphi$ (as cont
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5Nj
-U0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4
-ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5Nz
-QsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYx
-MDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMT
-AwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAsLTE5MzQyNjk4Mjcs
-LTE0MDAwMDA3NjRdfQ==
+eyJoaXN0b3J5IjpbLTE0MzE2NDk5MjAsMTAxNzgyOTY3NCwtMT
+I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
+MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
+Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
+MjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5Nz
+A5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAs
+LTE5MzQyNjk4MjddfQ==
 -->
