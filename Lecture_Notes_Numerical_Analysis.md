@@ -294,7 +294,8 @@ $\Box$
 $$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0$$ for $p\ge 2$ and
 $$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\{\varphi_k(x_0)\}$ converges to $x_\ast$ at least with rate $p$, provided that the starting point $x_0$ is sufficiently close to $x_\ast$. If, in addition, $\varphi^{(p)}(x_\ast)\not=0$, then the rate of convergence is precisely $p$.
 
-**Proof.** 
+**Proof.** First note that by Banach's fixed point theorem the limit indeed converges to $x_\ast$ for suitable starting points $x_0$. By the Taylor expansion,
+$$x_{k+1}-x_\ast=\varphi(x_k)-\
 
 ## Polynomial interpolation
 
@@ -306,11 +307,11 @@ $$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\{\varphi_k(x_0)\}$ c
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMT
-I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
-MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
-Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
-MjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5Nz
-A5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAs
-LTE5MzQyNjk4MjddfQ==
+eyJoaXN0b3J5IjpbLTQ2MTE0Mjg3MiwtMTk5MjQzMzc0OSwxMD
+E3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3Nzcz
+NDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNj
+ksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0y
+OTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNz
+E2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYs
+MTEyOTM2ODMyMF19
 -->
