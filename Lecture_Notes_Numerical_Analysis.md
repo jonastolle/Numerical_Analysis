@@ -438,7 +438,11 @@ We have used the corollary to the fundamental theorem of algebra which states th
 Let $p$ be a Newton interpolation polynomial
 $$p(x)=a_0+a_1(x_1-x_0)+a_2(x-x_2)(x-x_1)+\ldots+a_n\prod_{j=0}^{n=1}(x-x_j).$$
 
-**Definition.** The divided difference is defined as the $a_k$-coefficient of the Newton interpolation polynomial with data $y_i=f(x_i)$ $f[x_0,x_1,\ldots,x_k]:=a_k$
+**Definition.** The divided difference $f[x_0,x_1,\ldots,x_k]$ is defined as the $a_k$-coefficient of the Newton interpolation polynomial with data $y_i=f(x_i)$, in other words, 
+$$f[x_0,x_1,\ldots,x_k]:=a_k.$$
+
+**Theorem.**
+$$f[x_0,x_1,\ldots,x_k]=\frac{f[x_0,x_1,\ldots,x_k]-f[x_0,\ldots,x_{k-1}]}{x_k-x_0}.$$
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -447,7 +451,7 @@ $$p(x)=a_0+a_1(x_1-x_0)+a_2(x-x_2)(x-x_1)+\ldots+a_n\prod_{j=0}^{n=1}(x-x_j).$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjM0ODE5MywtMjEwNjE5OTU4MywxNj
+eyJoaXN0b3J5IjpbMTkwNTgzMDgyMywtMjEwNjE5OTU4MywxNj
 Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
 OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
 wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
