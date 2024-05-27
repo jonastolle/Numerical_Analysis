@@ -379,6 +379,10 @@ $$\begin{pmatrix}1 & 1 & 1\\ 1 & 2 & 4\\ 1 &3 & 9\end{pmatrix}\cdot \begin{pmatr
 As a result, $c_0=3$, $c_1=-2$, and $c_2=1$, and thus,
 $$p_2(x)=x^2-2x+3.$$
 
+The computational complexity of solving the linear system is $O(n^3)$. We used the natural basis for the polynomials.
+*What would be the ideal basis?*
+**Definition.**
+
 ### Newton's interpolation
 
 **Idea.** Extend the natural 
@@ -391,11 +395,11 @@ $$p_2(x)=x^2-2x+3.$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDc3MzQxLDE2NDUyMDM3ODUsLTMzNj
-U3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5
-NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC
-04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEy
-MTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MT
-Y3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwx
-NjM5NTExMDA5XX0=
+eyJoaXN0b3J5IjpbLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMz
+M2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYz
+Njk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOT
+MsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2Nywt
+MTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMT
+cxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5
+LDE2Mzk1MTEwMDldfQ==
 -->
