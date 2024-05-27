@@ -427,7 +427,9 @@ $$\begin{pmatrix}
 
 **Theorem.** Interpolation polynomials with $n+1$ nodes $x_i$, $i=0,1,\ldots, n$ are unique in the class of polynomials $q$ with $\deg q\le n$.
 
-**Proof.** (Idea). $p_n$ has at most $n$ roots. Let $p_n$ and $q_n$ be two in
+**Proof.** (Idea). $p_n$ has at most $n$ roots. Let $p_n$ and $q_n$ be two interpolating polynomials for the same set of data. Then
+$$p_n(x_j)=q_n(x_j)=0,\quad\text{for any}\quad j=0,1,\ldots,n.$$
+Hence $p_n-q_n$ has $n+1$ distinct roots. A
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -436,11 +438,11 @@ $$\begin{pmatrix}
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM4MDgzNTUsLTIxMDYxOTk1ODMsMT
-Y0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4
-Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MT
-UsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwt
-MTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OT
-g4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3
-NjksODgyOTcwOTc5XX0=
+eyJoaXN0b3J5IjpbMTk5NzU2NDIxMSwtMjEwNjE5OTU4MywxNj
+Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
+OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
+wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
+NjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5OD
+gxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2
+OSw4ODI5NzA5NzldfQ==
 -->
