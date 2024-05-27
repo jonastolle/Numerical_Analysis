@@ -307,8 +307,11 @@ for $\xi$ sufficiently close to $x_\ast$. Thus
 $$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
 which implies that the rate of convergence cannot be higher than $p$. Thus the rate of convergence is percisely $p$. $\Box$
 
-> **Note.** From the above proof, we expect that *close to the fixed point $x_\ast$* means
-> $$|x_[k+1}-x_\ast|\approx \frac{|\va
+> **Note.** From the above proof, we expect that close to the fixed point $x_\ast$* means
+> $$|x_{k+1}-x_\ast|\approx \frac{|\varphi^{(p)}(x_\ast)|}{p!} |x_k-x_\ast|^p,$$
+> when
+> $$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0,$$
+> but $\varphi^{(p)}(x_\ast)\not=0$.
 
 ## Polynomial interpolation
 
@@ -320,11 +323,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA3NTEyODMsLTE5OTI0MzM3NDksMT
-AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
-MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMj
-Y5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwt
-Mjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMT
-cxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2
-LDExMjkzNjgzMjBdfQ==
+eyJoaXN0b3J5IjpbMTA1ODE2ODcyMSwtMTk5MjQzMzc0OSwxMD
+E3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3Nzcz
+NDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNj
+ksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0y
+OTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNz
+E2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYs
+MTEyOTM2ODMyMF19
 -->
