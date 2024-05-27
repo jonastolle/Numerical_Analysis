@@ -335,17 +335,17 @@ $$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0$$ for $p\g
 $$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\{\varphi_k(x_0)\}$ converges to $x_\ast$ at least with rate $p$, provided that the starting point $x_0$ is sufficiently close to $x_\ast$. If, in addition, $\varphi^{(p)}(x_\ast)\not=0$, then the rate of convergence is precisely $p$.
 
 **Proof.** First note that by Banach's fixed point theorem the limit indeed converges to $x_\ast$ for suitable starting points $x_0$. By the Taylor expansion,
-$$x_{k+1}-x_\ast=\varphi(x_k)-\varphi(x_\ast)=\sum_{l=1}^{p-1}\frac{\varphi^{(l)}(x_\ast)}{l!}(x_k-x_\ast)^l+\frac{G^{(p)}(\xi)}{p!}(x_k-x_\ast)^p$$
-for some $\xi$ between $x_\ast$ and $x_k$. The sum will be left empty for the case $p=1$. Since $\varphi^{(l)}(x_\ast)=0$ for $1\le l\le p-1$, we get that
-$$|x_{k+1}-x_\ast|=\frac{|\varphi^{(p)}(\xi)|}{p!} |x_k-x_\ast|^p$$.
+$$x_{k+1}-x_\ast=\varphi(x_k)-\varphi(x_\ast)=\sum_{l=1}^{p-1}\frac{\varphi^{(l)}(x_\ast)}{l!}(x_k-x_\ast)^l+\frac{G^{(p)}(\xi_k)}{p!}(x_k-x_\ast)^p$$
+for some $\xi_k$ between $x_\ast$ and $x_k$. The sum will be left empty for the case $p=1$. Since $\varphi^{(l)}(x_\ast)=0$ for $1\le l\le p-1$, we get that
+$$|x_{k+1}-x_\ast|=\frac{|\varphi^{(p)}(\xi_k)|}{p!} |x_k-x_\ast|^p$$.
 By continuity, there exists $C>0$ (with $C<1$ for $p=1$) such that
-$$\frac{|\varphi^{(p)}(\xi)|}{p!}\le C$$ for $\xi$ sufficiently close to $x_\ast$ (that is, for sufficiently large $k$). Thus,
+$$\frac{|\varphi^{(p)}(\xi_k)|}{p!}\le C$$ for $\xi_k$ sufficiently close to $x_\ast$ (that is, for sufficiently large $k$). Thus,
 $$|x_{k+1}-x_\ast|\le C|x_k-x_\ast|^p$$
 for large $k$, and thus the rate of convergence is at least $p$. Note that  for $p=1$, this also proves convergence by
-$$|x_{k+1}-x_\ast|<\underbrace{|\varphi(\xi)|}_{<1}|x_k-x_\ast|.$$
+$$|x_{k+1}-x_\ast|<\underbrace{|\varphi(\xi_k)|}_{<1}|x_k-x_\ast|.$$
 If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
-$$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge K$$
-for $\xi$ sufficiently close to $x_\ast$. Thus
+$$\frac{|\varphi^{(p)}(\xi_k)|}{p!}\ge K$$
+for $\xi_K$ sufficiently close to $x_\ast$. Thus
 $$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
 which implies that the rate of convergence cannot be higher than $p$. Thus the rate of convergence is percisely $p$. $\Box$
 
@@ -365,11 +365,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTc3Nzg5NiwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
-MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
-LTIxMjcyNTA5Nl19
+eyJoaXN0b3J5IjpbLTIxNDY2Nzc2NDgsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNj
+YzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5
+LC0yMTI3MjUwOTZdfQ==
 -->
