@@ -275,13 +275,13 @@ Every step reduces the error by factor $\frac{1}{2}$. The convergence rate is th
 
 ### Newton's method
 
+For an intial value $x_0$,
 
 ### Secant method
 
 Sometimes it can be difficult or computationally expensive to compute the derivative $f'(x_k)$. Newton 's method can be adapted by approximating the derviative by the differential quotient. The secant method is the following two-step recursive algorithm.
 $$x_{k+1}=x_k-\frac{f(x_k)(x_k-x_{k-1})}{f(x_k)-f(x_{k-1})},\quad k=1,2,\ldots$$
 with two distinct starting points $x_0\not=x_1$. The convergence rate is $\frac{1+\sqrt{5}}{2}\approx 1.62$, the *golden ratio*. 
-
 
 ### Fixed point iteration
 
@@ -335,11 +335,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjc3Nzk2OSwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
-MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
-LTIxMjcyNTA5Nl19
+eyJoaXN0b3J5IjpbLTE4MDA2MTMzNjAsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNj
+YzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5
+LC0yMTI3MjUwOTZdfQ==
 -->
