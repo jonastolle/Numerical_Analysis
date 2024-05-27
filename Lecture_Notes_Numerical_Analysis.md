@@ -393,8 +393,11 @@ $$\varphi_i(x_j)=\delta_{i,j}:=\begin{cases}1\text{\;\;if\;\;}i=j,\\0\text{\;\;i
 > **Example.** $(1,2)$, $(2,3)$, $(3,6)$:
 > $$\varphi_0(x)=\frac{(x-2)(x-3)}{(1-2)(1-3)}$$
 > $$\varphi_1(x)=\frac{(x-1)(x-3)}{(2-1)(2-3)}$$
-> $$\varphi_2(x)=\frac{(x-1)(x-3)}{(1-2)(1-3)}$$
+> $$\varphi_2(x)=\frac{(x-1)(x-2)}{(3-1)(3-2)}$$
 > $$p_2(x)=2\varphi_0(x)+3\varphi_1(x)+6\varphi_2(x)=x^2-2x+3.$$
+
+Evaluating the Lagrange polynomials has the computational complextity $O(n^2)$.
+
 ### Newton's interpolation
 
 **Idea.** Extend the natural 
@@ -407,11 +410,11 @@ $$\varphi_i(x_j)=\delta_{i,j}:=\begin{cases}1\text{\;\;if\;\;}i=j,\\0\text{\;\;i
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTYxMTE2NywtMjEwNjE5OTU4MywxNj
-Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
-OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
-wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
-NjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5OD
-gxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2
-OSw4ODI5NzA5NzldfQ==
+eyJoaXN0b3J5IjpbMjk5NTQ0MTY4LC0yMTA2MTk5NTgzLDE2ND
+UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
+Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
+0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
+NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4OD
+E4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5
+LDg4Mjk3MDk3OV19
 -->
