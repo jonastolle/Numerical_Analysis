@@ -372,7 +372,9 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 **Example.** $(1,2)$, $(2,3)$, $(3,6)$, as data set $\{(x_i,y_i)\;\colon\;i=0,1,2\}$ on the interval $[1,3]$.
 We are looking for a polynomial $p_2(x)=\sum_{j=0}^2 c_j x^j$, which is chosen to be 2nd order, because we have $3$ data points and $3$ unknown coeffiecients.
 We can formulate the problem in matrix form:
-$$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{prmatrix}$$
+$$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}y_0\\y_1\\y_2\end{pmatrix},$$
+that is, here,
+$$\begin{pmatrix}1 & 1 & 1\\ 1 & 2 & 4\\ 1 &3 & 9\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}2\\3\\6\end{pmatrix}.$$
 
 ### Newton's interpolation
 
@@ -386,7 +388,7 @@ $$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODI0NTc2MCwxNjQ1MjAzNzg1LC0zMz
+eyJoaXN0b3J5IjpbMTA5OTc5NDI0MSwxNjQ1MjAzNzg1LC0zMz
 Y1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2
 OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5My
 wtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0x
