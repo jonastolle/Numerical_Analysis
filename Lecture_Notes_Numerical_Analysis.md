@@ -283,10 +283,12 @@ Hence, by the geometric series,
 $$|x_k-x_j|\le L^j\frac{1-L^{k-j}}{1-L}|x_1-x_0|.$$
 If $k>N$, $j>N$, then
 $$|x_k-x_j|\le L^N\frac{1}{1-L}|x_1-x_0|\to 0$$
-as $N\to\infty$, which proves that $\{x_k\}$ is a Cauchy sequence.
+as $N\to\infty$, which proves that $\{x_k\}$ is a Cauchy sequence. The linear convergence rate follows also from this estimate.
 The existence of a fixed point follows from the continuity of $\varphi$ (as contractions are uniformly continuous, in fact, even Lipschitz continuous) as follows.
 $$x_\ast=\lim_{k\to\infty}x_k=\lim_{k\to\infty}x_{k+1}=\lim_{k\to\infty}\varphi(x_k)=\varphi(\lim_{k\to\infty}x_k)=\varphi(x_\ast).$$
 $\Box$
+
+**Theorem**. Assume that $
 
 ## Polynomial interpolation
 
@@ -298,7 +300,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTE3NDIyOSwxMDE3ODI5Njc0LC0xMj
+eyJoaXN0b3J5IjpbMTI1OTU3NjkwNiwxMDE3ODI5Njc0LC0xMj
 g2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMy
 MTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3Nj
 csLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEy
