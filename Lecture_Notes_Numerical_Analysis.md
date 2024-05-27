@@ -384,8 +384,11 @@ The computational complexity of solving the linear system is $O(n^3)$. We used t
 **Definition.** (Lagrange basis polynomials) Suppose that $x_i\not=x_j$ if $i\not=j$. We call
 $$\phi_i(x):=\prod_{\substack{j=0\\ i\not=j}}^n\frac{x-x_j}{x_i-x_j}$$
 the $i$th *Lagrange basis polynomial*.
-The Lagragne interpolation polynomial is give by
-$$p(x):=\sum
+The *Lagrange interpolation polynomial* is given by
+$$p(x):=\sum_{i=0}^n y_i \varphi_i(x).$$
+
+Clearly,
+$$\varphi_i(x_j)=\delta_{i,j}:=\
 
 ### Newton's interpolation
 
@@ -399,7 +402,7 @@ $$p(x):=\sum
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAwODQ1MDQsLTIxMDYxOTk1ODMsMT
+eyJoaXN0b3J5IjpbLTEzODMwOTE3MTcsLTIxMDYxOTk1ODMsMT
 Y0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4
 Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MT
 UsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwt
