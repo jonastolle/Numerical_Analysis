@@ -400,7 +400,8 @@ Evaluating the Lagrange polynomials has the computational complextity $O(n^2)$.
 
 ### Newton's interpolation
 
-**Idea.** Extend the natural 
+**Idea.** Extend the natural basis:
+$$1,\quad x-x_0,\quad (x-x_0)(x-x_1),\quad\ldots,\quad \prod_{j=0}^{n-1}(x-x_j).$$
 
 
 ## Literature
@@ -410,7 +411,7 @@ Evaluating the Lagrange polynomials has the computational complextity $O(n^2)$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NTQ0MTY4LC0yMTA2MTk5NTgzLDE2ND
+eyJoaXN0b3J5IjpbOTc1MjQwOTEwLC0yMTA2MTk5NTgzLDE2ND
 UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
 Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
 0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
