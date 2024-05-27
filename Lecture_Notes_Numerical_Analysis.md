@@ -284,7 +284,8 @@ $$|x_k-x_j|\le L^j\frac{1-L^{k-j}}{1-L}|x_1-x_0|.$$
 If $k>N$, $j>N$, then
 $$|x_k-x_j|\le L^N\frac{1}{1-L}|x_1-x_0|\to 0$$
 as $N\to\infty$, which proves that $\{x_k\}$ is a Cauchy sequence.
-The existence of a fixed point follows from the continuity of $\varphi$ (as contractions are uniformly continuous, in fact, even Lipschitz continuous) as follows. $\Box$
+The existence of a fixed point follows from the continuity of $\varphi$ (as contractions are uniformly continuous, in fact, even Lipschitz continuous) as follows.
+$$x^\ast=\lim_{k\to\infty}x_k=\lim_{k\to\infty}x_{k+1}=\ $\Box$
 
 ## Polynomial interpolation
 
@@ -296,11 +297,11 @@ The existence of a fixed point follows from the continuity of $\varphi$ (as cont
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE2NDk5MjAsMTAxNzgyOTY3NCwtMT
-I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
-MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
-Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
-MjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5Nz
-A5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAs
-LTE5MzQyNjk4MjddfQ==
+eyJoaXN0b3J5IjpbMjE0NTM5NDM1NywxMDE3ODI5Njc0LC0xMj
+g2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMy
+MTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3Nj
+csLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEy
+MjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MD
+k3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYsMTEyOTM2ODMyMCwt
+MTkzNDI2OTgyN119
 -->
