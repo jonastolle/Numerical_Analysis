@@ -290,7 +290,8 @@ The existence of a fixed point follows from the continuity of $\varphi$ (as cont
 $$x_\ast=\lim_{k\to\infty}x_k=\lim_{k\to\infty}x_{k+1}=\lim_{k\to\infty}\varphi(x_k)=\varphi(\lim_{k\to\infty}x_k)=\varphi(x_\ast).$$
 $\Box$
 
-**Theorem**. Assume that $\varphi\in C^p$ 
+**Theorem**. Assume that $\varphi\in C^p$. Furthermore, assume that has a fixed point $x_\ast$ and assume that
+$$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0$$ for $p\ge 2$ and
 
 ## Polynomial interpolation
 
@@ -302,11 +303,11 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc4NzgzODgsMTAxNzgyOTY3NCwtMT
-I4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEz
-MjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNz
-Y3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0x
-MjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5Nz
-A5NzksMTYzOTUxMTAwOSwtMjEyNzI1MDk2LDExMjkzNjgzMjAs
-LTE5MzQyNjk4MjddfQ==
+eyJoaXN0b3J5IjpbNTA2NTUwODk4LDEwMTc4Mjk2NzQsLTEyOD
+YzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIx
+OTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2Ny
+wtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIy
+MTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOT
+c5LDE2Mzk1MTEwMDksLTIxMjcyNTA5NiwxMTI5MzY4MzIwLC0x
+OTM0MjY5ODI3XX0=
 -->
