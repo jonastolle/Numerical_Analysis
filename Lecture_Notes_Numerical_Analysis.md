@@ -293,13 +293,16 @@ $$|x_{k+1}-x_\ast|\le D |x_k-x^\ast|^2,$$
 as $k\to\infty$ and thus $x_k\to x_\ast$.
 Hence the method is quadratic. Note that $f'(x_k)$ does not vanish by continuity if $x_k$ is close to $x_\ast$. $\Box$
 
-What happens if $f'(x_\ast)=0$?
+*What happens if $f'(x_\ast)=0$?*
 $$x_{k+1}-x_\ast=(x_\ast-x_k)^2\frac{f''(\xi_k)}{2\underbrace{f'(x_k)}_{\to0}}$$
 as $k\to\infty$.
 By Taylor's expansion,
 $$f'(x_k)=\underbrace{f'(x_\ast)}_{=0}+(x_k-x_\ast)f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)$$
 for some $\eta_k\in [x_\ast,x_k]$, and hence
-$$x_{k+1}-x
+$$x_{k+1}-x_\ast=f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)(x_k-x_\ast).$$
+**The method has degenerated to a linear method!**
+
+> **Example.** $f(x)=x^2$, $f'(x)=2x$. Newton: 
 
 ### Secant method
 
@@ -359,7 +362,7 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzE0MzgxMywtMzM2NTc1MjYxLC0xOT
+eyJoaXN0b3J5IjpbMTE0NTE0NTE1NSwtMzM2NTc1MjYxLC0xOT
 kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
 MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
 wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
