@@ -381,7 +381,8 @@ $$p_2(x)=x^2-2x+3.$$
 
 The computational complexity of solving the linear system is $O(n^3)$. We used the natural basis for the polynomials.
 *What would be the ideal basis?*
-**Definition.**
+**Definition.** (Lagrange basis polynomials) Suppose that $x_i\not=x_j$ if $i\not=j$. We call
+$$\phi_i(x):=\prod_{\substack{j=0\\ i\not
 
 ### Newton's interpolation
 
@@ -395,11 +396,11 @@ The computational complexity of solving the linear system is $O(n^3)$. We used t
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMz
-M2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYz
-Njk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOT
-MsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2Nywt
-MTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMT
-cxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5
-LDE2Mzk1MTEwMDldfQ==
+eyJoaXN0b3J5IjpbMTI2NzM1MTQzLC0yMTA2MTk5NTgzLDE2ND
+UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
+Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
+0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
+NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4OD
+E4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5
+LDg4Mjk3MDk3OV19
 -->
