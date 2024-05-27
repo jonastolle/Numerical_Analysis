@@ -341,7 +341,8 @@ $$|x_{k+1}-x_\ast|=\frac{|\varphi^{(p)}(\xi)|}{p!} |x_k-x_\ast|^p$$.
 By continuity, there exists $C>0$ (with $C<1$ for $p=1$) such that
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\le C$$ for $\xi$ sufficiently close to $x_\ast$ (that is, for sufficiently large $k$). Thus,
 $$|x_{k+1}-x_\ast|\le C|x_k-x_\ast|^p$$
-for large $k$, and thus the rate of convergence is at least $p$. Note that  for
+for large $k$, and thus the rate of convergence is at least $p$. Note that  for $p=1$, this also proves convergence by
+$$|x_{k+1}-x_\ast|<\underbrace{|\varphi(\xi)|}_{<1}|x_k-x_\ast|.$$
 If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge K$$
 for $\xi$ sufficiently close to $x_\ast$. Thus
@@ -364,11 +365,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODMwNzk5LC0zMzY1NzUyNjEsLTE5OT
-I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
-MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
-0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
-MTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2Mz
-M2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwt
-MjEyNzI1MDk2XX0=
+eyJoaXN0b3J5IjpbMTMyNTc3Nzg5NiwtMzM2NTc1MjYxLC0xOT
+kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
+MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
+wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
+MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
+MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
+LTIxMjcyNTA5Nl19
 -->
