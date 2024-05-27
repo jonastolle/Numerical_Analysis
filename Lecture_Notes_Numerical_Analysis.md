@@ -374,7 +374,7 @@ We are looking for a polynomial $p_2(x)=\sum_{j=0}^2 c_j x^j$, which is chosen t
 We can formulate the problem in matrix form:
 $$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}y_0\\y_1\\y_2\end{pmatrix},$$
 which is a Vandermonde matrix which has determinant
-$$\det\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}=\prod, here,
+$$\det\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}=\prod_{j\not=i}(x_i-x_j)\not=0,$$ and is thus invertible. Here,
 $$\begin{pmatrix}1 & 1 & 1\\ 1 & 2 & 4\\ 1 &3 & 9\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}2\\3\\6\end{pmatrix}.$$
 As a result, $c_0=3$, $c_1=-2$, and $c_2=1$, and thus,
 $$p_2(x)=x^2-2x+3.$$
@@ -391,11 +391,11 @@ $$p_2(x)=x^2-2x+3.$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Njc1NjU1NywxNjQ1MjAzNzg1LC0zMz
-Y1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2
-OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5My
-wtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0x
-MjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNz
-E2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2OSw4ODI5NzA5Nzks
-MTYzOTUxMTAwOV19
+eyJoaXN0b3J5IjpbNTY3NzQ5NjcxLDE2NDUyMDM3ODUsLTMzNj
+U3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5
+NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC
+04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEy
+MTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MT
+Y3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwx
+NjM5NTExMDA5XX0=
 -->
