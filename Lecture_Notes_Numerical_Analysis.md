@@ -361,12 +361,13 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 
 ## Polynomial interpolation
 
-**Idea.** Approximate a function $f:\mathbb{R}\to\mathbb{R}$ over $[a,b]$ by a polynomial $p$ such that in data points $(x_i,y_i)$, $i=0,1,\ldots, n$, the approximation is *exact*, that is,
+**Idea.** Approximate a function $f:\mathbb{R}\to\mathbb{R}$ over $[a,b]$ by a polynomial $p$ such that in **distinct** data points $(x_i,y_i)$, $i=0,1,\ldots, n$, the approximation is *exact*, that is,
 $$f(x_i)=y_i=p(x_i),\quad\text{for all}\quad  i=0,1,\ldots, n.$$
 We may call $x_i$ *node* and $y_i$ *value*.
-We need at least $2$ data points.
+We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for $i\not=j$.
 
-> **Note.** Interpolation polynomial
+> **Note.** Interpolation polynomials are not per se unique, for instance the data $\{(-1,1),(1,1)\}$ can be interpolated by
+> $p=1$, $q
 
 ### Newton's interpolation
 
@@ -380,7 +381,7 @@ We need at least $2$ data points.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjIyMTQ0NjAsLTMzNjU3NTI2MSwtMT
+eyJoaXN0b3J5IjpbLTE4MjE0ODE2MTcsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
 MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
 EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
