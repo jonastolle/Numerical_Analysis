@@ -411,12 +411,12 @@ $$p(x_0)=y_0\quad\Rightarrow\quad a_0=y_0,$$
 and
 $$p(x_1)=a_0+a_1(x_1-x_0)=y_1\quad \Rightarrow \quad a_1=\frac{y_1-a_0}{x_1-x_0}.$$
 More generally, we have the lower triangular linear system
-$$\begin{pmatrix}1& 0 &\cdots&&&&\\
+$$\begin{pmatrix}
 1& 0 &\cdots&&&&\\
-1& x_1-x_0 & 0&&&&\\
-1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&0&&&\\
-1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&&&&\prod_{j=0}^{n-1}(x_n-x_j)
-\end{pmatrix}=$$
+1& x_1-x_0 & 0&\cdots&&&\\
+1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&0&\cdots&&\\
+1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&&\cdots&&\prod_{j=0}^{n-1}(x_n-x_j)
+\end{pmatrix}\begin{pmatrix}a_0\\a_1\\a_2\end{pmatrix}=$$
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
@@ -424,11 +424,11 @@ $$\begin{pmatrix}1& 0 &\cdots&&&&\\
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NTk1NDI0LC0yMTA2MTk5NTgzLDE2ND
-UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
-Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
-0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
-NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4OD
-E4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5
-LDg4Mjk3MDk3OV19
+eyJoaXN0b3J5IjpbMTkwODcyNzUxOCwtMjEwNjE5OTU4MywxNj
+Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
+OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
+wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
+NjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5OD
+gxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2
+OSw4ODI5NzA5NzldfQ==
 -->
