@@ -415,8 +415,9 @@ $$\begin{pmatrix}
 1& 0 &\cdots&&&&\\
 1& x_1-x_0 & 0&\cdots&&&\\
 1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&0&\cdots&&\\
+\vdots &\vdots & \vdots&\vdots&&&\\
 1& x_1-x_0 & (x_2-x_0)(x_2-x_1)&&\cdots&&\prod_{j=0}^{n-1}(x_n-x_j)
-\end{pmatrix}\begin{pmatrix}a_0\\a_1\\a_2\end{pmatrix}=$$
+\end{pmatrix}\begin{pmatrix}a_0\\a_1\\a_2\\\vdots\\a_n\end{pmatrix}=$$
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
@@ -424,7 +425,7 @@ $$\begin{pmatrix}
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODcyNzUxOCwtMjEwNjE5OTU4MywxNj
+eyJoaXN0b3J5IjpbLTU2NjYwNjc3NiwtMjEwNjE5OTU4MywxNj
 Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
 OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
 wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
