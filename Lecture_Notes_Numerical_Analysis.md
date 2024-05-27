@@ -287,7 +287,10 @@ $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 **Proof.** By Taylor's expansion, it follows that
 $$x_\ast=x_k-\frac{f(x_k)}{f'(x_k)}-\frac{(x_\ast-x_k)^2}{2}\frac{f''(\xi_k)}{f'(x_k)}.$$
 Take $x_{k+1}$ from the method and substract,
-$$x_{k+1}-x_\ast=(x_\ast-x_k)^2\frac{f''(\xi_k)}{2f'(x_k)}
+$$x_{k+1}-x_\ast=(x_\ast-x_k)^2\underbrace{\frac{f''(\xi_k)}{2f'(x_k)}}_{\le D}.$$
+In other words,
+$$|x_{k+1}-x_\ast|\le D |x_k-x^\ast|^2,$$
+hence the method is quadratic. Note that $f'(x_k)$ does  not vani
 
 ### Secant method
 
@@ -347,7 +350,7 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MDQ4NTE5LC0zMzY1NzUyNjEsLTE5OT
+eyJoaXN0b3J5IjpbMzYxMzg0Mjk4LC0zMzY1NzUyNjEsLTE5OT
 I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
 MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
 0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
