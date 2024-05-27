@@ -313,8 +313,6 @@ with two distinct starting points $x_0\not=x_1$. The convergence rate is $\frac{
 
 ### Fixed point iteration
 
-**Theorem.** Let $x_\ast$  be a fixed po
-
 **Banach's Fixed Point Theorem.** Suppose that $\varphi$ is a *contraction*, that is, there exists a constant $L<1$ such that
 $$|\varphi(x)-\varphi(y)|\le L|x-y|$$
 for all $x,y\in\mathbb{R}$. Then there exists a unique fixed point $x_\ast\in\mathbb{R}$ of $\varphi$, i.e., $\varphi(x_\ast)=x_\ast$, and the fixed point iteration $\varphi_n:=\underbrace{\varphi\circ\ldots\circ\varphi}_{n\text{-times}}$ satisfies $\lim_{n\to\infty}\varphi_n(x_0)=x_{\ast}$ for any starting point $x_0\in\mathbb{R}$. The convergence rate is at least linear.
@@ -343,7 +341,8 @@ $$|x_{k+1}-x_\ast|=\frac{|\varphi^{(p)}(\xi)|}{p!} |x_k-x_\ast|^p$$.
 By continuity, there exists $C>0$ (with $C<1$ for $p=1$) such that
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\le C$$ for $\xi$ sufficiently close to $x_\ast$ (that is, for sufficiently large $k$). Thus,
 $$|x_{k+1}-x_\ast|\le C|x_k-x_\ast|^p$$
-for large $k$, and thus the rate of convergence is at least $p$. If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
+for large $k$, and thus the rate of convergence is at least $p$. Note that  for
+If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge K$$
 for $\xi$ sufficiently close to $x_\ast$. Thus
 $$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
@@ -365,11 +364,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3MDgxNDYsLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
-EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
-MTIxOTQ0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNj
-YzMzY2LC0xMjIxNzE2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5
-LC0yMTI3MjUwOTZdfQ==
+eyJoaXN0b3J5IjpbMTQ0ODMwNzk5LC0zMzY1NzUyNjEsLTE5OT
+I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
+MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
+0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
+MTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2Mz
+M2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwt
+MjEyNzI1MDk2XX0=
 -->
