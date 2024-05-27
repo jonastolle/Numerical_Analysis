@@ -302,7 +302,10 @@ By continuity, there exists $C>0$ (with $C<1$ for $p=1$) such that
 $$\frac{|\varphi^{(p)}(\xi)|}{p!}\le C$$ for $\xi$ sufficiently close to $x_\ast$ (that is, for sufficiently large $k$). Thus,
 $$|x_{k+1}-x_\ast|\le C|x_k-x_\ast|^p$$
 for large $k$, and thus the rate of convergence is at least $p$. If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
-$$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge 
+$$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge K$$
+for $\xi$ sufficiently close to $x_\ast$. Thus
+$$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
+which implies that the rate of convergence cannot be higher than $p$.  
 
 ## Polynomial interpolation
 
@@ -314,11 +317,11 @@ $$\frac{|\varphi^{(p)}(\xi)|}{p!}\ge
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTAwNzM2NSwtMTk5MjQzMzc0OSwxMD
-E3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3Nzcz
-NDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNj
-ksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0y
-OTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNz
-E2NzY5LDg4Mjk3MDk3OSwxNjM5NTExMDA5LC0yMTI3MjUwOTYs
-MTEyOTM2ODMyMF19
+eyJoaXN0b3J5IjpbODA5NjQ2MDcyLC0xOTkyNDMzNzQ5LDEwMT
+c4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0
+MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OS
+wtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5
+OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MT
+Y3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDksLTIxMjcyNTA5Niwx
+MTI5MzY4MzIwXX0=
 -->
