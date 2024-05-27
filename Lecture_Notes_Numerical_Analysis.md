@@ -425,7 +425,9 @@ $$\begin{pmatrix}
 
 ### Uniqueness
 
-**Theorem.** Interpolation polynomials with $n+1$ nodes are unique in the class of polynomials of degree less than $n$.
+**Theorem.** Interpolation polynomials with $n+1$ nodes $x_i$, $i=0,1,\ldots, n$ are unique in the class of polynomials $q$ with $\deg q\le n$.
+
+**Proof.** (Idea). $p_n$ has at most $n$ roots. Let $p_n$ and $q_n$ be two in
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -434,11 +436,11 @@ $$\begin{pmatrix}
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMjY2NTAzLC0yMTA2MTk5NTgzLDE2ND
-UyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5
-Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC
-0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2
-NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4OD
-E4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2LC0xMjIxNzE2NzY5
-LDg4Mjk3MDk3OV19
+eyJoaXN0b3J5IjpbLTExODM4MDgzNTUsLTIxMDYxOTk1ODMsMT
+Y0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4
+Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MT
+UsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwt
+MTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OT
+g4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYsLTEyMjE3MTY3
+NjksODgyOTcwOTc5XX0=
 -->
