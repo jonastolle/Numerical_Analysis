@@ -269,7 +269,7 @@ Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for 
 
 The intermediate value theorem for continuous functions implies that $x_1<x<x_2$ with $f(x)=0$ exists if $f(x_1) f(x_2)<0$, i.e., there is a sign change. The *bisection method* is based on halving the interval such that the sign condition is preserved. Note that, in principle, we have to look for intervals $[x_1,x_2]$.
 
-Let us analyze the convergence rate
+Let us analyze the convergence rate. Let $[a,b]$ be an interval. After $k$ steps the interval of analysis has length $\frac{b-a}{2^k}$ which converges to zero for $k\to\infty$. Let us look in a neighborhood of radius $
 
 ### Secant method
 
@@ -327,11 +327,11 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjU3OTQ5MywtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2Nj
-MzNjYsLTEyMjE3MTY3NjksODgyOTcwOTc5LDE2Mzk1MTEwMDks
-LTIxMjcyNTA5Nl19
+eyJoaXN0b3J5IjpbOTUwOTQ0MTYyLC0zMzY1NzUyNjEsLTE5OT
+I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
+MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
+0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
+MTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2Mz
+M2NiwtMTIyMTcxNjc2OSw4ODI5NzA5NzksMTYzOTUxMTAwOSwt
+MjEyNzI1MDk2XX0=
 -->
