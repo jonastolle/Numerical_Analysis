@@ -295,7 +295,9 @@ $$\varphi'(x_\ast)=\varphi''(x_\ast)=\ldots=\varphi^{(p-1)}(x_\ast)=0$$ for $p\g
 $$G'(x_\ast)<1$$ if $p=1$. Then  the fixed point sequence $\{\varphi_k(x_0)\}$ converges to $x_\ast$ at least with rate $p$, provided that the starting point $x_0$ is sufficiently close to $x_\ast$. If, in addition, $\varphi^{(p)}(x_\ast)\not=0$, then the rate of convergence is precisely $p$.
 
 **Proof.** First note that by Banach's fixed point theorem the limit indeed converges to $x_\ast$ for suitable starting points $x_0$. By the Taylor expansion,
-$$x_{k+1}-x_\ast=\varphi(x_k)-\varphi(x_\ast)=\sum_{l=1}^{p-1}\frac{\varphi^{(l)}(x_\ast)}{l!}(x_k-x_\ast)^l+\frac{G^{(p)}}{p!}(x_k-x_\ast)^p$$
+$$x_{k+1}-x_\ast=\varphi(x_k)-\varphi(x_\ast)=\sum_{l=1}^{p-1}\frac{\varphi^{(l)}(x_\ast)}{l!}(x_k-x_\ast)^l+\frac{G^{(p)}(\xi)}{p!}(x_k-x_\ast)^p$$
+for some $\xi$ between $x_\ast$ and $x_k$. The sum will be left empty for the case $p=1$. Since $G^{(l)}(x_\ast)=0$ for $1\le l\le p-1$, we get that
+$$|x_{x+1}-x^\ast|=\frac{|G^{(p)}(\xi)|}{p!
 
 ## Polynomial interpolation
 
@@ -307,7 +309,7 @@ $$x_{k+1}-x_\ast=\varphi(x_k)-\varphi(x_\ast)=\sum_{l=1}^{p-1}\frac{\varphi^{(l)
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTA0MzE0OSwtMTk5MjQzMzc0OSwxMD
+eyJoaXN0b3J5IjpbMTcyNTQ3NTQ2MSwtMTk5MjQzMzc0OSwxMD
 E3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3Nzcz
 NDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNj
 ksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0y
