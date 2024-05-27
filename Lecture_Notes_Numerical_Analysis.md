@@ -276,7 +276,9 @@ Every step reduces the error by factor $\frac{1}{2}$. The convergence rate is th
 ### Newton's method
 
 Assume that $f\in C^1$. For an intial value $x_0$, consider the iteration
-$$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$.
+$$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
+> **Heuristics.** If $f(x_\ast)=0$ and $f\in C^2$, by the Taylor expansion,
+> $$0=f(x)=f(x_0)
 
 ### Secant method
 
@@ -336,7 +338,7 @@ which implies that the rate of convergence cannot be higher than $p$. Thus the r
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTkxMTM4NiwtMzM2NTc1MjYxLC0xOT
+eyJoaXN0b3J5IjpbMTM1MDc4NDIzNywtMzM2NTc1MjYxLC0xOT
 kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
 MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
 wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
