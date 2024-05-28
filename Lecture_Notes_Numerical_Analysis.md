@@ -548,8 +548,11 @@ For simplicity, assume that $0\in D$.
 
 For $k=0,\ldots, N$, where $N\in\mathbb{N}$, iterate:
 
-1. Fix initial point $w_0=0\in D$.
+1. Fix initial point $w_0:=0\in D$.
 2. $w_{k+1}$ is obtained by moving away from $w_k$ in the opposite direction of the gradient of $f$ at $w_k$, with step size $\eta_{k+1}>0$, more precisely,
+$$w_{k+1}:=w_k-\eta_k\nabla f(w_{k}),\quad k=0,1,\ldots, N.$$
+
+The constants $\eta_k$ are called *learning rates*
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -558,11 +561,11 @@ For $k=0,\ldots, N$, where $N\in\mathbb{N}$, iterate:
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg4MTI2NDAsMTg1NjM5MjIzLDI0Mz
-A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
-ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
-EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
-NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMD
-I2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQs
-LTI5OTg4MTgwNl19
+eyJoaXN0b3J5IjpbMTI4ODM2MzQzMiwxODU2MzkyMjMsMjQzMD
+cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
+MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
+AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
+MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMj
+Y5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwt
+Mjk5ODgxODA2XX0=
 -->
