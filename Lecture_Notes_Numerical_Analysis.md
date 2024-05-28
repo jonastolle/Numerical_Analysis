@@ -538,6 +538,7 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ## Gradient descent
 
+The go
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -546,11 +547,11 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mz
-c5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4
-NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLT
-EyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAx
-MzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MT
-c2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwt
-MTIyMTcxNjc2OV19
+eyJoaXN0b3J5IjpbLTIxNDczMDA5NjAsMTg1NjM5MjIzLDI0Mz
+A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
+ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
+EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
+NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMD
+I2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQs
+LTI5OTg4MTgwNl19
 -->
