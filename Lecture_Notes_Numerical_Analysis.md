@@ -498,7 +498,19 @@ Notice that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonli
 
 **Note.** The constant $c$ is a divided difference:
 $$f[x_0,x_1,\ldots,x_n,x']=\frac{1}{(n+1)!}f^{(n+1)}(\xi(x')),$$
-which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for $i=0,1,\ldots, n$. 
+which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for $i=0,1,\ldots, n$.
+
+## Piecewise interpolation
+
+### Hermite interpolation
+
+### Splines
+
+## Bézier curves
+
+## Numerical integration
+
+## R 
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -507,11 +519,11 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTk0NzMxMCwyNDMwNzI4NzcsMTUxOT
-M3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3
-ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC
-0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEw
-MTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOT
-E3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYs
-LTEyMjE3MTY3NjldfQ==
+eyJoaXN0b3J5IjpbLTEwNTU0NTI3MjMsMjQzMDcyODc3LDE1MT
+kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
+Nzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NC
+wtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgx
+MDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMT
+kxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2
+LC0xMjIxNzE2NzY5XX0=
 -->
