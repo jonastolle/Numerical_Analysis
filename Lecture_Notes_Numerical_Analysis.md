@@ -488,7 +488,9 @@ Hence
 $$h^{(n+1)}(\xi)=f^{(n+1)}(\xi)-c(n+1)!=0$$
 and thus
 $$c=\frac{f^{(n+1)}(\xi)}{(n+1)!}.$$
-The 
+The residual at $x'$ has the form
+$$R(x')=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x'-x_j).$$
+Note that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depe
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -497,7 +499,7 @@ The
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzE2MTE5MiwxNTE5Mzc5MTcxLC02NT
+eyJoaXN0b3J5IjpbMTIxOTIwMTQyNCwxNTE5Mzc5MTcxLC02NT
 c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
 MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OC
 wzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5
