@@ -546,8 +546,10 @@ which is assumed suitably regular, e.g. $f\in C^1(D\setminus\partial D)$.
 
 For simplicity, assume that $0\in D$.
 
+For $k=0,\ldots, N$, where $N\in\mathbb{N}$, iterate:
+
 1. Fix initial point $w_0=0\in D$.
-2. $w_{k+1}$ is obtained by moving away from $w_k$ in the opposite direction of the gradient of $f$ at
+2. $w_{k+1}$ is obtained by moving away from $w_k$ in the opposite direction of the gradient of $f$ at $w_k$, with step size $\eta_{k+1}>0$, more precisely,
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -556,7 +558,7 @@ For simplicity, assume that $0\in D$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA4ODM5NzgsMTg1NjM5MjIzLDI0Mz
+eyJoaXN0b3J5IjpbLTExNzg4MTI2NDAsMTg1NjM5MjIzLDI0Mz
 A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
 ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
 EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
