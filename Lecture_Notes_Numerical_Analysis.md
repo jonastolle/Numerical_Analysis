@@ -493,7 +493,10 @@ We have proved that:
 
 **Theorem.** If $f\in C^{n+1}$, the residual $R=f-p$ at $x'$ has the form
 $$R(x')=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x'-x_j).$$
-Note that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonlinearly on $x'$.
+
+**Note.** In general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonlinearly on $x'$.
+**Note.** The constant $c$ is a divided difference:
+**f[x_0,x_1,\ldots,x_n,x']=\frac{1}{(n+1)!}f^{(n+1)}
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -502,7 +505,7 @@ Note that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonline
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjM5MjIwLDE1MTkzNzkxNzEsLTY1Nz
+eyJoaXN0b3J5IjpbNzU1MzgyOTgwLDE1MTkzNzkxNzEsLTY1Nz
 QzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUy
 NjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LD
 M5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODky
