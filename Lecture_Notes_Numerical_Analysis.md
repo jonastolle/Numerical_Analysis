@@ -565,7 +565,11 @@ which is particularly useful for the SDG.
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in D.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
-$$m:=\min_{|w|\le R}f,\quad \eta_k:=$$
+$$m:=\min_{|w|\le R}f,\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
+Then for
+$$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
+we have that 
+$$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -574,7 +578,7 @@ $$m:=\min_{|w|\le R}f,\quad \eta_k:=$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mzk5OTEyMywxODU2MzkyMjMsMjQzMD
+eyJoaXN0b3J5IjpbLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMD
 cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
 MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
 AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
