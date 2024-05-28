@@ -569,7 +569,8 @@ $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$
 > $$f\left(\sum_{i=0}^N \lambda_i x_i\right)\le \sum_{i=0}^N \lambda_i f(x_i),$$
 > for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=0}^N\lambda_i=1$.
 
-Continuously differentiable convex functions enjoy the property that 
+Continuously differentiable convex functions $f:\mathbb{R}^d\to\mathbb$ enjoy the so-called subgradient property, i.e.
+$$f(y)-f(x)\le \langle \nabla f(x),y-x\rangle,\quad x,y\in\mathbb{R}^d.$$ 
 
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
@@ -607,11 +608,11 @@ $$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTk1OTk5LC05NTk2ODI4NzQsMTg1Nj
-M5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUs
-LTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzRdfQ==
+eyJoaXN0b3J5IjpbLTQwMjcwOTU3MCwtOTU5NjgyODc0LDE4NT
+YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
+LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0XX0=
 -->
