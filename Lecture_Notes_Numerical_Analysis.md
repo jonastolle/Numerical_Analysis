@@ -164,7 +164,7 @@ for every $z,h\in\mathbb{R}$, $\xi\in [z,z+h]$.
 
 ## Rate of convergence ($Q$-convergence)
 
-Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* (that is, large indicies $l\ge k$) of $(x_k)$. Define the $\limsup$ (*limes superior*) as
+Let $(x_k)$ be an infinite sequence of real numbers.  Let $s_k:=\sup_{l\ge k}x_l$, $k\in\mathbb{N}$, be the *supremum* (i.e., the lowest upper bound) of the *tail* (that is, large indices $l\ge k$) of $(x_k)$. Define the $\limsup$ (*limes superior*) as
 $$\limsup_{k\to\infty}x_k:=\lim_{k\to\infty}s_k\in[-\infty,+\infty].$$
 Other than a limit, it always exists, but can be $\pm\infty$. If $(x_k)$ is bounded, the $\limsup$ is the largest limit of a converging subsequence. If $\lim_{k\to\infty} x_k\in (-\infty,\infty)$ exists, then $\lim_{k\to\infty}x_k=\limsup_{k\to\infty}x_k$. The opposite is not true.
 
@@ -630,11 +630,11 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg2Njc3OTIsLTQxNzQ0NDkyMCwtOT
-U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
-MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLT
-MzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2
-MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMT
-kzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3Njcs
-LTEyMTk0NDk3NF19
+eyJoaXN0b3J5IjpbMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
+k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
+LC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMz
+M2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYz
+Njk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOT
+MsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2Nywt
+MTIxOTQ0OTc0XX0=
 -->
