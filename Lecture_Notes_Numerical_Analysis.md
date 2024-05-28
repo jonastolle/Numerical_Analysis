@@ -275,7 +275,7 @@ Every step reduces the error by factor $\frac{1}{2}$. The convergence rate is th
 
 ### Newton's method
 
-Assume that $f\in C^1$. For an intial value $x_0$, consider the iteration
+Assume that $f\in C^1$. For an initial value $x_0$, consider the iteration
 $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 > **Heuristics.** If $f(x_\ast)=0$ and $f\in C^2$, by the Taylor's expansion,
 > $$0=f(x_\ast)=f(x_0)+(x_\ast-x_0)f'(x_0)+\frac{(x_\ast-x_0)^2}{2}f''(\xi)$$
@@ -307,7 +307,7 @@ $$x_{k+1}-x_\ast=f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)(x_k-x_\ast).$$
 
 ### Secant method
 
-Sometimes it can be difficult or computationally expensive to compute the derivative $f'(x_k)$. Newton 's method can be adapted by approximating the derviative by the differential quotient. The secant method is the following two-step recursive algorithm.
+Sometimes it can be difficult or computationally expensive to compute the derivative $f'(x_k)$. Newton 's method can be adapted by approximating the derivative by the differential quotient. The secant method is the following two-step recursive algorithm.
 $$x_{k+1}=x_k-\frac{f(x_k)(x_k-x_{k-1})}{f(x_k)-f(x_{k-1})},\quad k=1,2,\ldots$$
 with two distinct starting points $x_0\not=x_1$. The convergence rate is $\frac{1+\sqrt{5}}{2}\approx 1.62$, the *golden ratio*. 
 
@@ -630,11 +630,11 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MT
-c0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3
-LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNj
-Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
-OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
-wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
-NjQzMTkxNzY3XX0=
+eyJoaXN0b3J5IjpbMjEwMTQxMDg5NCwxMDI2NjQ4NzM5LDEyMz
+A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
+MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
+A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
+Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
+0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
+OTMwMTAyNjldfQ==
 -->
