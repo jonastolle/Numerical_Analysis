@@ -458,7 +458,10 @@ $$y-y_i=\frac{y_j-y_i}{x_j-x_i}(x-x_i).$$
 **Proof.** (Idea). We have three interpolation polynomials $p$, $q$, $r$, where $\deg p=k$, $\deg q=\deg r=k-1$. $p$ interpolates at $x_0,x_1,\ldots,x_k$, $q$ interpolates at $x_0,x_1,\ldots,x_{k-1}$, and $r$ interpolates at $x_1,\ldots,x_k$.
 **Claim.**
 $$p(x)=q(x)+\frac{x-x_0}{x_k-x_0}\underbrace{(r(x)-q(x))}_{=0\text{\;for\;}x_i}.$$
-$x_0$: $p(x_0)=q9x_0)=f_0$.
+$x_0$: $p(x_0)=q(x_0)=f_0$.
+$x_1,\ldots,x_{k-1}$: $p(x_i)=q(x_i)$.
+$x_k$: $p(x_k)=q(x_k)+\underbrace{\frac{x_k-x_0}{x_k-x_0}}_{=1}(r(x_k)-q9(_k)
+
 
 ### Interpolation error
 
@@ -471,11 +474,11 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNzk3MjY1LC02NTc0MzcyNDUsLTIxMD
-YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
-NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
-E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
-MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5ND
-Q5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYs
-LTEyMjE3MTY3NjldfQ==
+eyJoaXN0b3J5IjpbMTg0Mjg4ODUwNiwtNjU3NDM3MjQ1LC0yMT
+A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
+Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
+0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
+OTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOT
+Q0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2
+LC0xMjIxNzE2NzY5XX0=
 -->
