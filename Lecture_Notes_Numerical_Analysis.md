@@ -451,7 +451,9 @@ $$f[x_0,x_1,\ldots,x_k]=\frac{f[x_1,\ldots,x_k]-f[x_0,\ldots,x_{k-1}]}{x_k-x_0}.
 
 *Why does this work?*
 
-One point: $f[x_j]=f_j=
+One point: $f[x_j]=f_j=y_j$.
+Two points: $f[x_i,x_j]=\frac{f[x_j]-f[x_i]}{x_j-x_i}$ which is the line spanned by the two points $(x_i,y_i)$ and $(x_j,y_j)$, i.e.,
+$$y_j-y_i=\frac
 
 **Proof.** (Idea) 
 
@@ -466,11 +468,11 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTU3MjgyNiwtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
-0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
-OTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOT
-Q0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2
-LC0xMjIxNzE2NzY5XX0=
+eyJoaXN0b3J5IjpbLTEzNjg0NDg0NzksLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMC
+wtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0x
+MzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMT
+k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
+NiwtMTIyMTcxNjc2OV19
 -->
