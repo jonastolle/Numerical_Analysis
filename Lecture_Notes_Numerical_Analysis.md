@@ -582,10 +582,8 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
 **Remark.**
 1. Assume that $f$ has a global minimum in $w_\ast\in\mathbb{R}^d$. Then, the above result ensures the convergence of $f(\bar{w}_N)$ to the minimum $f(w_\ast)$, provided that $R\ge |w_\ast|$. Indeed, the claimed estimate, together with $$f(\bar{w}_N)-f(w_\ast)\ge 0$$ yields $$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1}}.$$
-2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\N}$ converges to $w_\ast$ unless $w_
-
-
-The convergence rate is sublinear unless $f$ is so-called *strongly convex*.
+2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\N}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex*.
+3. The convergence rate is sublinear unless $f$ is so-called *strongly convex*, which gives a linear convergence rate.
 
 **Proof.**
 
@@ -601,11 +599,11 @@ We start by proving an auxiliary result.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwOTkzMzMxLC05NTk2ODI4NzQsMTg1Nj
-M5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUs
-LTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTcyMzgxODQsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
+YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
+LTEyMTk0NDk3NF19
 -->
