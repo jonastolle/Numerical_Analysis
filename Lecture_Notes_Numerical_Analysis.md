@@ -570,7 +570,7 @@ $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$
 > for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=0}^N\lambda_i=1$.
 
 Continuously differentiable convex functions $f:\mathbb{R}^d\to\mathbb{R}$ enjoy the so-called *subgradient property*, i.e.
-$$f(y)-f(x)\le \langle \nabla f(x),y-x\rangle,\quad x,y\in\mathbb{R}^d,$$
+$$f(x)-f(y)\le \langle \nabla f(x),x-y\rangle,\quad x,y\in\mathbb{R}^d,$$
 where $\langle\cdot,\cdot,\rangle$ denotes the Euclidean scalar product. 
 
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
@@ -598,7 +598,7 @@ We start by proving an auxiliary result.
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
 Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}f(w)$, we obtain
-$$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\ast))\le\frac{1}{N+1}\sum_{k=0}^N\langle\nabla f(w_n),w_n-w_\ast\rangle $$
+$$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\ast))\le\frac{1}{N+1}\sum_{k=0}^N\langle\underbrace{\nabla f(w_n)}_{=:v_{n+1}},w_n-w_\ast\rangle $$
 
 
 
@@ -609,11 +609,11 @@ $$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDQ2NjY5NiwtOTU5NjgyODc0LDE4NT
-YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
-LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
-EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
-MTIxOTQ0OTc0XX0=
+eyJoaXN0b3J5IjpbLTE2ODg3NTU3NDQsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
+YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
+LTEyMTk0NDk3NF19
 -->
