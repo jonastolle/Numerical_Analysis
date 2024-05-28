@@ -471,7 +471,7 @@ which in fact does not depend on $x$, which can be proved by the general Leibniz
 Assume that $f\in C^{n+1}$. We are interested in the local (pointwise) error
 $$R(x):=f(x)-p(x),$
 where $p$ is the interpolation polynomial with $\deg p=n$.
-Fix data $(x_i,y_i)$, $y_i=f(x_i)$, $x_i\no
+Fix data $(x_i,y_i)$, $y_i=f(x_i)$, $i=0,1,\ldots, n$, $x_i\not=x_j$, $i\not=j$.
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -480,11 +480,11 @@ Fix data $(x_i,y_i)$, $y_i=f(x_i)$, $x_i\no
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDM2NzUsLTY1NzQzNzI0NSwtMjEwNj
-E5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3
-NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMT
-Y0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkz
-MDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0ND
-k3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2Niwt
-MTIyMTcxNjc2OV19
+eyJoaXN0b3J5IjpbLTEzOTU5NDU1NDUsLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMC
+wtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0x
+MzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMT
+k0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2
+NiwtMTIyMTcxNjc2OV19
 -->
