@@ -628,14 +628,14 @@ $\Box$
 3.  Qingkai Kong, Timmy Siauw, and Alexandre Bayen. [Python Programming and Numerical Methods. A Guide for Engineers and Scientists](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html).  Academic Press, 2020.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
-6. Wikibooks
+6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg5OTYxMTIsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
-EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
-MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMC
-wtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0x
-MzkzMDEwMjY5XX0=
+eyJoaXN0b3J5IjpbLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
+A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
+MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
+A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
+Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
+0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
+OTMwMTAyNjldfQ==
 -->
