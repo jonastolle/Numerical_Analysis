@@ -494,10 +494,11 @@ We have proved that:
 **Theorem.** If $f\in C^{n+1}$, the residual $R=f-p$ at $x'$ has the form
 $$R(x')=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x'-x_j).$$
 
-**Note.** In general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonlinearly on $x'$.
+Notice that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonlinearly on $x'$.
+
 **Note.** The constant $c$ is a divided difference:
 $$f[x_0,x_1,\ldots,x_n,x']=\frac{1}{(n+1)!}f^{(n+1)}(\xi(x')),$$
-which follows from $R^{(n+1)}$=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for al$i=0,1,\ldots, n$. 
+which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for $i=0,1,\ldots, n$. 
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -506,11 +507,11 @@ which follows from $R^{(n+1)}$=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for al$i=0,1,\ldot
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTAzNTgzOSwxNTE5Mzc5MTcxLC02NT
-c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
-MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OC
-wzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5
-MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOT
-Q0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2
-OSw2MTA2NjMzNjZdfQ==
+eyJoaXN0b3J5IjpbMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1Nz
+QzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUy
+NjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LD
+M5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODky
+NTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5ND
+Q5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5
+LDYxMDY2MzM2Nl19
 -->
