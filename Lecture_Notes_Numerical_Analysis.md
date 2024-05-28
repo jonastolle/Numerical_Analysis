@@ -472,7 +472,11 @@ Assume that $f\in C^{n+1}$. We are interested in the local (pointwise) error (*r
 $$R(x):=f(x)-p(x),$$
 where $p$ is the interpolation polynomial with $\deg p=n$.
 Fix data $(x_i,y_i)$, $y_i=f(x_i)$, $i=0,1,\ldots, n$, $x_i\not=x_j$, $i\not=j$.
-Def
+Define an auxiliary function:
+$$h(x)=f(x)-p(x)-cw(x),$$
+where
+$$w(x)=\prod_{j=0}^n(x-x_j)$$
+
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -481,7 +485,7 @@ Def
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMzU2NTEyLDE1MTkzNzkxNzEsLTY1Nz
+eyJoaXN0b3J5IjpbOTE1NDczNjA4LDE1MTkzNzkxNzEsLTY1Nz
 QzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUy
 NjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LD
 M5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODky
