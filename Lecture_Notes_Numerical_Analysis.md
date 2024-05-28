@@ -508,11 +508,19 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ## Bézier curves
 
+### Bernstein polynomials
+
+### Bézier curves
+
+### Lifting
+
+### De Casteljau's algorithm
+
 ## Numerical integration
 
 ### Newton-Cotes quadrature rules
 
-### Gaussian quadrature
+### Gauss quadrature
 
 ## Probabilistic examples
 
@@ -536,11 +544,11 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjQxMDQyNSwyNDMwNzI4NzcsMTUxOT
-M3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3
-ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC
-0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEw
-MTMyMTkzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOT
-E3NjcsLTEyMTk0NDk3NCwtMTIxOTQ0OTc0LC0yOTk4ODE4MDYs
-LTEyMjE3MTY3NjldfQ==
+eyJoaXN0b3J5IjpbOTAzMjM2Nzk4LDI0MzA3Mjg3NywxNTE5Mz
+c5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4
+NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLT
+EyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAx
+MzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MT
+c2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwt
+MTIyMTcxNjc2OV19
 -->
