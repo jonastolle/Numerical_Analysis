@@ -566,7 +566,8 @@ which is particularly useful for the SDG.
 $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$ 
 
 > Note that if $f$ is convex,
-> $$f(\sum_{i=0}^N \lambda_
+> $$f\left(\sum_{i=0}^N \lambda_i x_i\right)\le \sum_{i=0}^N \lambda_i f(x_i)$$
+> for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=1}^N\lambda_i=1$.
 
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
@@ -584,11 +585,11 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMzUyOTE4LC05NTk2ODI4NzQsMTg1Nj
-M5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUs
-LTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
-kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
-MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
-wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
-MjE5NDQ5NzRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTA2MDM1NDksLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
+YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
+LTEyMTk0NDk3NF19
 -->
