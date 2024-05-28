@@ -538,6 +538,8 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ## Gradient descent
 
+The following algorithm is widely used in machine learning, together with its probabilistic counterpart, the stochastic gradient decent (SDG).
+
 The goal is to find the minima of a function
 $$f:D\to\mathbb{R},\quad D\subset\mathbb{R}^d,$$
 which is assumed suitably regular, e.g. $f\in C^1(D\setminus\partial D)$.
@@ -552,7 +554,9 @@ For $k=0,\ldots, N$, where $N\in\mathbb{N}$, iterate:
 2. $w_{k+1}$ is obtained by moving away from $w_k$ in the opposite direction of the gradient of $f$ at $w_k$, with step size $\eta_{k+1}>0$, more precisely,
 $$w_{k+1}:=w_k-\eta_k\nabla f(w_{k}),\quad k=0,1,\ldots, N.$$
 
-The constants $\eta_k$ are called *learning rates*
+The constants $\eta_k$ are called *learning rates*.
+
+After the $N$th step, we may 
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -561,7 +565,7 @@ The constants $\eta_k$ are called *learning rates*
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODM2MzQzMiwxODU2MzkyMjMsMjQzMD
+eyJoaXN0b3J5IjpbMTY4MzQ1NTU1MCwxODU2MzkyMjMsMjQzMD
 cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
 MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
 AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
