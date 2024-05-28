@@ -584,7 +584,7 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 1. Assume that $f$ has a global minimum in $w_\ast\in\mathbb{R}^d$. Then, the above result ensures the convergence of $f(\bar{w}_N)$ to the minimum $f(w_\ast)$, provided that $R\ge |w_\ast|$. Indeed, the claimed estimate, together with
 $$f(\bar{w}_N)-f(w_\ast)\ge 0$$
 yields
-$$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1
+$$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1}}.$$
 
 **Proof.**
 
@@ -600,11 +600,11 @@ We start by proving an auxiliary result.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzE2ODA1MiwtOTU5NjgyODc0LDE4NT
-YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
-LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
-EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
-MTIxOTQ0OTc0XX0=
+eyJoaXN0b3J5IjpbLTIxNDI4NDk0MTgsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
+YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
+LTEyMTk0NDk3NF19
 -->
