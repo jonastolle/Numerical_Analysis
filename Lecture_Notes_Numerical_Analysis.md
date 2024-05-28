@@ -585,13 +585,15 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\N}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex*.
 3. The convergence rate is sublinear unless $f$ is so-called *strongly convex*, which gives a linear convergence rate.
 
-**Proof.**
-
 We start by proving an auxiliary result.
 
 **Lemma.**
 
 **Proof.**
+
+**Proof of the Theorem.** Recalling that $f$ is convex, we get that
+$$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k
+
 
 
 ## Literature
@@ -601,7 +603,7 @@ We start by proving an auxiliary result.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzQxNDQ2LC05NTk2ODI4NzQsMTg1Nj
+eyJoaXN0b3J5IjpbODMwNDUwMTMyLC05NTk2ODI4NzQsMTg1Nj
 M5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUs
 LTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
 kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
