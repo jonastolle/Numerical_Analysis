@@ -611,7 +611,7 @@ The first term is a telescoping sum and $w_0=0$, so that we get
 $$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_\ast|^2-|w_N-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2,$$
 which proves the first assertion.
 For the second assertion it is enough to observe that under our conditions
-$$\frac{|w_\ast|^2}{2\eta}+\frac{\
+$$\frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2\le \frac{R^2}{2\eta}+\frac{\eta(N+1)L^2}{2}=RL(N+1)$$
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
@@ -628,7 +628,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAyNjcwMDQsLTk1OTY4Mjg3NCwxOD
+eyJoaXN0b3J5IjpbLTE1NDk5MTY2NTQsLTk1OTY4Mjg3NCwxOD
 U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
 NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
 E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
