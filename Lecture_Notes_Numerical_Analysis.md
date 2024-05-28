@@ -484,6 +484,11 @@ Furthermore,
 $$h(x')=f(x')-p(x')-\frac{f(x')-p(x')}{w(x')}w(x')=0.$$
 Hence $h$ has $n+2$ distinct zeros. By Rolle's theorem (see Differential and Integral Calculus 1), $h^{(n+1)}$ will have at least one zero. Let's call this point $\xi$.
 $$h^{(n+1)}(x)=f^{(n+1)}-\underbrace{p^{(n+1)}(x)}_{=0}-cw^{(n+1)}(x)=f^{(n+1)}(x)-c(n+1)!$$
+Hence
+$$h^{(n+1)}(\xi)=f^{(n+1)}(\xi)-c(n+1)!=0$$
+and thus
+$$c=\frac{f^{(n+1)}(\xi)}{(n+1)!}.$$
+The 
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -492,11 +497,11 @@ $$h^{(n+1)}(x)=f^{(n+1)}-\underbrace{p^{(n+1)}(x)}_{=0}-cw^{(n+1)}(x)=f^{(n+1)}(
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NzEzMzI4LDE1MTkzNzkxNzEsLTY1Nz
-QzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUy
-NjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LD
-M5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODky
-NTg4ODYxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5ND
-Q5NzQsLTEyMTk0NDk3NCwtMjk5ODgxODA2LC0xMjIxNzE2NzY5
-LDYxMDY2MzM2Nl19
+eyJoaXN0b3J5IjpbMTE0MzE2MTE5MiwxNTE5Mzc5MTcxLC02NT
+c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
+MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OC
+wzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5
+MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOT
+Q0OTc0LC0xMjE5NDQ5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2
+OSw2MTA2NjMzNjZdfQ==
 -->
