@@ -9,7 +9,7 @@
 *Last updated: 28.5.2024*
 
 > **Intended learning outcomes.** After the course, the student will be able to...
-> - explain the fundamental concepts of numerical analysis, like condition number, stablilty, and convergence rate;
+> - explain the fundamental concepts of numerical analysis, like condition number, stabilty, and convergence rate;
 > - construct the floating point numbers;
 > - discuss and employ basic numerical algorithms like Newton's method;
 > - use the Monte-Carlo method in basic problems in analysis and geometry;
@@ -630,11 +630,11 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NT
-YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
-LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
-EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
-MTIxOTQ0OTc0XX0=
+eyJoaXN0b3J5IjpbLTEzMjg2Njc3OTIsLTQxNzQ0NDkyMCwtOT
+U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
+MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLT
+MzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2
+MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMT
+kzLC04OTI1ODg4NjEsLTEzOTMwMTAyNjksLTE2NDMxOTE3Njcs
+LTEyMTk0NDk3NF19
 -->
