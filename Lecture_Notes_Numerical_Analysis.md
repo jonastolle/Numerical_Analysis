@@ -607,7 +607,9 @@ $$|w_\ast|\le R,\quad |v_k|\le L,\quad k=1,\ldots,N+1.$$
 $$\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_k-w_\ast|^2+\eta^2|v_{k+1}|^2-|w_k-w_\ast-\eta v_{k+1}|^2\right)=\frac{1}{2\eta}\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}|v_{k+1}|^2.$$
 Adding up with respect to $k$ yields
 $$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\sum_{k=0}^N\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2.$$
-The first term is a telescoping sum and $w_0=0$, so that
+The first term is a telescoping sum and $w_0=0$, so that we get
+$$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_\ast|^2-|w_N-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2,$$
+which proves the first assertion.
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
@@ -624,7 +626,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDExMTk0OCwtOTU5NjgyODc0LDE4NT
+eyJoaXN0b3J5IjpbMjEwMzEwMzkwNywtOTU5NjgyODc0LDE4NT
 YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
 LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
