@@ -557,9 +557,9 @@ $$w_{k+1}:=w_k-\eta_{k+1}\nabla f(w_{k}),\quad k=0,1,\ldots, N.$$
 The constants $\eta_k$ are called *learning rates*.
 
 3. After the $N$th step, we may choose different outputs, as e.g. just $\bar{w}_N:=w_N$ or
-$$\bar{w}_N:=\operatorname{arg\,min}_{n=0,\ldots,N}f(w_n).$$
+$$\bar{w}_N:=\operatorname{arg\,min}_{k=0,\ldots,N}f(w_k).$$
 Less obviously, one may also choose
-$$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
+$$\bar{w}_N:=\frac{1}{N+1}\sum_{k=0}^N w_k,$$
 which is particularly useful for the SDG.
 
 **Definition.** $f:\mathbb{R}^d\to\mathbb{R}$ is called convex, if for every $\lambda\in [0,1]$, $x,y\in \mathbb{R}^d$,
@@ -578,7 +578,7 @@ $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
 $$m:=\min_{|w|\le R}f(w),\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
 Then for
-$$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
+$$\bar{w}_N:=\frac{1}{N+1}\sum_{k=0}^N w_k,$$
 we have that 
 $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
@@ -586,14 +586,14 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
 **Remark.**
 1. Assume that $f$ has a global minimum in $w_\ast\in\mathbb{R}^d$. Then, the above result ensures the convergence of $f(\bar{w}_N)$ to the minimum $f(w_\ast)$, provided that $R\ge |w_\ast|$. Indeed, the claimed estimate, together with $$f(\bar{w}_N)-f(w_\ast)\ge 0$$ yields $$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1}}.$$
-2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\N}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex*.
+2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\mathbb{N}}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex*.
 3. The convergence rate is sublinear unless $f$ is so-called *strongly convex*, which gives a linear convergence rate.
 
 We start by proving an auxiliary result.
 
-**Lemma.** Let $v_1,v_2,\ldots,v_{n+1},w_\ast$ be a sequence of vectors in $\mathbb{R}^d$, and let $\eta>0$. Setting
+**Lemma.** Let $v_1,v_2,\ldots,v_{k+1},w_\ast$ be a sequence of vectors in $\mathbb{R}^d$, and let $\eta>0$. Setting
 $w_0=0$ and
-$$w_n:=w_{n-1}-\eta v_n \quad n\in\mathbb{N},$
+$$w_k:=w_{k-1}-\eta v_k \quad k\in\mathbb{N},$
 we get that
 $$\sum_{k=0}^N \langle v_{n+1},w_n-w_\ast\rangle \le \frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2.$$
 
@@ -615,11 +615,11 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDQxNTMsLTk1OTY4Mjg3NCwxODU2Mz
-kyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwt
-MjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OT
-I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
-MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
-0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
-MTk0NDk3NF19
+eyJoaXN0b3J5IjpbLTk4MTYzMDUyNiwtOTU5NjgyODc0LDE4NT
+YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
+LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0XX0=
 -->
