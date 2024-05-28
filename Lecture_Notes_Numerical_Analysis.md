@@ -481,7 +481,8 @@ $$c=\frac{f(x')-p(x')}{w(x')}.$$
 We find that
 $$h(x_i)=0\quad \text{for}\quad i=0,1,\ldots n.$$
 Furthermore,
-$$h(x')=f(x')-p(x')-\frac{f(x')-p(x')}{w(x')}w(x')=0.$
+$$h(x')=f(x')-p(x')-\frac{f(x')-p(x')}{w(x')}w(x')=0.$$
+Hence $h$ has $n+2$ distinct zeros. By Rolle's theorem (see Differential and Integral Calculus 1), $h^{(n+1)}$ will have at least one zero. Let's call this point $\xi$.
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -490,7 +491,7 @@ $$h(x')=f(x')-p(x')-\frac{f(x')-p(x')}{w(x')}w(x')=0.$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODI5NDExMiwxNTE5Mzc5MTcxLC02NT
+eyJoaXN0b3J5IjpbMjA2MjI1MTYwNiwxNTE5Mzc5MTcxLC02NT
 c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
 MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OC
 wzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5
