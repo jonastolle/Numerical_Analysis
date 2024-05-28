@@ -263,7 +263,7 @@ As $x\to a$, $f(x)=f(a)+\tfrac{(x-a)f'(a)}{1!}+\tfrac{(x-a)^2f''(a)}{2!}+\ldots+
 
 Let $f:\mathbb{R}\to\mathbb{R}$ be continuous. We are interested in methods for finding *zeros*, that is, *roots* of $f$, in other words, $x\in\mathbb{R}$, such that $f(x)=0$.
 
-**Definition.** If $f:\mathbb{R}^n\to\mathbb{R}$, $n\in\mathbb{N}$ is $k$-times continuously differentiable, then we write $f\in C^k(\R^n)$ or just $f\in C^k$. For $k=0$, $f\in C^0$ or $f\in C(\R^n)$ or $f\in C([a,b])$ just means that $f$ is assumed to be continuous.
+**Definition.** If $f:\mathbb{R}^n\to\mathbb{R}$, $n\in\mathbb{N}$ is $k$-times continuously differentiable, then we write $f\in C^k(\mathbb{R}^n)$ or just $f\in C^k$. For $k=0$, $f\in C^0$ or $f\in C(\mathbb{R}^n)$ or $f\in C([a,b])$ just means that $f$ is assumed to be continuous.
 
 ### Bisection method
 
@@ -562,7 +562,7 @@ Less obviously, one may also choose
 $$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
 which is particularly useful for the SDG.
 
-**Definition.** $f:\mathbb{R}^d\to\R$ is called convex, if for every $\lambda\in [0,1]$, $x,y\in \mathbb{\R}^d$,
+**Definition.** $f:\mathbb{R}^d\to\mathbb{R}$ is called convex, if for every $\lambda\in [0,1]$, $x,y\in \mathbb{R}^d$,
 $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$ 
 
 > Note that if $f$ is convex,
@@ -573,7 +573,7 @@ Continuously differentiable convex functions $f:\mathbb{R}^d\to\mathbb{R}$ enjoy
 $$f(x)-f(y)\le \langle \nabla f(x),x-y\rangle,\quad x,y\in\mathbb{R}^d,$$
 where $\langle\cdot,\cdot\rangle$ denotes the Euclidean scalar product. 
 
-**Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
+**Theorem.** Let $f:\mathbb{R}^d\to\mathbb{R}$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
 $$m:=\min_{|w|\le R}f(w),\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
@@ -591,7 +591,7 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
 We start by proving an auxiliary result.
 
-**Lemma.** Let $v_1,
+**Lemma.** Let $v_1,v_2,\ldots,v_{n+1},w_\ast$ be a sequence of vectors in $\mathbb{R}^d$
 
 **Proof.** A direct computation shows (polarization identity)
 $$\langle v_{n+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_n-w_\ast|^2+\eta^2|v_{n+1}|^2-|w_n-w_\ast-\eta v_{n+1}|^2\right)$$
@@ -611,7 +611,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjA2MTU2NiwtOTU5NjgyODc0LDE4NT
+eyJoaXN0b3J5IjpbMTYxNjUyODA4OSwtOTU5NjgyODc0LDE4NT
 YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
 LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
