@@ -556,7 +556,8 @@ $$w_{k+1}:=w_k-\eta_k\nabla f(w_{k}),\quad k=0,1,\ldots, N.$$
 
 The constants $\eta_k$ are called *learning rates*.
 
-After the $N$th step, we may 
+After the $N$th step, we may choose different outputs, as e.g. just $\bar{w}_N:=w_N$ or
+$$\bar{w}_N:=\operatorname{arg\,min}_{n=0,\ldots,N}f(w_n)$$
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -565,7 +566,7 @@ After the $N$th step, we may
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzQ1NTU1MCwxODU2MzkyMjMsMjQzMD
+eyJoaXN0b3J5IjpbLTgzNTcxOTE4NywxODU2MzkyMjMsMjQzMD
 cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
 MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
 AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
