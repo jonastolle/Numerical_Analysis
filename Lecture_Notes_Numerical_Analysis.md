@@ -566,10 +566,10 @@ which is particularly useful for the SDG.
 $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$ 
 
 > Note that if $f$ is convex,
-> $$f\left(\sum_{i=0}^N \lambda_i x_i\right)\le \sum_{i=0}^N \lambda_i f(x_i)$$
-> for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=1}^N\lambda_i=1$.
+> $$f\left(\sum_{i=0}^N \lambda_i x_i\right)\le \sum_{i=0}^N \lambda_i f(x_i),$$
+> for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=0}^N\lambda_i=1$.
 
-**Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, differentiable and $L$-Lipschitz continuous, i.e.,
+**Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
 $$m:=\min_{|w|\le R}f,\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
@@ -578,6 +578,7 @@ $$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
 we have that 
 $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
+> **Note.** The point $\bar{w}_N
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
 2. L. Ridgway Scott.  [Numerical Analysis](https://people.cs.uchicago.edu/~ridg/newna/natwo.pdf), Princeton University Press, 2011.
@@ -585,11 +586,11 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA2MDM1NDksLTk1OTY4Mjg3NCwxOD
-U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
-NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
-E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
-NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
-YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
-LTEyMTk0NDk3NF19
+eyJoaXN0b3J5IjpbMTcwNDM5ODU2MywtOTU5NjgyODc0LDE4NT
+YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
+LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0XX0=
 -->
