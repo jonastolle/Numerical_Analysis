@@ -462,7 +462,8 @@ $x_0$: $p(x_0)=q(x_0)=f_0$.
 $x_1,\ldots,x_{k-1}$: $p(x_i)=q(x_i)$.
 $x_k$: $p(x_k)=q(x_k)+\underbrace{\frac{x_k-x_0}{x_k-x_0}}_{=1}(r(x_k)-q(x_k)=r(x_k)$.
 The highest order term has the coefficient
-$$\frac{r(x)-q(x)}{x_k-x_0
+$$\frac{r(x)-q(x)}{x_k-x_0},$$
+which in fact does not depend on $x$, which can be proved by the general Leibniz rule. $\Box$
 
 
 ### Interpolation error
@@ -476,11 +477,11 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjAxMTMzNywtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
-0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
-OTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOT
-Q0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2
-LC0xMjIxNzE2NzY5XX0=
+eyJoaXN0b3J5IjpbODg0NjQ1ODA3LC02NTc0MzcyNDUsLTIxMD
+YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
+NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
+E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
+MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5ND
+Q5NzQsLTI5OTg4MTgwNiwtMTIyMTcxNjc2OSw2MTA2NjMzNjYs
+LTEyMjE3MTY3NjldfQ==
 -->
