@@ -544,7 +544,10 @@ which is assumed suitably regular, e.g. $f\in C^1(D\setminus\partial D)$.
 
 **Gradient descent algorithm.**
 
-1. Fix initial point $w_0\in D$
+For simplicity, assume that $0\in D$.
+
+1. Fix initial point $w_0=0\in D$.
+2. $w_{k+1}$ is obtained by moving away from $w_k$ in the opposite direction of the gradient of $f$ at
 
 ## Literature
 1. Anne Greenbaum and Tim P. Chartier.  [Numerical Methods: Design, Analysis, and Computer Implementation of Algorithms](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), Princeton University Press, 2012.
@@ -553,11 +556,11 @@ which is assumed suitably regular, e.g. $f\in C^1(D\setminus\partial D)$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjUwNTcyNiwxODU2MzkyMjMsMjQzMD
-cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
-MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
-AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
-MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMj
-Y5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwt
-Mjk5ODgxODA2XX0=
+eyJoaXN0b3J5IjpbLTE5ODA4ODM5NzgsMTg1NjM5MjIzLDI0Mz
+A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
+ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
+EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
+NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5MzAxMD
+I2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0xMjE5NDQ5NzQs
+LTI5OTg4MTgwNl19
 -->
