@@ -455,7 +455,8 @@ One point: $f[x_j]=f_j=y_j$.
 Two points: $f[x_i,x_j]=\frac{f[x_j]-f[x_i]}{x_j-x_i}$ which is the line spanned by the two points $(x_i,y_i)$ and $(x_j,y_j)$, i.e.,
 $$y-y_i=\frac{y_j-y_i}{x_j-x_i}(x-x_i).$$
 
-**Proof.** (Idea). We have three interpolation polynomials $p$, $q$, $r$, where $\deg p=k$
+**Proof.** (Idea). We have three interpolation polynomials $p$, $q$, $r$, where $\deg p=k$, $\deg q=\deg r=k-1$. $p$ interpolates at $x_0,x_1,\ldots,x_k$, $q$ interpolates at $x_0,x_1,\ldots,x_{k-1}$, and $r$ interpolates at $x_1,\ldots,x_k$.
+
 
 ### Interpolation error
 
@@ -468,7 +469,7 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTAxMDk5LC02NTc0MzcyNDUsLTIxMD
+eyJoaXN0b3J5IjpbMTg1MTU1NzUyLC02NTc0MzcyNDUsLTIxMD
 YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
 NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
 E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
