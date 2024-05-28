@@ -456,7 +456,9 @@ Two points: $f[x_i,x_j]=\frac{f[x_j]-f[x_i]}{x_j-x_i}$ which is the line spanned
 $$y-y_i=\frac{y_j-y_i}{x_j-x_i}(x-x_i).$$
 
 **Proof.** (Idea). We have three interpolation polynomials $p$, $q$, $r$, where $\deg p=k$, $\deg q=\deg r=k-1$. $p$ interpolates at $x_0,x_1,\ldots,x_k$, $q$ interpolates at $x_0,x_1,\ldots,x_{k-1}$, and $r$ interpolates at $x_1,\ldots,x_k$.
-
+**Claim.**
+$$p(x)=q(x)+\frac{x-x_0}{x_k-x_0}\underbrace{(r(x)-q(x))}_{=0\text{\;for\;}x_i}.$$
+$x_0$: $p(x_0)=q9x_0)=f_0$.
 
 ### Interpolation error
 
@@ -469,7 +471,7 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTU1NzUyLC02NTc0MzcyNDUsLTIxMD
+eyJoaXN0b3J5IjpbMjkzNzk3MjY1LC02NTc0MzcyNDUsLTIxMD
 YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
 NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
 E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
