@@ -597,7 +597,11 @@ $$w_k:=w_{k-1}-\eta v_k \quad k\in\mathbb{N},$$
 we get that
 $$\sum_{k=0}^N \langle v_{k+1},w_k-w_\ast\rangle \le \frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2.$$
 In particular, we have that
-$$\frac{1}{N+1}\sum_{k=0}^N \ra
+$$\frac{1}{N+1}\sum_{k=0}^N \langle v_{k+1},w_k-w_\ast\rangle\le \frac{RL}{\sqrt{N+1}},$$
+for any $R,L>0$ such that
+$$\eta=\frac{R}{L\sqrt{N+1}},$$
+and
+$$|w_\ast\le R
 
 **Proof.** A direct computation shows (polarization identity)
 $$\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_n-w_\ast|^2+\eta^2|v_{n+1}|^2-|w_n-w_\ast-\eta v_{n+1}|^2\right)$$
@@ -617,7 +621,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUxNDEzNCwtOTU5NjgyODc0LDE4NT
+eyJoaXN0b3J5IjpbLTYxNDk0ODg2MiwtOTU5NjgyODc0LDE4NT
 YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
 LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
