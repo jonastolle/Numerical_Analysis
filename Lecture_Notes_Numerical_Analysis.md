@@ -569,6 +569,8 @@ $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$
 > $$f\left(\sum_{i=0}^N \lambda_i x_i\right)\le \sum_{i=0}^N \lambda_i f(x_i),$$
 > for every $x_0,x_1,\ldots,x_N\in \mathbb{R}^d$, whenever $\lambda_i\in [0,1]$ satisfy $\sum_{i=0}^N\lambda_i=1$.
 
+Continuously differentiable convex functions enjoy the property that 
+
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
@@ -594,7 +596,7 @@ We start by proving an auxiliary result.
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
 Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}f(w)$, we obtain
-$$f(\bar{w}_N)-m=f(\bar{w}_N
+$$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\ast))\le$$
 
 
 
@@ -605,11 +607,11 @@ $$f(\bar{w}_N)-m=f(\bar{w}_N
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5NzM2MTAsLTk1OTY4Mjg3NCwxODU2Mz
-kyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwt
-MjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OT
-I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
-MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
-0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
-MTk0NDk3NF19
+eyJoaXN0b3J5IjpbMTE1MTk1OTk5LC05NTk2ODI4NzQsMTg1Nj
+M5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUs
+LTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOT
+kyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYw
+MzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MS
+wtMTM5MzAxMDI2OSwtMTY0MzE5MTc2NywtMTIxOTQ0OTc0LC0x
+MjE5NDQ5NzRdfQ==
 -->
