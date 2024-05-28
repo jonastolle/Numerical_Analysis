@@ -438,7 +438,7 @@ We have used the corollary to the fundamental theorem of algebra which states th
 Let $p$ be a Newton interpolation polynomial
 $$p(x)=a_0+a_1(x_1-x_0)+a_2(x-x_2)(x-x_1)+\ldots+a_n\prod_{j=0}^{n=1}(x-x_j).$$
 
-**Definition.** The divided difference of order $k$, denoted by $f[x_0,x_1,\ldots,x_k]$, is defined as the $a_k$-coefficient of the Newton interpolation polynomial with data $y_i=f(x_i)$, in other words, 
+**Definition.** The *divided difference of order $k$*, denoted by $f[x_0,x_1,\ldots,x_k]$, is defined as the $a_k$-coefficient of the Newton interpolation polynomial with data $y_i=f(x_i)$, in other words, 
 $$f[x_0,x_1,\ldots,x_k]:=a_k.$$
 
 **Theorem.**
@@ -448,6 +448,12 @@ $$f[x_0,x_1,\ldots,x_k]=\frac{f[x_1,\ldots,x_k]-f[x_0,\ldots,x_{k-1}]}{x_k-x_0}.
 
 > **Example.** ** $(1,2)$, $(2,3)$, $(3,6)$, $p_2(x)=x^2-2x+3$,  Newton: $a_0=2$, $a_1=1$, $a_2=1$.
 > $f[x_0]=2=a_0$, $f[x_1]=3$, $f[x_2]=6$, $f[x_0,x_1]=\frac{3-2}{2-1}=1=a_1$, $f[x_1,x_2]=\frac{6-3}{3-2}=3$, $f[x_0,x_1,x_2]=\frac{3-1}{3-1}=1=a_2$.
+
+*Why does this work?*
+
+One point: $f[x_j]=f_j=
+
+**Proof.** (Idea) 
 
 ### Interpolation error
 
@@ -460,11 +466,11 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNj
-Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
-OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
-wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
-NjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwtMjk5OD
-gxODA2LC0xMjIxNzE2NzY5LDYxMDY2MzM2NiwtMTIyMTcxNjc2
-OSw4ODI5NzA5NzldfQ==
+eyJoaXN0b3J5IjpbMTQ4MTU3MjgyNiwtNjU3NDM3MjQ1LC0yMT
+A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
+Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
+0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
+OTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwtMTIxOT
+Q0OTc0LC0yOTk4ODE4MDYsLTEyMjE3MTY3NjksNjEwNjYzMzY2
+LC0xMjIxNzE2NzY5XX0=
 -->
