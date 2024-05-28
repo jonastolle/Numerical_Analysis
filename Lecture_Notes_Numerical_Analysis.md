@@ -286,7 +286,7 @@ $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}\quad k=0,1,\ldots.$$
 
 **Proof.** By Taylor's expansion, it follows that
 $$x_\ast=x_k-\frac{f(x_k)}{f'(x_k)}-\frac{(x_\ast-x_k)^2}{2}\frac{f''(\xi_k)}{f'(x_k)}$$
-for some $\xi_k\in [x_\ast,x_k]$. Take $x_{k+1}$ from the method and substract,
+for some $\xi_k\in [x_\ast,x_k]$. Take $x_{k+1}$ from the method and subtract,
 $$x_{k+1}-x_\ast=(x_\ast-x_k)^2\underbrace{\frac{f''(\xi_k)}{2f'(x_k)}}_{\le D}.$$
 In other words,
 $$|x_{k+1}-x_\ast|\le D |x_k-x^\ast|^2,$$
@@ -351,7 +351,7 @@ If $\varphi^{(p)}\not=0$, then by continuity, there exists $K>0$ such that
 $$\frac{|\varphi^{(p)}(\xi_k)|}{p!}\ge K$$
 for $\xi_K$ sufficiently close to $x_\ast$. Thus
 $$|x_{k+1}-x_\ast|\ge K|x_k-x_\ast|^p$$
-which implies that the rate of convergence cannot be higher than $p$. Thus the rate of convergence is percisely $p$. $\Box$
+which implies that the rate of convergence cannot be higher than $p$. Thus the rate of convergence is precisely $p$. $\Box$
 
 > **Note.** From the above proof, we expect that close to the fixed point $x_\ast$
 > $$|x_{k+1}-x_\ast|\approx \frac{|\varphi^{(p)}(x_\ast)|}{p!} |x_k-x_\ast|^p,$$
@@ -370,7 +370,7 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 > $p(x)=1$, $q(x)=x^2$, or $r(x)=x^4-x^2+1$. However, we will see later that $p$ is the unique interpolation polynomial with $\deg p\le 1= n$.
 
 **Example.** $(1,2)$, $(2,3)$, $(3,6)$, as data set $\{(x_i,y_i)\;\colon\;i=0,1,2\}$ on the interval $[1,3]$.
-We are looking for a polynomial $p_2(x)=\sum_{j=0}^2 c_j x^j$, which is chosen to be 2nd order, because we have $3$ data points and $3$ unknown coeffiecients.
+We are looking for a polynomial $p_2(x)=\sum_{j=0}^2 c_j x^j$, which is chosen to be 2nd order, because we have $3$ data points and $3$ unknown coefficients.
 We can formulate the problem in matrix form:
 $$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}y_0\\y_1\\y_2\end{pmatrix},$$
 which is a Vandermonde matrix which has determinant
@@ -630,11 +630,11 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTQxMDg5NCwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC
-0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4NjEsLTEz
-OTMwMTAyNjldfQ==
+eyJoaXN0b3J5IjpbMjk4NTIwMTU2LDEwMjY2NDg3MzksMTIzMD
+YzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIz
+LDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMD
+YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
+NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
+E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
+MzAxMDI2OV19
 -->
