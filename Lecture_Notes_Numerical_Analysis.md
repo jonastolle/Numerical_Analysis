@@ -462,7 +462,7 @@ $x_0$: $p(x_0)=q(x_0)=f_0$.
 $x_1,\ldots,x_{k-1}$: $p(x_i)=q(x_i)$.
 $x_k$: $p(x_k)=q(x_k)+\underbrace{\frac{x_k-x_0}{x_k-x_0}}_{=1}(r(x_k)-q(x_k)=r(x_k)$.
 The highest order term has the coefficient
-$$\frac{r(x)-q(x)}{x_k-x_0},$$
+$$\frac{p^{k}}\frac{r(x)-q(x)}{x_k-x_0},$$
 which in fact does not depend on $x$, which can be proved by the general Leibniz rule. $\Box$
 
 
@@ -477,7 +477,7 @@ Assume that $f\in C^{n+1}$.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NjQ1ODA3LC02NTc0MzcyNDUsLTIxMD
+eyJoaXN0b3J5IjpbNzkwNzUzMTAyLC02NTc0MzcyNDUsLTIxMD
 YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
 NzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLT
 E2NDc3NzM0MTUsLTE4MTAxMzIxOTMsLTg5MjU4ODg2MSwtMTM5
