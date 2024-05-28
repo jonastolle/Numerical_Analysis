@@ -520,6 +520,8 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ### Newton-Cotes quadrature rules
 
+### Orthogonal polynomials
+
 ### Gauss quadrature
 
 ## Probabilistic examples
@@ -544,7 +546,7 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMjM2Nzk4LDI0MzA3Mjg3NywxNTE5Mz
+eyJoaXN0b3J5IjpbMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mz
 c5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4
 NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLT
 EyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAx
