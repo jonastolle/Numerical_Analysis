@@ -617,7 +617,7 @@ $\Box$
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
 Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}f(w)$, we obtain by the Lemma,
-$$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_n)-f(w_\ast))\le\frac{1}{N+1}\sum_{k=0}^N\langle\underbrace{\nabla f(w_n)}_{=:v_{n+1}},w_n-w_\ast\rangle\le \frac{RL}{\sqrt{N+1}}. $$
+$$f(\bar{w}_N)-m=f(\bar{w}_N)-f(w_\ast)\le\frac{1}{N+1}\sum_{k=0}^M(f(w_k)-f(w_\ast))\le\frac{1}{N+1}\sum_{k=0}^N\langle\underbrace{\nabla f(w_k)}_{=:v_{k+1}},w_k-w_\ast\rangle\le \frac{RL}{\sqrt{N+1}}. $$
 $\Box$
 
 
@@ -629,7 +629,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODE3NjA4MywtOTU5NjgyODc0LDE4NT
+eyJoaXN0b3J5IjpbLTgzOTkzNzI0OSwtOTU5NjgyODc0LDE4NT
 YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
 LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
