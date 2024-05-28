@@ -573,7 +573,7 @@ Continuously differentiable convex functions $f:\mathbb{R}^d\to\mathbb{R}$ enjoy
 $$f(x)-f(y)\le \langle \nabla f(x),x-y\rangle,\quad x,y\in\mathbb{R}^d,$$
 where $\langle\cdot,\cdot\rangle$ denotes the Euclidean scalar product. 
 
-**Theorem.** Let $f:\mathbb{R}^d\to\mathbb{R}$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
+**Theorem.** Let $f:\mathbb{R}^d\to\mathbb{R}$ be convex, continuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
 $$m:=\min_{|w|\le R}f(w),\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
@@ -630,7 +630,7 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4NTIwMTU2LDEwMjY2NDg3MzksMTIzMD
+eyJoaXN0b3J5IjpbODc4OTQxOTY1LDEwMjY2NDg3MzksMTIzMD
 YzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIz
 LDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMD
 YxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMz
