@@ -605,7 +605,9 @@ $$|w_\ast|\le R,\quad |v_k|\le L,\quad k=1,\ldots,N+1.$$
 
 **Proof.** A direct computation shows (polarization identity)
 $$\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_k-w_\ast|^2+\eta^2|v_{k+1}|^2-|w_k-w_\ast-\eta v_{k+1}|^2\right)=\frac{1}{2\eta}\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}|v_{k+1}|^2.$$
-Adding up with respect t
+Adding up with respect to $k$ yields
+$$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\sum_{k=0}^N\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2.$$
+The first term is a telescoping sum and $w_0=0$, so that
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
@@ -622,11 +624,11 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzNDY5MDIsLTk1OTY4Mjg3NCwxOD
-U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
-NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
-E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
-NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
-YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
-LTEyMTk0NDk3NF19
+eyJoaXN0b3J5IjpbMTc0MDExMTk0OCwtOTU5NjgyODc0LDE4NT
+YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
+LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwLC0xNjQ3NzczNDE1LC0xODEwMTMyMTkzLC04OTI1ODg4Nj
+EsLTEzOTMwMTAyNjksLTE2NDMxOTE3NjcsLTEyMTk0NDk3NCwt
+MTIxOTQ0OTc0XX0=
 -->
