@@ -586,6 +586,8 @@ $$f(\bar{w}_N)-f(w_\ast)\ge 0$$
 yields
 $$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1}}.$$
 
+The convergence rate is sublinear unless $f$ is so-called *strongly convex.
+
 **Proof.**
 
 We start by proving an auxiliary result.
@@ -600,11 +602,11 @@ We start by proving an auxiliary result.
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI4NDk0MTgsLTk1OTY4Mjg3NCwxOD
-U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
-NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
-E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
-NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
-YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
-LTEyMTk0NDk3NF19
+eyJoaXN0b3J5IjpbMjM5MzMyMjAsLTk1OTY4Mjg3NCwxODU2Mz
+kyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwt
+MjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OT
+I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
+MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
+0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
+MTk0NDk3NF19
 -->
