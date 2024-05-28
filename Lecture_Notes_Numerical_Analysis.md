@@ -572,7 +572,7 @@ $$f(\lambda x+(1-\lambda y)\le\lambda f(x)+(1-\lambda)f(y).$$
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, countinuously differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in \mathbb{R}^d.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
-$$m:=\min_{|w|\le R}f,\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
+$$m:=\min_{|w|\le R}f(w),\quad \eta_k:=\eta:=\frac{R}{L\sqrt{N+1}}.$$
 Then for
 $$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
 we have that 
@@ -593,7 +593,8 @@ We start by proving an auxiliary result.
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
-Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}$
+Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}f(w)$, we obtain
+$$f(\bar{w}_N)-m=f(\bar{w}_N
 
 
 
@@ -604,11 +605,11 @@ Therefore, for any $w_\ast\in\operatorname{arg\,min}_{|w|\le R}$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ0Nzk1NTcsLTk1OTY4Mjg3NCwxOD
-U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
-NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
-E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
-NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
-YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
-LTEyMTk0NDk3NF19
+eyJoaXN0b3J5IjpbNzM5NzM2MTAsLTk1OTY4Mjg3NCwxODU2Mz
+kyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwt
+MjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OT
+I0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAz
+MCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC
+0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEy
+MTk0NDk3NF19
 -->
