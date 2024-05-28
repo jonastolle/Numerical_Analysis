@@ -593,12 +593,14 @@ We start by proving an auxiliary result.
 
 **Lemma.** Let $v_1,v_2,\ldots,v_{k+1},w_\ast$ be a sequence of vectors in $\mathbb{R}^d$, and let $\eta>0$. Setting
 $w_0=0$ and
-$$w_k:=w_{k-1}-\eta v_k \quad k\in\mathbb{N},$
+$$w_k:=w_{k-1}-\eta v_k \quad k\in\mathbb{N},$$
 we get that
-$$\sum_{k=0}^N \langle v_{n+1},w_n-w_\ast\rangle \le \frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2.$$
+$$\sum_{k=0}^N \langle v_{k+1},w_k-w_\ast\rangle \le \frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2.$$
+In particular, we have that
+$$\frac{1}{N+1}\sum_{k=0}^N \ra
 
 **Proof.** A direct computation shows (polarization identity)
-$$\langle v_{n+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_n-w_\ast|^2+\eta^2|v_{n+1}|^2-|w_n-w_\ast-\eta v_{n+1}|^2\right)$$
+$$\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_n-w_\ast|^2+\eta^2|v_{n+1}|^2-|w_n-w_\ast-\eta v_{n+1}|^2\right)$$
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
 $$f(\bar{w}_N)=f\left(\frac{1}{N+1}\sum_{k=0}^N w_k\right)\le\frac{1}{N+1}\sum_{k=0}^N f(w_k).$$
@@ -615,7 +617,7 @@ $\Box$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTYzMDUyNiwtOTU5NjgyODc0LDE4NT
+eyJoaXN0b3J5IjpbLTE3NTUxNDEzNCwtOTU5NjgyODc0LDE4NT
 YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
 LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
 k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
