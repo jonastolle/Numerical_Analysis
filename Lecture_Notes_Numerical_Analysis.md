@@ -562,6 +562,8 @@ Less obviously, one may also choose
 $$\bar{w}_N:=\frac{1}{N+1}\sum_{n=0}^N w_n,$$
 which is particularly useful for the SDG.
 
+**Definition.** $f:\mathbb{R}^d\to\R$ is called convex, if for every $\lambda\in [0,1]$, $x,y
+
 **Theorem.** Let $f:\mathbb{R}^d\to\R$ be convex, differentiable and $L$-Lipschitz continuous, i.e.,
 $$|f(x)-f(y)|\le L|x-y|,\quad x,y\in D.$$
 Let $R>0$, $N\in\mathbb{N}$. Set
@@ -578,11 +580,11 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 4. Tobin A. Driscoll and Richard J. Braun, [Fundamentals of Numerical Computation](https://fncbook.github.io/fnc/frontmatter.html), SIAM, 2017.
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMD
-cyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4
-MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMT
-AxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3
-MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMj
-Y5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQsLTEyMTk0NDk3NCwt
-Mjk5ODgxODA2XX0=
+eyJoaXN0b3J5IjpbLTIwMjM2ODI0MjcsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMCwtMTY0Nzc3MzQxNSwtMTgxMDEzMjE5MywtODkyNTg4OD
+YxLC0xMzkzMDEwMjY5LC0xNjQzMTkxNzY3LC0xMjE5NDQ5NzQs
+LTEyMTk0NDk3NF19
 -->
