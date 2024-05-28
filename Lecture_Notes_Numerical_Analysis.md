@@ -396,7 +396,7 @@ $$\varphi_i(x_j)=\delta_{i,j}:=\begin{cases}1\text{\;\;if\;\;}i=j,\\0\text{\;\;i
 > $$\varphi_2(x)=\frac{(x-1)(x-2)}{(3-1)(3-2)}$$
 > $$p_2(x)=2\varphi_0(x)+3\varphi_1(x)+6\varphi_2(x)=x^2-2x+3.$$
 
-Evaluating the Lagrange polynomials has the computational complextity $O(n^2)$.
+Evaluating the Lagrange polynomials has the computational complexity $O(n^2)$.
 
 ### Newton's interpolation
 
@@ -630,11 +630,11 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
-k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
-LC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMz
-M2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYz
-Njk3OCwzOTY1NDYwMzAsLTE2NDc3NzM0MTUsLTE4MTAxMzIxOT
-MsLTg5MjU4ODg2MSwtMTM5MzAxMDI2OSwtMTY0MzE5MTc2Nywt
-MTIxOTQ0OTc0XX0=
+eyJoaXN0b3J5IjpbMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MT
+c0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3
+LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNj
+Q1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgy
+OTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNS
+wtMTgxMDEzMjE5MywtODkyNTg4ODYxLC0xMzkzMDEwMjY5LC0x
+NjQzMTkxNzY3XX0=
 -->
