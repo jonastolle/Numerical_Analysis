@@ -574,7 +574,10 @@ where $\mathbf{i}:=\begin{pmatrix}1\\0\end{pmatrix}$, $\mathbf{j}:=\begin{pmatri
 ### Bernstein polynomials
 
 Define the *Bernstein polynomial* $B_k^n(t)$, $t\in [0,1]$ by
-$$B_k^n(t):={n\choose k}$$
+$$B_k^n(t):={n\choose k}t^k(1-t)^{n-k}.$$
+Properties:
+
+1.  
 
 ### Bézier curves
 
@@ -697,7 +700,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjM1MzYzNCwtMzY4NjA0ODIxLC03NT
+eyJoaXN0b3J5IjpbMTMxNzE1Njk0NCwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
 MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
 k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
