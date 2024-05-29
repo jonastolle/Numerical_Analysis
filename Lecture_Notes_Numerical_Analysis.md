@@ -512,7 +512,8 @@ Picewise linear case:
 $$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}},\quad x\in [x_{i-1},x_i].$$
 
 By the residual formula on each subinterval $R(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x-x_j)$, we get the interpolation error
-$$
+$$f(x)-\ell_i(x)=\frac{f''(\xi)}{2!}(x-x_{i-1})(x-x_i),$$
+which simpliefies if $|f''(x)|\le M$
 
 ### Hermite interpolation
 
@@ -643,7 +644,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NDk3MzE2LDE2ODkyNjk5ODksLTk3OT
+eyJoaXN0b3J5IjpbMjE1MjE2NTExLDE2ODkyNjk5ODksLTk3OT
 Y1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAw
 MSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0Mz
 A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
