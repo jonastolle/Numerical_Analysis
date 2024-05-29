@@ -519,7 +519,7 @@ $$|f(x)-\ell_i(x)|\le M\frac{h^2}{8},\quad x\in [x_{i-1},x_i].$$
 
 ### Hermite interpolation
 
-Piecewise interpolation by degree $3$ polynomials $p_3(x)=\sum_{j=0}^3 c_j x^j$. As we have $4$ coefficients, we need $4$ constraints.
+Piecewise interpolation by degree $3$ polynomials $p_3(x)=\sum_{j=0}^3 c_j x^j$. As we have $4$ coefficients, we need $4$ constraints. Let us demand that not only the function but also the derivatives are continuous at the nodes.
 
 ### Splines
 
@@ -648,11 +648,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzUwNDIwMCwxNjg5MjY5OTg5LC05Nz
-k2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAw
-MDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyND
-MwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5
-NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OS
-wxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3
-NzczNDE1XX0=
+eyJoaXN0b3J5IjpbMjUyOTAwMDQ2LDE2ODkyNjk5ODksLTk3OT
+Y1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAw
+MSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0Mz
+A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
+ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
+EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
+NzM0MTVdfQ==
 -->
