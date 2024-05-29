@@ -531,9 +531,12 @@ Set
 $$p'(x)=f'(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f'(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}}+\alpha(x-x_{i-1})(x-x_i).$$
 Integrating yields
 $$p(x)=-\frac{f'(x_{i-1})}{h}\int_{x_{i-1}}^x (t-x_i)\,dt+\frac{f'(x_i)}{h}\int_{x_{i-1}}^x (t-x_{i-1})\,dt+\alpha\int_{x_{i-1}}^x (t-x_{i-1})(t-x_i)\,dt+C.$$
-Plugging in $x_{i-1}$ t $x$ yields that $C=f(x_{i-1})$. Plugging in $x_i$ for $x$
+Plugging in $x_{i-1}$ for $x$ yields that $C=f(x_{i-1})$. Plugging in $x_i$ for $x$ and integrating yields
+$$\alpha=\frac{3}{h^3}(f'(x_{i-1})+f'(x_i))+\frac{6}{h^3}(f(x_{i-1})-f(x_i)).$$
 
 ### Splines
+
+
 
 ## Bézier curves
 
@@ -660,11 +663,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNzYyNDU5LC03NTQ4MTM3OTksMTY4OT
-I2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODcz
-OSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxOD
-U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
-NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
-E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
-NjAzMF19
+eyJoaXN0b3J5IjpbLTE4MTUzNTYwMTAsLTc1NDgxMzc5OSwxNj
+g5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4
+NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LD
+E4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3
+MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MS
+wtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2
+NTQ2MDMwXX0=
 -->
