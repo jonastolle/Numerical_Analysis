@@ -502,9 +502,8 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ## Piecewise interpolation
 
-**Setup.** Fix an interval $[a,b]$
-            
-### Hermite interpolation
+**Setup.** Fix an                                                                                                                                                                                                                                   
+### Hermite interpola     tio                                                                                  n
 
 ### Splines
 
@@ -633,7 +632,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDA3NDE3NywtOTc5NjUxMTM1LC05Nj
+eyJoaXN0b3J5IjpbMjE0MTU1NTkzNywtOTc5NjUxMTM1LC05Nj
 k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
 MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
 kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
