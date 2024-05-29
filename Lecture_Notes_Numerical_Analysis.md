@@ -506,10 +506,12 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 $$h:=\frac{b-a}{n}$$
 for some $n\in\mathbb{N}$, where $n$ is the number of subintervals.
 
-**Idea.** Approximate the function on each subinterval using some *low order* interpolation polynomial.
+**Idea.** Approximate the function on each subinterval using some *low order* interpolation polynomial such that the interpolation function is continuous.
 
-Linear case:
-$$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-
+Picewise linear case:
+$$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}},\quad x\in [x_{i-1},x_i].$$
+
+By the residual f
 
 ### Hermite interpolation
 
@@ -640,11 +642,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI5NTc5NjgsMTY4OTI2OTk4OSwtOT
-c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
-MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
-QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
-OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3ND
-ksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0
-Nzc3MzQxNV19
+eyJoaXN0b3J5IjpbLTc4NDc1NDAyMCwxNjg5MjY5OTg5LC05Nz
+k2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAw
+MDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyND
+MwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5
+NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OS
+wxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3
+NzczNDE1XX0=
 -->
