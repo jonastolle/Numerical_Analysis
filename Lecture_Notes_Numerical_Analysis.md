@@ -561,7 +561,10 @@ for $i=1,\ldots,n-1$.
 In fact, this constitutes a triagonal system:
 $$\frac{2h}{3}z_i+\frac{h}{6}z_{i-1}+\frac{h}{6}z_{i+1}=\frac{1}{h}(f_{i+1}-2f_i+f_{i-1})=:b_i.$$
 The values $z_0$ and $z_n$ at the interval boundary have to be moved to the right hand side, and thus:
-$$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0
+$$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
+and
+$$b_{n+1}:=\frac{1}{h}(f_n-2f_{n-1}+f_{n-2})-\frac{h}{6}z_n.$$
+$z_0$ and $z_n$ can be chosen freely, for example to
 
 ## Bézier curves
 
@@ -688,7 +691,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzg3MDU5MywtNzU0ODEzNzk5LDE2OD
+eyJoaXN0b3J5IjpbLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2OD
 kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
 MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
 g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
