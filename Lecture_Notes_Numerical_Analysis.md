@@ -543,7 +543,10 @@ Let us construct a global piecewise interpolation function $s$ such that:
 
 This requires a *global setup*. All coefficients are difined first, only evaluation is piecewise.
 **Setup.** Let $h=x_i-x_{i-1}$ be constant. Define
-$$z_i:=s''
+$$z_i:=s''(x_i),\quad i=1,\ldots,n-1.$$
+Now,
+$$s''(x)=\frac{1}{h}z_{i-1}(x_i-x)+\frac{1}{h}z_i(x-x_{i-1}).$$
+Integ
 
 ## Bézier curves
 
@@ -670,11 +673,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEyOTMzMzQsLTc1NDgxMzc5OSwxNj
-g5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4
-NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LD
-E4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3
-MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MS
-wtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2
-NTQ2MDMwXX0=
+eyJoaXN0b3J5IjpbMTE1ODg1MTczMiwtNzU0ODEzNzk5LDE2OD
+kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
+MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
+g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
+NDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC
+0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1
+NDYwMzBdfQ==
 -->
