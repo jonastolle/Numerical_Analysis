@@ -553,7 +553,9 @@ $$s_i'(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^2}{2}+\frac{1}{h}z_i\frac{(x-x_{i-1})^
 Set $f_i:=f(x_i)$. We get that
 $$D_i=f_{i-1}-\frac{h^2}{6}z_{i-1}$$
 and
-$$C_i=\frac{1}{h}\left[f_i-f_{i-1}+\frac{h^2}{6}(z_{i-1}-z_i)\right]$$
+$$C_i=\frac{1}{h}\left[f_i-f_{i-1}+\frac{h^2}{6}(z_{i-1}-z_i)\right].$$
+Now $s$ has been defined over all subintervals. However, the $z_i$ are still unknown!
+Using the condition for continuity of the derivatives  y
 
 ## Bézier curves
 
@@ -680,11 +682,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMjg3OTksLTc1NDgxMzc5OSwxNjg5Mj
-Y5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5
-LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NT
-YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
-LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
-k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
-MDMwXX0=
+eyJoaXN0b3J5IjpbMzU4MzU2NzQwLC03NTQ4MTM3OTksMTY4OT
+I2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODcz
+OSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLT
+E5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0
+NjAzMF19
 -->
