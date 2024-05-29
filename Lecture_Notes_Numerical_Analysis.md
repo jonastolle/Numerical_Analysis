@@ -515,9 +515,11 @@ By the residual formula on each subinterval $R(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}\
 $$f(x)-\ell_i(x)=\frac{f''(\xi)}{2!}(x-x_{i-1})(x-x_i),$$
 which simplifies if $|f''(x)|\le M$ by maximization as follows
 $$|f(x)-\ell_i(x)|\le M\frac{h^2}{8},\quad x\in [x_{i-1},x_i].$$
-I
+> **Note.** If $f''$ is bounded over the whole interval $[a,b]$ then the error is the same over the whole interval.
 
 ### Hermite interpolation
+
+Piecewise interpolation by degree $3$ polynomials $p_3(x)=\sum_{j=0}^3 c_
 
 ### Splines
 
@@ -646,7 +648,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc1NjI0MzgsMTY4OTI2OTk4OSwtOT
+eyJoaXN0b3J5IjpbLTEwMjI5MDU3NzAsMTY4OTI2OTk4OSwtOT
 c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
 MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
 QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
