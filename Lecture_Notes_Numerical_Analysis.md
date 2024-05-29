@@ -549,7 +549,7 @@ $$s''(x)=\frac{1}{h}z_{i-1}(x_i-x)+\frac{1}{h}z_i(x-x_{i-1}).$$
 Denote $s$ on the interval $[x_{i-1},x_i]$ by $s_i$. Integrating twice yields
 $$s_i(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^3}{6}+\frac{1}{h}z_i\frac{(x-x_{i-1})^3}{6}+C_i(x-x_{i-1})+D_i,$$
 where
-$$s_i'(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^2}{2}+\frac{1}{h}z_i\frac{(x-x_{i-1})^2}{2}+C_i.$$
+$$s_i'(x)=-\frac{1}{h}z_{i-1}\frac{(x_i-x)^2}{2}+\frac{1}{h}z_i\frac{(x-x_{i-1})^2}{2}+C_i.$$
 Set $f_i:=f(x_i)$. We get that
 $$D_i=f_{i-1}-\frac{h^2}{6}z_{i-1}$$
 and
@@ -564,7 +564,7 @@ The values $z_0$ and $z_n$ at the interval boundary have to be moved to the righ
 $$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
 and
 $$b_{n+1}:=\frac{1}{h}(f_n-2f_{n-1}+f_{n-2})-\frac{h}{6}z_n.$$
-$z_0$ and $z_n$ can be chosen freely, for example to force that the 1st derivative of the spline is exact at the interval boundary points. If $z_0=z_n=0$, the spline is called *natural spline*.
+$z_0$ and $z_n$ can be chosen freely, for example to force that the 1st derivative of the spline is exact at the interval boundary points. If $z_0=z_n=0$, $s$ is called a *natural spline*.
 
 ## Bézier curves
 
@@ -691,11 +691,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2ODI3MzE5LC0zNjg2MDQ4MjEsLTc1ND
-gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
-MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
-U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
-MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLT
-MzNjU3NTI2MSwtMTk5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2
-MzY5NzhdfQ==
+eyJoaXN0b3J5IjpbLTI5OTYwOTU2MiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC
+0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4
+NjM2OTc4XX0=
 -->
