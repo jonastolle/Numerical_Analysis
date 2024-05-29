@@ -536,7 +536,10 @@ $$\alpha=\frac{3}{h^3}(f'(x_{i-1})+f'(x_i))+\frac{6}{h^3}(f(x_{i-1})-f(x_i)).$$
 
 ### Splines
 
+Let us construct a global piecewise interpolation function such that:
 
+1. We do not impose exactness for derivatives.
+2. We get a piecewise polynomial construction of cubic interpolation polyn
 
 ## Bézier curves
 
@@ -663,7 +666,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUzNTYwMTAsLTc1NDgxMzc5OSwxNj
+eyJoaXN0b3J5IjpbLTE1NDg5NDU3ODgsLTc1NDgxMzc5OSwxNj
 g5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4
 NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LD
 E4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3
