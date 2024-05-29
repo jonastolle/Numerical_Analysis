@@ -568,6 +568,9 @@ $z_0$ and $z_n$ can be chosen freely, for example to force that the 1st derivati
 
 ## Bézier curves
 
+Bézier curves are parametrized curves in $\mathbb{R}^2$, that is, $\mathbf{r}(t)=x(t)\mathbf{i}+y(t)\mathbf{j}$,
+where $\mathbf{i}:=
+
 ### Bernstein polynomials
 
 ### Bézier curves
@@ -691,11 +694,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU2OTgzOTIsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NS
-wtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEy
-ODYzNjk3OF19
+eyJoaXN0b3J5IjpbLTgzOTg1NTU2OSwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC
+0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4
+NjM2OTc4XX0=
 -->
