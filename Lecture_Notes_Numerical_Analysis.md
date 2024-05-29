@@ -491,13 +491,13 @@ $$c=\frac{f^{(n+1)}(\xi)}{(n+1)!}.$$
 
 We have proved that:
 
-**Theorem.** If $f\in C^{n+1}$, the residual $R=f-p$ at $x'$ has the form
-$$R(x')=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x'-x_j).$$
+**Theorem.** If $f\in C^{n+1}$, the residual $R=f-p$ at $x$ has the form
+$$R(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x-x_j).$$
 
-Notice that, in general, $R$ is not a polynomial, as $\xi=\xi(x')$ depends nonlinearly on $x'$.
+Notice that, in general, $R$ is not a polynomial, as $\xi=\xi(x)$ depends nonlinearly on $x$.
 
 **Note.** The constant $c$ is a divided difference:
-$$f[x_0,x_1,\ldots,x_n,x']=\frac{1}{(n+1)!}f^{(n+1)}(\xi(x')),$$
+$$f[x_0,x_1,\ldots,x_n,x]=\frac{1}{(n+1)!}f^{(n+1)}(\xi(x)),$$
 which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)$ for $i=0,1,\ldots, n$.
 
 ## Piecewise interpolation
@@ -511,7 +511,8 @@ for some $n\in\mathbb{N}$, where $n$ is the number of subintervals.
 Picewise linear case:
 $$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}},\quad x\in [x_{i-1},x_i].$$
 
-By the residual f
+By the residual formula on each subinterval $R(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x-x_j)$, we get the interpolation error
+$$
 
 ### Hermite interpolation
 
@@ -642,11 +643,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDc1NDAyMCwxNjg5MjY5OTg5LC05Nz
-k2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAw
-MDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyND
-MwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5
-NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQzMzc0OS
-wxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2MDMwLC0xNjQ3
-NzczNDE1XX0=
+eyJoaXN0b3J5IjpbNzU2NDk3MzE2LDE2ODkyNjk5ODksLTk3OT
+Y1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAw
+MSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0Mz
+A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
+ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
+EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
+NzM0MTVdfQ==
 -->
