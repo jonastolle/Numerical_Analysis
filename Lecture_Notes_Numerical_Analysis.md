@@ -519,7 +519,7 @@ $$|f(x)-\ell_i(x)|\le M\frac{h^2}{8},\quad x\in [x_{i-1},x_i].$$
 
 ### Hermite interpolation
 
-Piecewise interpolation by degree $3$ polynomials $p_3(x)=\sum_{j=0}^3 c_j x^j$. As we have $4$ coefficients, we need $4$ constraints. We demand that not only the function but also the derivatives are exact at the nodes. Let $p$ be a cubic interpolation polynomial on $[x_{i-1},x_i]$. Then $p'$ is a quadratic polynomial.
+Piecewise interpolation by degree $3$ polynomials $p_3(x)=\sum_{j=0}^3 c_j x^j$. As we have $4$ coefficients, we need $4$ constraints. We demand that not only the function but also the derivatives are exact at the nodes. Let $p$ be a cubic interpolation polynomial on $[x_{i-1},x_i]$. Then $p'$ is a quadratic polynomial. Recall that $h=x_i-x_{i-1}$.
 We have the conditions:
 
 1. $p(x_{i-1})=f(x_{i-1})$,
@@ -528,8 +528,9 @@ We have the conditions:
 4. $p'(x_{i})=f'(x_{i})$.
 
 Set
-$$p'(x)=f'(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f'(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}}+\alpha(x-x_
-
+$$p'(x)=f'(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f'(x_i)\frac{x-x_{i-1}}{x_i-x_{i-1}}+\alpha(x-x_{i-1})(x-x_i).$$
+Integrating yields
+$$p(x)=-\frac
 ### Splines
 
 ## Bézier curves
@@ -657,7 +658,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjAwMTQzMywtNzU0ODEzNzk5LDE2OD
+eyJoaXN0b3J5IjpbMTc2MzI4MTc4NiwtNzU0ODEzNzk5LDE2OD
 kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
 MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
 g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
