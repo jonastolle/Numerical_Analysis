@@ -564,7 +564,7 @@ The values $z_0$ and $z_n$ at the interval boundary have to be moved to the righ
 $$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
 and
 $$b_{n+1}:=\frac{1}{h}(f_n-2f_{n-1}+f_{n-2})-\frac{h}{6}z_n.$$
-$z_0$ and $z_n$ can be chosen freely, for example to
+$z_0$ and $z_n$ can be chosen freely, for example to reinforce that the 1st derivative of the spline is exact
 
 ## Bézier curves
 
@@ -691,11 +691,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2OD
-kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
-MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
-g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
-NDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC
-0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1
-NDYwMzBdfQ==
+eyJoaXN0b3J5IjpbMTI3MjE0NTI0NywtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC
+0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4
+NjM2OTc4XX0=
 -->
