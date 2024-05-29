@@ -579,7 +579,7 @@ Properties:
 
 1. $\sum_{k=0}^n B_k^n(t)=1$ ($=(t+1-t)^n$),
 2. $0\le B_k^n(t)\le 1$,
-3. 
+3. $B_0^n(0)=B_n^n(1)=1$, otherwise, if $k\not 0$ and $k $B_k^n(0)=B_K^n(1)=0$
 
 ### Bézier curves
 
@@ -702,7 +702,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNTMyNTM5LC0zNjg2MDQ4MjEsLTc1ND
+eyJoaXN0b3J5IjpbNDEwMzI4NzkxLC0zNjg2MDQ4MjEsLTc1ND
 gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
 MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
 U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
