@@ -513,7 +513,9 @@ $$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-x_{i-1}}{x_i-x_{i-
 
 By the residual formula on each subinterval $R(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}\prod_{j=0}^n(x-x_j)$, we get the interpolation error
 $$f(x)-\ell_i(x)=\frac{f''(\xi)}{2!}(x-x_{i-1})(x-x_i),$$
-which simpliefies if $|f''(x)|\le M$
+which simplifies if $|f''(x)|\le M$ by maximization as follows
+$$|f(x)-\ell_i(x)|\le M\frac{h^2}{8},\quad x\in [x_{i-1},x_i].$$
+I
 
 ### Hermite interpolation
 
@@ -644,11 +646,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MjE2NTExLDE2ODkyNjk5ODksLTk3OT
-Y1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAw
-MSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0Mz
-A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
-ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
-EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
-NzM0MTVdfQ==
+eyJoaXN0b3J5IjpbLTExMTc1NjI0MzgsMTY4OTI2OTk4OSwtOT
+c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
+MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
+QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
+OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3ND
+ksMTAxNzgyOTY3NCwtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0
+Nzc3MzQxNV19
 -->
