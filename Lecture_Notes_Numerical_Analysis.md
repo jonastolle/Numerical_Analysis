@@ -506,8 +506,11 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 $$h:=\frac{b-a}{n}$$
 for some $n\in\mathbb{N}$, where $n$ is the number of subintervals.
 
-**Idea.** Approximate the function on each subinterval using some low order interpo
-                                                                                                                                                                                                                                                                                 
+**Idea.** Approximate the function on each subinterval using some *low order* interpolation polynomial.
+
+Linear case:
+$$\ell_i(x)=f(x_{i-1})\frac{x-x_i}{x_{i-1}-x_i}+f(x_i)\frac{x-
+
 ### Hermite interpolation
 
 ### Splines
@@ -637,7 +640,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI1NzEwMDIsMTY4OTI2OTk4OSwtOT
+eyJoaXN0b3J5IjpbLTExMjI5NTc5NjgsMTY4OTI2OTk4OSwtOT
 c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
 MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
 QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
