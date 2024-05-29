@@ -536,7 +536,7 @@ $$\alpha=\frac{3}{h^3}(f'(x_{i-1})+f'(x_i))+\frac{6}{h^3}(f(x_{i-1})-f(x_i)).$$
 
 ### Splines
 
-Let us construct a global piecewise interpolation function $s$ such that:
+Let us construct a global piecewise interpolation function $s\in C^2$ such that:
 
 1. We do not impose exactness for derivatives.
 2. We get a piecewise polynomial construction of cubic interpolation polynomials which is exact and has continuous 1st and 2nd derivatives.
@@ -564,7 +564,7 @@ The values $z_0$ and $z_n$ at the interval boundary have to be moved to the righ
 $$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
 and
 $$b_{n+1}:=\frac{1}{h}(f_n-2f_{n-1}+f_{n-2})-\frac{h}{6}z_n.$$
-$z_0$ and $z_n$ can be chosen freely, for example to reinforce that the 1st derivative of the spline is exact
+$z_0$ and $z_n$ can be chosen freely, for example to reinforce that the 1st derivative of the spline is exact at the inteval boundary points. If $z_0=z_n=0$, the spline is called *natural spline*.
 
 ## Bézier curves
 
@@ -691,7 +691,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjE0NTI0NywtMzY4NjA0ODIxLC03NT
+eyJoaXN0b3J5IjpbMTgzNDA5MjQ1MywtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
 MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
 k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
