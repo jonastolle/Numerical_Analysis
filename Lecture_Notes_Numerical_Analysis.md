@@ -553,7 +553,7 @@ $$s_i'(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^2}{2}+\frac{1}{h}z_i\frac{(x-x_{i-1})^
 Set $f_i:=f(x_i)$. We get that
 $$D_i=f_{i-1}-\frac{h^2}{6}z_{i-1}$$
 and
-$$C_i=\frac{1}{h}[f_i-f_{i-1}+\frac{h^2}{6}(z_{i-1}-z_i)]$
+$$C_i=\frac{1}{h}\left[f_i-f_{i-1}+\frac{h^2}{6}(z_{i-1}-z_i)\right]$$
 
 ## Bézier curves
 
@@ -680,11 +680,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTYzMTc0NCwtNzU0ODEzNzk5LDE2OD
-kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
-MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
-g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
-NDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC
-0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1
-NDYwMzBdfQ==
+eyJoaXN0b3J5IjpbNDcwMjg3OTksLTc1NDgxMzc5OSwxNjg5Mj
+Y5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5
+LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NT
+YzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1
+LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMT
+k5MjQzMzc0OSwxMDE3ODI5Njc0LC0xMjg2MzY5NzgsMzk2NTQ2
+MDMwXX0=
 -->
