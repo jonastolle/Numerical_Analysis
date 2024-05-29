@@ -556,7 +556,7 @@ and
 $$C_i=\frac{1}{h}\left[f_i-f_{i-1}+\frac{h^2}{6}(z_{i-1}-z_i)\right].$$
 Now $s$ has been defined over all subintervals. However, the $z_i$ are still unknown!
 Using the condition for continuity of the derivatives $s_i'(x_i)=s_{i+1}'(x_i)$ for all $i$ yields
-$$\frac{h}{2}z_i+\frac{1}{h}\left((f_i-f_{i-1})+\frac{h^2}{6}(z_{i-1}-z_i)\right)=-\frac{h}{2}z_i+\frac{1}{h}\left((f_{i+1}-f_i)+\frac{h^2}{6}(z_i-z_{i+1})\right),$$
+$$\frac{h}{2}z_i+\frac{1}{h}\left[(f_i-f_{i-1})+\frac{h^2}{6}(z_{i-1}-z_i)\right]=-\frac{h}{2}z_i+\frac{1}{h}\left[(f_{i+1}-f_i)+\frac{h^2}{6}(z_i-z_{i+1})\right],$$
 for $i=1,\ldots,n-1$.
 In fact, this constitutes a triagonal system:
 $$\frac{2h}{3}z_i+\frac{h}{6}z_{i-1}+\frac{h}{6}z_{i+1}=\frac{1}{h}(f_{i+1}-2f_i+f_{i-1})=:b_i.$$
@@ -691,11 +691,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTYwOTU2MiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC
-0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4
-NjM2OTc4XX0=
+eyJoaXN0b3J5IjpbLTIxMDU2OTgzOTIsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NS
+wtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4Mjk2NzQsLTEy
+ODYzNjk3OF19
 -->
