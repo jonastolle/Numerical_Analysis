@@ -546,8 +546,10 @@ This requires a *global setup*. All coefficients are difined first, only evaluat
 $$z_i:=s''(x_i),\quad i=1,\ldots,n-1.$$
 Now,
 $$s''(x)=\frac{1}{h}z_{i-1}(x_i-x)+\frac{1}{h}z_i(x-x_{i-1}).$$
-Integrating twice yields
-$$s_i(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^3}{6}+\frac{1}{h}z_i\frac{(x-x_{i-1})^3}{6}+C_i(x-x_{i-1})+D_i$$
+Denote $s$ on the interval $[x_{i-1},x_i]$ by $s_i$. Integrating twice yields
+$$s_i(x)=\frac{1}{h}z_{i-1}\frac{(x_i-x)^3}{6}+\frac{1}{h}z_i\frac{(x-x_{i-1})^3}{6}+C_i(x-x_{i-1})+D_i,$$
+where
+$$s_i'(x)=
 
 ## Bézier curves
 
@@ -674,7 +676,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzkyNjYzNiwtNzU0ODEzNzk5LDE2OD
+eyJoaXN0b3J5IjpbMjAzNjU4MjU2OCwtNzU0ODEzNzk5LDE2OD
 kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
 MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
 g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
