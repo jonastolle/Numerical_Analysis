@@ -502,7 +502,9 @@ which follows from the formula for $R$, $R^{(n+1)}=f^{(n+1)}$ and $R(x_i)=f(x_i)
 
 ## Piecewise interpolation
 
-**Setup.** Fix an interval $[a,b]$
+**Setup.** Fix a bounded interval $[a,b]$ and a step size / mesh
+$$h:=\frac{b-a}{n}$$
+for some $n\in\mathbb{N}$.
                                                                                                                                                                                                                                                                                  
 ### Hermite interpolation
 
@@ -633,11 +635,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Nj
-k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
-MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
-kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
-Nzg1LC0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NC
-wtMTI4NjM2OTc4LDM5NjU0NjAzMCwtMTY0Nzc3MzQxNSwtMTgx
-MDEzMjE5M119
+eyJoaXN0b3J5IjpbMjc3OTkxMjc0LDE2ODkyNjk5ODksLTk3OT
+Y1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAw
+MSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0Mz
+A3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1
+ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LD
+EwMTc4Mjk2NzQsLTEyODYzNjk3OCwzOTY1NDYwMzAsLTE2NDc3
+NzM0MTVdfQ==
 -->
