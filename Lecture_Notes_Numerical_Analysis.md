@@ -994,7 +994,8 @@ The stability of multistep methods depends on the convergence of the initial val
 
 **Example.** (Good bad example)
 
-$$y_{k+2}-3y_{k+1}+2y_{k}=h\left[\frac{13}{12}f($$
+$$y_{k+2}-3y_{k+1}+2y_{k}=h\left[\frac{13}{12}f(t_{k+2},y_{k+2})-\frac{5}{3}f(t_{k+1},y_{k+1})-\frac{5}{12}f(t_k,y_k)\right].$$
+
 
 ## Gradient descent
 
@@ -1091,11 +1092,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MzU1MjEzLC04Mjc3MjcwNjEsMTY0OT
-MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
-LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0XX0=
+eyJoaXN0b3J5IjpbMTUxODE0ODA4NCwtODI3NzI3MDYxLDE2ND
+kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
+OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NF19
 -->
