@@ -860,7 +860,10 @@ $$|f(t,y)-f(t,z)|\le L|y-z|.$$
 Fix a constant step size $h>0$.
 
 1. $y_0:=y(t_0)$.
-2. $t_{k}:=t_{k-1}+h$ and $y_{k+1}=y_k+h f(t_k,y_k)$, 
+2. $t_{k}:=t_{k-1}+h$ and $y_{k+1}=y_k+h f(t_k,y_k)$, $k=0,1,2\ldots,$.
+
+Applying Taylor's formula yields:
+$$y(t_{k+1})=y(t_k)+hy'(t_k)+\frac{h^2}{2}y''(\xi_k)=$$
 
 ### Linear multistep methods
 
@@ -959,7 +962,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTQ3MzA4MywxNjQ5MzI1OTgzLC01MD
+eyJoaXN0b3J5IjpbLTM5MjM5MzAwNSwxNjQ5MzI1OTgzLC01MD
 g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
 MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
 MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
