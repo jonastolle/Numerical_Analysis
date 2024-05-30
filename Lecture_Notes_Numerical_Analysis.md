@@ -987,6 +987,8 @@ If, moreover,
 $$q\sum_{k=0}^s k^{q-1} b_k=s^q+\sum_{k=0}^{s-1} k^q a_k,$$
 for every $q=1,\ldots,p$ then the truncation error is $O(h^{1+p})$.
 
+The stability of multistep methods depends on the convergence of the initial values $y_1,\ldots,y_{s-1}$ to $y_0$ as $h\to 0$. The second condition yields a global error $O(h^p)$.
+
 ## Gradient descent
 
 The following algorithm is widely used in machine learning, together with its probabilistic counterpart, the stochastic gradient decent (SDG).
@@ -1082,11 +1084,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3OTEyOTMwLC04Mjc3MjcwNjEsMTY0OT
-MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
-LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0XX0=
+eyJoaXN0b3J5IjpbLTE2NzQwOTg1NzgsLTgyNzcyNzA2MSwxNj
+Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
+MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
+c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
+Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
+EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
+ODI4NzRdfQ==
 -->
