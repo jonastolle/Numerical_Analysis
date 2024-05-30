@@ -649,7 +649,9 @@ Integration schemes are called quadratures. Therefore, numerical integration met
 
 ### Monte Carlo integration
 
-Let $X_i$ be i.i.d. (independent, identically distributed) random variables with mean $\mu$ and varianc3e $\sigma
+Let $X_i$, $i\in\mathbb{N}$, be i.i.d. (independent, identically distributed) random variables with *mean* $\mu$ and *variance* $\sigma^2$. Then for the arithmetic mean (also called *Césaro sum*)
+$$A_N:=\frac{1}{N}\sum_{i=1}^N X_i,$$
+we have the 
 
 ### Buffon's needle 
 
@@ -754,7 +756,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MTYxNzA5LDEzMjIzMjg1MTYsLTc2OT
+eyJoaXN0b3J5IjpbNDQ4NDU3NTExLDEzMjIzMjg1MTYsLTc2OT
 QzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5
 LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMj
 Y2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4
