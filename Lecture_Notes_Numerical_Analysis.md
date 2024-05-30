@@ -912,7 +912,11 @@ with $\xi\in [0,\alpha].$
 Hence
 $$1+\alpha\le 1+\alpha+\underbrace{\frac{\alpha^2}{2}e^\xi}_{>0}=e^\alpha.$$
 And thus,
-$$\gamma_n\le e^{n\alpha}\gamma_0+\frac{1-(1+\alpha)^n}{1-(1-\alpha)}\beta\lee^{n\alpha}\gamma_0+\frac{1-(1+\alpha)^n}{1-(1-\alpha)}.$$
+$$\gamma_n\le e^{n\alpha}\gamma_0+\frac{1-(1+\alpha)^n}{1-(1-\alpha)}\beta\le e^{n\alpha}\gamma_0+\frac{e^{n\alpha}-1}{\alpha}\beta.$$
+$\Box$
+
+Returning to the proof of the theorem, we get that
+$$|d_k|
 
 ### Linear multistep methods
 
@@ -1011,11 +1015,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NjU4NjY4LDE2NDkzMjU5ODMsLTUwOD
-Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
-LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTE4MzU3ODEwNSwxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
