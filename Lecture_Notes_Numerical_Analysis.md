@@ -657,7 +657,10 @@ $$\int_a^b f(x)\,dx\approx \int_a^b p_1(x)\,dx=\frac{b-a}{2}[f(a)+f(b)].$$
 $\Rightarrow$ Trapezoidial rule!
 Error formulation:
 $$\int_a^b f(x)\,dx-\int_a^b p_1(x)\,dx=\frac{1}{2}\int_a^b f''(\xi)(x-a)(x-b)\,dx.$$
-Now, $(x-a)(x-b)<0$ for $x\in (a,b)
+Now, $(x-a)(x-b)<0$ for $x\in (a,b)$.
+Therefore, by the mean value theory of integration,
+$$=\frac{1}{2}f''(\eta)\int_a^b (x-a)(x-b)\,dx.$$
+$$=-\frac{1}{12}(b-a)
 
 ### Orthogonal polynomials
 
@@ -786,11 +789,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNjEwNTk0LC02NzAxNTAyMDksMTMyMj
-MyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIx
-LC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Nj
-k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
-MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
-kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
-Nzg1XX0=
+eyJoaXN0b3J5IjpbLTExNDc4NDk3ODYsLTY3MDE1MDIwOSwxMz
+IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
+MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
+k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
+NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMT
+UxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUy
+MDM3ODVdfQ==
 -->
