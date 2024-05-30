@@ -1005,7 +1005,9 @@ $$y_2=3y_1-2y_0=1+3\delta,$$
 $$\cdots$$
 $$y_k=3y_{k-1}-2y_{k-2}=1+(2^k-1)\delta.$$
 Hence, for $\delta\sim 2^{-53}$, and $k=100$, we get the error $\sim 2^{47}$.
-We note, however, that the method is consistent and the exact differential equation is stable (in the mathematical sense), and the perturbation $y_\delta(t)=1+\delta$ converges uniformly to the exact solution $y(t)=1$ as $\delta\to0$.
+We note, however, that the method is consistent and the exact differential equation is stable (in the mathematical sense), and the perturbation $y_\delta(t)=1+\delta$ converges uniformly to the exact solution $y(t)=1$ as $\delta\to 0$.
+
+**Example.** (Effect of rounding error)
 
 
 ## Gradient descent
@@ -1103,11 +1105,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1Nzg0NTg1LC04Mjc3MjcwNjEsMTY0OT
-MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
-LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0XX0=
+eyJoaXN0b3J5IjpbLTEwODY5ODUzMjAsLTgyNzcyNzA2MSwxNj
+Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
+MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
+c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
+Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
+EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
+ODI4NzRdfQ==
 -->
