@@ -606,6 +606,8 @@ $$=n\left(B_{k-1}^{n-1}(t)-B_k^{n-1}(t)\right).$$
 Therefore,
 $$\frac{d}{dt}\beta^n(t)=n\sum_{k=0}^n\left(B_{k-1}^{n-1}(t)-B_k^{n-1}(t)\right) x_k$$
 $$=n\left[\sum_{k=1}^{n}B_{k-1}^{n-1}(t)x_k-\sum_{k=0}^{n-1}B_k^{n-1}(t)x_k\right]$$
+$$n\left[\sum_{k=0}^{n-1}B_{k}^{n-1}(t)x_{k+1}-\sum_{k=0}^{n-1}B_k^{n-1}(t)x_k\right]$$
+$$n\left[\sum_{k=0}^{n}B_{k}^{n-1}(t)x_{k+1}-\sum_{k=0}^{n-1}B_k^{n-1}(t)x_k\right]
 
 ### Lifting
 
@@ -726,11 +728,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUzMTk5NDIsLTc2OTQzMTE2LDEwOT
-MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
-ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
-IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
-MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLT
-IxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTky
-NDMzNzQ5XX0=
+eyJoaXN0b3J5IjpbLTkyNzk4MDkwNiwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDldfQ==
 -->
