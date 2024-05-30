@@ -971,8 +971,9 @@ which is the so-called *backward Euler method* (also called *implicit Euler meth
 
 **General form.**
 
-The general form of a *linear multistep method* is given by
-$$\sum_{j=0}^s a_k y_{n+j}=h\sum_{j=0}^s b_j f(t$$
+The general form of a *linear multistep method* is given for $s\ge 1$ by
+$$\sum_{j=0}^s a_k y_{n+j}=h\sum_{j=0}^s b_j f(t_{n+j},y_{n+j}),$$
+where $a_s=1$ and the coefficients $a_0,\ldots, a_{s-1}$ and $b_0
 
 ## Gradient descent
 
@@ -1069,7 +1070,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTc3MTAzMywtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTcyMzY4ODExNSwtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
