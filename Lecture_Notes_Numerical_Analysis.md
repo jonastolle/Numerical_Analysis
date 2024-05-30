@@ -704,9 +704,12 @@ $$\|q\|:=\left(\int_a^b |q(x)|^2\,dx\right)^{1/2}.$$
 In other words, orthogonality: $\langle p,q\rangle =0$, then we write $p\perp q$.
 Orthonormality: $p\perp q$ and $\langle p,p\rangle =1=\langle q,q\rangle$.
 
-**Gram-Schmidt procedure.**
+**Gram-Schmidt (GS) procedure.**
 *Idea.* Transform a basis to an orthogonal one:
-$$\{1,x,x^2,\ldots,x^k,\ldots\}\longrightarrow \{q_0,q_1,\ldots,q_k,\ldots\},\quad\text$$
+$$\{1,x,x^2,\ldots,x^k,\ldots\}\longrightarrow \{q_0,q_1,\ldots,q_k,\ldots\},\quad\text{orthonormal}.$$
+>**Note.** The GS procedure depends on the inner product, and thus, here, on $a$ and $b$.
+
+$$q_0=\frac[
 
 ### Gauss quadrature
 
@@ -844,11 +847,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjgyNjYzMSwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE1MTEwMTU4OTksMjM1OTY1NTY4LC0zND
+kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
+MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxXX0=
 -->
