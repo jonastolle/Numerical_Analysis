@@ -770,7 +770,8 @@ where $w$ is a positive *weight function*.
 **Theorem.** The previous theorem holds a $\langle\cdot,\cdot\rangle_w$-orthogonal polynomial $q_{n+1}$ with
 $$A_i:=\int_a^b\varphi_i(x)w(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}}^n\frac{x-x_j}{x_i-x_j}.$$
 
-*Error formula.* 
+*Error formula.* $(n+1)$-point rule:
+$$\text{error}=\frac{f^{(2(n+1))(\xi(x)}{(2(n+1))!}\
 
 ## Probabilistic examples
 
@@ -895,7 +896,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODczODcyMCwyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbMTY5NDU3MzkwMCwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
