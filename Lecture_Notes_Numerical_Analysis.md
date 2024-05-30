@@ -627,8 +627,9 @@ $$y_k=\left(1-\frac{k}{n+1}\right)x_k+\frac{k}{n+1}x_{k-1}.$$
 For control points $x_0,x_1,\ldots,x_n$ the algorithm of De Casteljau is as follows:
 
 1. Define constant curves $\beta_i^0(t)=x_i$.
-2. Set $\beta_i^r(t)=(1-t)\beta
+2. Set $$\beta_i^r(t)=(1-t)\beta_{i}^{r-1}(t)+t\beta_{i+1}^{r-1}(t),\quad r=1,\ldots, n,\quad i=0,\ldots,n-r.$$ Th 
 
+The algorithm terminates at $\beta_0^n 
 ## Numerical integration
 
 ### Newton-Cotes quadrature rules
@@ -744,11 +745,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTk1NTkxMywxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
-U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
-NTI2MV19
+eyJoaXN0b3J5IjpbNzY5NDk5MzU3LDEzMjIzMjg1MTYsLTc2OT
+QzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5
+LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMj
+Y2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4
+NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NT
+c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
+MjYxXX0=
 -->
