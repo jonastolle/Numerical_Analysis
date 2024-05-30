@@ -588,6 +588,9 @@ $$B_k^n(t)=(1-t)B_k^{n-1}(t)+tB_{k-1}^{n-1}(t).$$
 
 Fix a finite set $X=\{x_0,x_1\ldots,x_k\}$ of control points $x_i\in\mathbb{R}^n$.
 
+**Definition.** The *convex hull* of $X$ is defined by
+$$\operatorname{conv}(X)=\{y\in\mathbb{R}^n\;\colon\; y=\sum_{k=0}^k \lambda
+
 
 
 ### Lifting
@@ -709,7 +712,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDMzODczOSwtNzY5NDMxMTYsMTA5Mz
+eyJoaXN0b3J5IjpbMTk3MTA0MTc0NSwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
 OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
 MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
