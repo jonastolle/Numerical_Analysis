@@ -871,7 +871,7 @@ with $\xi_k\in [a,b]$.
 (A) truncation error (local),
 (B) global error.
 
-
+*Notation.* $y(t_k)$ denotes the exact solution to the IVP at $t=t_k$, where a$y_k$ denotes the result of the method at step $k$.
 
 ### Linear multistep methods
 
@@ -970,7 +970,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcxMDUwOTMsMTY0OTMyNTk4MywtNT
+eyJoaXN0b3J5IjpbLTExNjYyNTU3NDksMTY0OTMyNTk4MywtNT
 A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
 MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
 kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
