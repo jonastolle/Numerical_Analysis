@@ -932,7 +932,8 @@ $$y_{k+1}=y_k+\frac{h}{2}[f(t_k,y_k)+f(t_{k+1},\tilde{y}_{k+1})]\quad\text{(corr
 
 *Quadrature.* Integral formulation of the IVP:
 $$y(t+h)=y(t)+\int_t^{t+h}f(s,y(s))\,ds,$$
-apply your favorite quadrature 
+apply your favorite quadrature rule, for instance:
+$$\frac{h}{2}[f(t,y(t))+f(t+h,y(t+h))]+O$$ 
 
 Heun's method and Euler's method are explicit.
 
@@ -1033,7 +1034,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTg0NTU5NywxNjQ5MzI1OTgzLC01MD
+eyJoaXN0b3J5IjpbMTM5MDg0NzI3MCwxNjQ5MzI1OTgzLC01MD
 g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
 MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
 MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
