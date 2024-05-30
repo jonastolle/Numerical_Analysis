@@ -601,7 +601,8 @@ We get closed curves if $x_0=x_n$.
 *What about the continuous tangents?*
 Recall that ${n\choose k}=\frac{n!}{k!(n-k)!}$.
 $$\frac{d}{dt}B_k^n(t)={n\choose k}\left(k t^{k-1}(1-t)^{n-k}-(n-k)t^k(1-t)^{n-k-1}\right)$$
-$$=n\left[\frac{(n-\right]$$
+$$=n\left[\frac{(n-1)!}{(k-1)!(n-k)!}t^{k-1}(1-t)^{n-k}-\frac{(n-1)!}{(k)!(n-k-1)!}t^{k}(1-t)^{n-k-1}\right]$$
+$$=\left(B_{k-1}^{
 
 ### Lifting
 
@@ -722,11 +723,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTg2MDkwMCwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
-EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
-MzM3NDldfQ==
+eyJoaXN0b3J5IjpbLTEyNDU2Mjc3OTgsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLT
+IxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTky
+NDMzNzQ5XX0=
 -->
