@@ -750,7 +750,10 @@ where
 $$A_i=\int_a^b\varphi_i(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}}^n\frac{x-x_j}{x_i-x_j},$$
 is exact for all polynomials of degree $2n+1$ or less.
 
-**Proof.** 
+**Proof.** Let $f$ be a polynomial with $\deg f\le 2n+1$. By the polynomial division algorithm,
+$$f=q_{n+1} p_n+r_n,$$
+where $\deg r_n\le n$. Then,
+$$f(x_i)=q_{n+1}(x_i)p_n(x_i)+r_
 
 
 ## Probabilistic examples
@@ -876,11 +879,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY3Mjk3NjMsMjM1OTY1NTY4LC0zND
-kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
-MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxXX0=
+eyJoaXN0b3J5IjpbMTAxMDgzNTUxMiwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
