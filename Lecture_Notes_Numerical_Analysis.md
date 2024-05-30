@@ -779,8 +779,10 @@ We assume that the derviatives of $f$ are continuous, therefore Hermite interpol
 
 **Example.** Gauss rule on $[-1,1]$, $n=1$. Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$, $i=0,1,2$.
 *GS*: $\tilde{q}_0=1$.
-$$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x.$$
-$$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\frac{\langle x^2,x\rangle}{\langle x,x\rangle}\cdot x=x^2-\frac{1}{3}.$$
+$$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x,$$
+where $\langle 1,1\rangle=2$.
+$$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\frac{\langle x^2,x\rangle}{\langle x,x\rangle}\cdot x=x^2-\frac{1}{3},$$
+where $\langle x,x\rangle=\frac{2}{3}$.
 The resulting orthogonal polynomials on $[-1,1]$ are called *Legendre polynomials*.
 $\tilde{q}_2$ (and $q_2$) has the roots $x=\pm\frac{1}{\sqrt{3}}$.
 The associated Newton quadrature rule is:
@@ -916,7 +918,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MDc1MDIsMjM1OTY1NTY4LC0zNDkwND
+eyJoaXN0b3J5IjpbMzc4NDM1NzksMjM1OTY1NTY4LC0zNDkwND
 Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
 LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
 EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
