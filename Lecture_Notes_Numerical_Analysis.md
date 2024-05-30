@@ -724,7 +724,7 @@ which is a three-term recurrence rule!
 >Note. The trick $\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle$ relies heavily on the fact that the inner product is defined by an intergral and that we are dealing with polynomials. The GS procedure works generally in pre-Hilbert spaces, however, then we do not expect this kind of simplification.
 
 *Why does the GS rule work?*
-$$\langle \tilde{q}_j,q_{j-1}\rangle=\langle x q_{j-1},q_{j-1}\rangle -\sum_{i=0}^{j-1}\langle x q_{j-1},q_i$$
+$$\langle \tilde{q}_j,q_{j-1}\rangle=\langle x q_{j-1},q_{j-1}\rangle -\sum_{i=0}^{j-1}\langle x q_{j-1},q_i\rangle\underbrace{\langle q_i,q_{j-1}\rangle}_{=0\;\text{except when}\;i=j-1\;\text{, then it is}\;=1}$$
 
 ### Gauss quadrature
 
@@ -862,11 +862,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI5MjU3MDgsMjM1OTY1NTY4LC0zND
-kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
-MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxXX0=
+eyJoaXN0b3J5IjpbLTIzNDQ5MjY1OCwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
