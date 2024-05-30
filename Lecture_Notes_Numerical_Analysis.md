@@ -955,7 +955,10 @@ $$b_l=\frac{1}{h}\int_{t_k}^{t_{k+1}}\left(\prod_{\substack{j=0\\ j\not=l}}^{m-1
 For $m=1$, $l=0$, we get $b_0=1$ and thus Euler's method!
 The truncation error is $O(h^m)$.
 
-$$Adams-Moulton** 
+**Adams-Moulton** (implicit)
+
+Add $t_{k+1}$ as an interpolation node. Interpolation polynomial $q_m$.
+$$y_{k+1}=y_k +\int_{t_k}^{t_{k+1}} q_{m}(s)\,ds=y_k+h\sum_{l=0}^{m}c_l f(t_{k-l},y_{k-l}),$$
 
 ## Gradient descent
 
@@ -1052,7 +1055,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDgzOTM4NCwxNjQ5MzI1OTgzLC01MD
+eyJoaXN0b3J5IjpbLTk4MTg1MjcwMiwxNjQ5MzI1OTgzLC01MD
 g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
 MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
 MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
