@@ -647,6 +647,8 @@ $$\int_a^b f(x)\,dx=:I$$ by the integral of an interpolation polynomial
 $$I\approx\int_a^b p_k(x)\,dx=:Q(p_k),$$
 where $p_k$ is an interpolant of $f$ over $[a,b]$.
 
+**Lagrange:**
+$$\int_a^b f(x)\,dx\approx \sum_{i=0}^n f(x_i)\int_a^b\left(\prod_{\substack{j=0\\i\not=j}}\frac{x-x_j}{x_i-x_j}\right)\,dx.$$
 
 ### Orthogonal polynomials
 
@@ -775,7 +777,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTk1MjMwMCwxMzIyMzI4NTE2LC03Nj
+eyJoaXN0b3J5IjpbLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
 k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
 OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
 I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
