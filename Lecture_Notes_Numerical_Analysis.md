@@ -725,9 +725,11 @@ $$\tilde{q}_{j}(x)=xq_{j-1}(x)-\langle x q_{j-1},q_{j-1}\rangle q_{j-1}(x)-\lang
 which is a three-term recurrence rule!
 >Note. The trick $\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle$ relies heavily on the fact that the inner product is defined by an intergral and that we are dealing with polynomials. The GS procedure works generally in pre-Hilbert spaces, however, then we do not expect this kind of simplification.
 
-*Why does the GS rule work?*
+**Claim.** The GS procedure works.
+**Proof.**
 $$\langle \tilde{q}_j,q_{j-1}\rangle=\langle x q_{j-1},q_{j-1}\rangle -\sum_{i=0}^{j-1}\langle x q_{j-1},q_i\rangle\underbrace{\langle q_i,q_{j-1}\rangle}_{=0\;\text{except when}\;i=j-1\text{, then it is}\;=1}$$
 $$=\langle xq_{j-1},q_{j-1}\rangle-\langle xq_{j-1},q_{j-1}\rangle=0.$$
+$\Box$
 
 ### Gauss quadrature
 
@@ -753,8 +755,9 @@ is exact for all polynomials of degree $2n+1$ or less.
 **Proof.** Let $f$ be a polynomial with $\deg f\le 2n+1$. By the polynomial division algorithm,
 $$f=q_{n+1} p_n+r_n,$$
 where $\deg r_n\le n$. Then,
-$$f(x_i)=q_{n+1}(x_i)p_n(x_i)+r_
-
+$$f(x_i)=\underbrace{q_{n+1}(x_i)}_{=0}p_n(x_i)+r_n(x_i)=r_n(x_i).$$
+Integrate,
+$$\int_a^b f(x)\,dx=\int_a^b
 
 ## Probabilistic examples
 
@@ -879,11 +882,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDgzNTUxMiwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbODYzNzMzNzU3LDIzNTk2NTU2OCwtMzQ5MD
+Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
+LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
+gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
+MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
+U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
+MV19
 -->
