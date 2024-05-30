@@ -969,6 +969,8 @@ For $m=0$, $l=0$, we get $c_0=1$ and
 $$y_{k+1}=y_k+hf(t_{k+1},y_{k+1}),$$
 which is the so-called *backward Euler method* (also called *implicit Euler method*)!
 
+The general 
+
 ## Gradient descent
 
 The following algorithm is widely used in machine learning, together with its probabilistic counterpart, the stochastic gradient decent (SDG).
@@ -1064,11 +1066,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzcyNzA2MSwxNjQ5MzI1OTgzLC01MD
-g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
-MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
-MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
-ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
-IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
-MjIzXX0=
+eyJoaXN0b3J5IjpbLTEzMjQ1MDM1NjIsLTgyNzcyNzA2MSwxNj
+Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
+MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
+c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
+Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
+EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
+ODI4NzRdfQ==
 -->
