@@ -765,6 +765,8 @@ We can extend the notion of orthogonal polynomials to so-called *weighted orthog
 $$\langle p,q\rangle_w=\int_a^b p(x)q(x)w(x)\,dx,$$
 where $w$ is a positive *weight function*.
 
+One (mathematical) advantage: Works also on $\mathbb{R}=(-\infty,\infty)$.
+
 > **Example.** If $w(x)=e^{-x}$, we get the so-called Laguerre orthogonal polynomials. If $w(x)=e^{-\frac{x^2}{2}}$, we get the so-called Hermite orthogonal polynomials, which are meaningful in probability theory (the weight is the density of the Gaussian normal distribution up to multiplication by a normalization constant).
 
 **Theorem.** The previous theorem holds a $\langle\cdot,\cdot\rangle_w$-orthogonal polynomial $q_{n+1}$ with
@@ -775,7 +777,8 @@ $$\text{error}=\frac{f^{(2(n+1))}(\xi(x))}{(2(n+1))!}\prod_{\substack{j=0\\j\not
 *Where does the square come from?*
 We assume that the derviatives of $f$ are continuous, therefore Hermite interpolation is the natural choice.
 
-**Example.**
+**Example.** Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$.
+*
 
 ## Probabilistic examples
 
@@ -900,11 +903,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4OTczNjEwLDIzNTk2NTU2OCwtMzQ5MD
-Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
-LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
-gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
-MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
-U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
-MV19
+eyJoaXN0b3J5IjpbNzUxODY4MzEsMjM1OTY1NTY4LC0zNDkwND
+Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
+LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
+EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
+LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
+k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
+XX0=
 -->
