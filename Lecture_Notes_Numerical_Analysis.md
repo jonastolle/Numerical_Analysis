@@ -696,11 +696,11 @@ Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 
 ### Orthogonal polynomials
 
-Define the *inner product of two real-valued polynomials on $[a,b]$ (depends on $a$ and $b$!) by:
+Define the *inner product* of two real-valued polynomials on $[a,b]$ (depends on $a$ and $b$!) by:
 $$\langle p,q\rangle=\int_a^b p(x)q(x)\,dx.$$
-The associated norm is given by
-$$
-**Definition.** Two polynomials are said to be *orthogonal* on $[a,b]$ if their inner product is zero. They are said to be *orthonormal
+The associated *norm* on $[a,b]$ is given by
+$$\|q\|:=\left(\int_a^b |q(x)|^2\,dx\right)^{1/2}.$$
+**Definition.** Two non-zero polynomials are said to be *orthogonal* on $[a,b]$ if their inner product is zero. They are said to be *orthonormal* if they are orthogonal and have both norm $1$.
 
 ### Gauss quadrature
 
@@ -838,11 +838,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk0ODE0NDQsLTM0OTA0NjYxOSwxOD
-U3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMx
-MTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMT
-Y4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0
-ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NC
-wxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQz
-NzI0NV19
+eyJoaXN0b3J5IjpbMzM4MjI5ODAsLTM0OTA0NjYxOSwxODU3Mz
+c3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYs
+MTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OT
+I2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODcz
+OSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxOD
+U2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0
+NV19
 -->
