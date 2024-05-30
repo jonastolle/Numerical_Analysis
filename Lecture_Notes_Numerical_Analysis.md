@@ -593,8 +593,8 @@ $$\operatorname{conv}(X)=\left\{y\in\mathbb{R}^n\;\colon\; y=\sum_{k=0}^k \lambd
 
 **Definition.** The Bézier curve $\beta^n$ is defined,
 $$\beta^n(t)=\sum_{k=0}^n x_k B_k^n(t).$$
-
-
+Sanity check: $t=0$, $B_k^n(0)=0$, except $B_0^n(0)=1$.
+$\Rightarrow$ $\beta^n(0)=x_0$
 
 
 
@@ -717,11 +717,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzQ1NDcwLC03Njk0MzExNiwxMDkzMD
-QxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5
-LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OV19
+eyJoaXN0b3J5IjpbMTA4ODI2NDk5NiwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDldfQ==
 -->
