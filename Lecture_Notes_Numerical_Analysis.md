@@ -876,7 +876,9 @@ with $\xi_k\in [a,b]$.
 For Euler, we get that
 $$\frac{y_{k+1}-y_k}{h}=f(t_k,y_k)+\underbrace{\frac{h}{2}y''(\xi_k)}_{\text{local error}\;O(h)}.$$
 Hence the Euler method is locally (in each point) or order $1$.
-
+The method is consistent:
+$$\lim_{h\to 0}\frac{y_{k+1}-y_k}{h}=y'(t_k)=f(t_k,y(t_k)).$$
+> Note that $k$ depends on $h$, which is omitin the notation.
 
 
 ### Linear multistep methods
@@ -976,11 +978,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MzYwMTk1LDE2NDkzMjU5ODMsLTUwOD
-Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
-LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTU2MDIzMjYyNiwxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
