@@ -1009,10 +1009,10 @@ We note, however, that the method is consistent and the exact differential equat
 
 **Example.** (Effect of rounding error)
 
-Returning to the proof of convergence for Euler:
-$$|d_{k+1}|\le (1+hL)|d_k|+\delta$$
-
-$$|d_{k+1}|\le e^{khL}\u|d_0|+\frac{e^{khL}-1}{Lh}\delta$$
+Returning to the proof of convergence for Euler, for the rounding error $\delta>0$,
+$$|d_{k+1}|\le (1+hL)|d_k|+\delta,$$
+we get,
+$$|d_{k+1}|\le e^{L(T-t_0)}\underbrace{|d_0|}_{\text{initial error or uncertainty}}+\underbrac{\frac{e^{L(T-t_0)}-1}{Lh}}_{\text{}}\delta$$
 
 ## Gradient descent
 
@@ -1109,11 +1109,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEyMDMwMDcsLTgyNzcyNzA2MSwxNj
-Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
-MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
-c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
-Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
-EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
-ODI4NzRdfQ==
+eyJoaXN0b3J5IjpbMTAyNzAwMTQxNiwtODI3NzI3MDYxLDE2ND
+kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
+OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NF19
 -->
