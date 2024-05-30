@@ -709,6 +709,8 @@ Orthonormality: $p\perp q$ and $\langle p,p\rangle =1=\langle q,q\rangle$.
 $$\{1,x,x^2,\ldots,x^k,\ldots\}\longrightarrow \{q_0,q_1,\ldots,q_k,\ldots\},\quad\text{orthonormal}.$$
 >**Note.** The GS procedure depends on the inner product, and thus, here, on $a$ and $b$.
 
+The elements of the orthonormal basis are called *orthogonal polynomials*.
+
 1. $$q_0=\frac{1}{\|1\|}=\frac{1}{\left(\int_a^b 1^2\,dx\right)^{1/2}}=\frac{1}{\sqrt{b-a}}.$$
 2. For $j=1,2,\ldots$, $$\tilde{q}_j(x)=xq_{j-1}(x)-\sum_{i=0}^{j-1}\langle x q_{j-1},q_i\rangle q_i(x),$$ and $$q_j(x):=\frac{\tilde{q}_j}{\|\tilde{q}_j\|}.$$ 
 
@@ -739,7 +741,13 @@ $$\int_a^b x\,dx=\frac{b^2-a^2}{2}= A_0 x_0+A_1 x_1.$$
 $$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)=A_0 x_0^2+A_1 x_1^2.$$
 The resulting system is nonlinear!
 
-Let us use the orthogonal polynomial basis 
+Let us use the orthogonal polynomials in the following way.
+
+**Theorem.** Let $x_0,x_1,\ldots,x_n$ be the roots of an orthogonal polynomial $q_{n+1}$ on $[a,b]$ of degree $n$.
+Then
+$$\int_a^b f(x)\,dx\approx\sum_{i=0}^n A_i f(x_i),$$
+where
+$$A_i=\$$
 
 
 ## Probabilistic examples
@@ -865,11 +873,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3NDYzMTIsMjM1OTY1NTY4LC0zNDkwND
-Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
-LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
-EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
-LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
-k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
-XX0=
+eyJoaXN0b3J5IjpbLTM3NTI0NTgwNywyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
