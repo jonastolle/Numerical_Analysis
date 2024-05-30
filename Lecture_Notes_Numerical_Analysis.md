@@ -624,7 +624,10 @@ $$y_k=\left(1-\frac{k}{n+1}\right)x_k+\frac{k}{n+1}x_{k-1}.$$
 
 ### De Casteljau's algorithm
 
+For control points $x_0,x_1,\ldots,x_n$ the algorithm of De Casteljau is as follows:
 
+1. Define constant curves $\beta_i^0(t)=x_i$.
+2. Set $\beta_i^r(t)=(1-t)\beta
 
 ## Numerical integration
 
@@ -741,11 +744,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM0NzA1MzUsMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
-Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
-NzUyNjFdfQ==
+eyJoaXN0b3J5IjpbMTA2MTk1NTkxMywxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
+U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
+NTI2MV19
 -->
