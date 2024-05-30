@@ -850,7 +850,7 @@ By the law of large numbers, the ratio of needles intersecting the lines with al
 *Problem.*
 $$\begin{cases}y'(t)=f(t,y(t)),\\y(t_0)=y_0.\end{cases}$$
 
-*Assumptions.*
+*Assumptions.* Existence and 
 
 ### Euler's method
 
@@ -951,11 +951,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTMyNTk4MywtNTA4NDcyNzg4LDIzNT
-k2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIw
-OSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNj
-g2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTEx
-MzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLT
-QxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4
-NzddfQ==
+eyJoaXN0b3J5IjpbLTE4MjgzNTcxOTIsMTY0OTMyNTk4MywtNT
+A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
+MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
+kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
+OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
+EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
+OTIyM119
 -->
