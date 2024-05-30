@@ -973,7 +973,7 @@ which is the so-called *backward Euler method* (also called *implicit Euler meth
 
 The general form of a *linear multistep method* is given for $s\in \mathbb{N}$ by
 $$\sum_{j=0}^s a_k y_{n+j}=h\sum_{j=0}^s b_j f(t_{n+j},y_{n+j}),$$
-where $a_s=1$ and the coefficients $a_0,\ldots, a_{s-1}$ and $b_0,\ldots,b_s$ determine the method.
+where $a_s=1$ (*normalization*) and the coefficients $a_0,\ldots, a_{s-1}$ and $b_0,\ldots,b_s$ determine the method.
 
 The method is called *explicit* if $b_s=0$, and *implicit* otherwise.
 
@@ -992,7 +992,8 @@ See [Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differe
 
 The stability of multistep methods depends on the convergence of the initial values $y_1,\ldots,y_{s-1}$ to $y_0$ as $h\to 0$. The second condition yields a global error $O(h^p)$.
 
-**Example.** $m=1$, $a_0+a_1=0$, $0\cdot a_0+1\cdot
+**Example.** $m=1$, $a_0+a_1=0$, $0\cdot a_0+1\cdot a_1=b_1$, and by the normalization assumption, $a_1=1$, $a_0=-1$, $b_1=1$, and thus we get,
+$$y_{k+1}=y_k+h f(t_{k+1},y_{k+1
 
 **Example.** (Good bad example)
 
@@ -1111,11 +1112,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzgzNTg0LC04Mjc3MjcwNjEsMTY0OT
-MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
-LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0XX0=
+eyJoaXN0b3J5IjpbMTg5Mjg1NTAyMCwtODI3NzI3MDYxLDE2ND
+kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
+OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NF19
 -->
