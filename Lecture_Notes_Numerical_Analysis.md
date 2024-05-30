@@ -654,13 +654,15 @@ Let $n=1$:
 $$p_1(x)=f(a)\frac{x-b}{a-b}+f(b)\frac{x-a}{b-a},$$
 so
 $$\int_a^b f(x)\,dx\approx \int_a^b p_1(x)\,dx=\frac{b-a}{2}[f(a)+f(b)].$$
-$\Rightarrow$ Trapezoidial rule!
+$\Rightarrow$ Trapezoidal rule!
 Error formulation:
 $$\int_a^b f(x)\,dx-\int_a^b p_1(x)\,dx=\frac{1}{2}\int_a^b f''(\xi)(x-a)(x-b)\,dx.$$
 Now, $(x-a)(x-b)<0$ for $x\in (a,b)$.
 Therefore, by the mean value theory of integration,
 $$=\frac{1}{2}f''(\eta)\int_a^b (x-a)(x-b)\,dx.$$
-$$=-\frac{1}{12}(b-a)
+$$=-\frac{1}{12}(b-a)^3 f''(\eta).$$
+
+Composite rule:
 
 ### Orthogonal polynomials
 
@@ -789,7 +791,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc4NDk3ODYsLTY3MDE1MDIwOSwxMz
+eyJoaXN0b3J5IjpbLTEzMDc1MjIyODYsLTY3MDE1MDIwOSwxMz
 IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
 MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
 k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
