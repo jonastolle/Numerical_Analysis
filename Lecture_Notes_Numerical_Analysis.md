@@ -694,6 +694,8 @@ Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 
 ### Orthogonal polynomials
 
+*Idea.* Choose 
+
 ### Gauss quadrature
 
 ## Probabilistic examples
@@ -819,7 +821,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzIyODM3NiwxODU3Mzc3MjAyLC02Nz
+eyJoaXN0b3J5IjpbLTM2MjIyOTc1NCwxODU3Mzc3MjAyLC02Nz
 AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
 NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
 c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
