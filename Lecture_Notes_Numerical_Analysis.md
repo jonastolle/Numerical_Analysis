@@ -881,9 +881,13 @@ $$\lim_{h\to 0}\frac{y_{k+1}-y_k}{h}=y'(t_k)=f(t_k,y(t_k)).$$
 > Note that $k$ depends on $h$, which we omit in the notation.
 
 What about the global error, that is, uniform convergence on $[t_0,T]$?
-$$\sup|y(t_k)-y_k|\to 0$$ as $h\to 0$?
+$$\max |y(t_k)-y_k|\to 0$$ as $h\to 0$?
 
-**Theorem.** Assume the following
+**Theorem.** Assume the following:
+
+1. $f$ is Lipschitz in the second component.
+2. $\max |y''(t_k)|\le M$ for some global constant $M>0$.
+3. 
 
 ### Linear multistep methods
 
@@ -982,7 +986,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NTQ5NzM5LDE2NDkzMjU5ODMsLTUwOD
+eyJoaXN0b3J5IjpbNjYzMzIxOTc3LDE2NDkzMjU5ODMsLTUwOD
 Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
 LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
