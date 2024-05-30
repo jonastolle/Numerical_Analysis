@@ -747,7 +747,10 @@ Let us use the orthogonal polynomials in the following way.
 Then
 $$\int_a^b f(x)\,dx\approx\sum_{i=0}^n A_i f(x_i),$$
 where
-$$A_i=\$$
+$$A_i=\int_a^b\varphi_i(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}\frac{x-x_j}{x_i-x_j},$$
+is exact for all polynomials of degree $2n+1$ or less.
+
+**Proof.**
 
 
 ## Probabilistic examples
@@ -873,7 +876,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTI0NTgwNywyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbLTc5NDMyNzc1MiwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
