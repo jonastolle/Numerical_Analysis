@@ -694,7 +694,10 @@ Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 
 ### Orthogonal polynomials
 
-*Idea.* Choose 
+*Idea.* Choose the nodes and the weights simultaneously.
+One interval:
+$$\int_a^b f(x)\,dx=A_0 f(x_1)+A_1 f(x_1),$$
+with *weights* $A_0$, $A_1$, and *nodes* $x_0$, $x_1$, $n=1
 
 ### Gauss quadrature
 
@@ -821,11 +824,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjIyOTc1NCwxODU3Mzc3MjAyLC02Nz
-AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
-NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
-c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
-MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
-QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
-OTU4M119
+eyJoaXN0b3J5IjpbNzcxNjAxMzAyLDE4NTczNzcyMDIsLTY3MD
+E1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2
+LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nz
+k2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAw
+MDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyND
+MwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5
+NTgzXX0=
 -->
