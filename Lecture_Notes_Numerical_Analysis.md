@@ -666,7 +666,13 @@ $$=-\frac{1}{12}(b-a)^3 f''(\eta).$$
 $$\int_a^b f(x)\,dx\approx \frac{h}{2}\left[f(x_0)+2f(x_1)+\ldots+2f(x_{n-1})+f(x_n)\right].$$
 Total error: $O(h^2)\sim O(\frac{1}{n^2})$. We say that the method is quadratic.
 
-Let $n=2$. The method is exact for degree $2$ (or lower). In this context, exactness means, that the integral and the method give the exact same result for polyn
+Let $n=2$. The method is exact for degree $2$ (or lower).
+
+>**Note.** In this context, exactness means, that the integral and the method give the exact same result for 
+polynomials of certain order.
+
+$$\int_a^b f(x)\,dx=A_1 f(a)+A_2 f\left(\frac{a+b}{2]\right)+A_3 f(b),$$
+where we call the $A_i$ *weights*.
 
 ### Orthogonal polynomials
 
@@ -795,7 +801,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk5OTI4NDAsLTY3MDE1MDIwOSwxMz
+eyJoaXN0b3J5IjpbLTEyMTQxNjc5MzgsLTY3MDE1MDIwOSwxMz
 IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
 MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
 k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
