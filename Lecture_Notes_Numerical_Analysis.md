@@ -697,7 +697,11 @@ Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 *Idea.* Choose the nodes and the weights simultaneously.
 One interval:
 $$\int_a^b f(x)\,dx=A_0 f(x_1)+A_1 f(x_1),$$
-with *weights* $A_0$, $A_1$, and *nodes* $x_0$, $x_1$, $n=1
+with *weights* $A_0$, $A_1$, and *nodes* $x_0$, $x_1$, for $n=1$, this is a $(n+1)=2$-rule.
+The coefficients are determined by the usual process:
+$$\int_a^b 1\,dx=b-a=A_0+A_1$$
+$$\int_a^b x\,dx=\frac{b^2-a^2}{2}\quad\Rightarrow A_1 a+A_2\left(\frac{a+b}{2}\right)+A_3 b=\frac{b^2-a^2}{2}.$$
+$$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)\quad\Rightarrow A_1 a^2+A_2 \left(\frac{a+b}{2}\right)^2+A_3 b^2=\frac{1}{3}(b^3-a^3).$$
 
 ### Gauss quadrature
 
@@ -824,11 +828,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNjAxMzAyLDE4NTczNzcyMDIsLTY3MD
-E1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2
-LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nz
-k2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAw
-MDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyND
-MwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5
-NTgzXX0=
+eyJoaXN0b3J5IjpbMTA2MDgyNDY3MiwxODU3Mzc3MjAyLC02Nz
+AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
+NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
+c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
+MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
+QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
+OTU4M119
 -->
