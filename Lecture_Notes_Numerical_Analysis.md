@@ -11,7 +11,7 @@
 Largely based the lecture transcript by Harri Hakula, 2021.
 
 > **Intended learning outcomes.** After the course, the student will be able to...
-> - explain the fundamental concepts of numerical analysis, like condition number, stabilty, and convergence rate;
+> - explain the fundamental concepts of numerical analysis, like condition number, stability, and convergence rate;
 > - construct the floating point numbers;
 > - discuss and employ basic numerical algorithms like Newton's method;
 > - use the Monte-Carlo method in basic problems in analysis and geometry;
@@ -1120,11 +1120,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTk5NjQ5MCwtODI3NzI3MDYxLDE2ND
-kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
-OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NF19
+eyJoaXN0b3J5IjpbOTMyOTQxOTQ3LC04Mjc3MjcwNjEsMTY0OT
+MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
+LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0XX0=
 -->
