@@ -777,8 +777,9 @@ $$\text{error}=\frac{f^{(2(n+1))}(\xi(x))}{(2(n+1))!}\prod_{\substack{j=0\\j\not
 *Where does the square come from?*
 We assume that the derviatives of $f$ are continuous, therefore Hermite interpolation is the natural choice.
 
-**Example.** Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$.
-*
+**Example.** Gauss rule on $[-1,1]$, $n=1$. Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$, $i=0,1,2$.
+*GS*: $\tilde{q}_0=1$.
+$$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\d$$
 
 ## Probabilistic examples
 
@@ -903,11 +904,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxODY4MzEsMjM1OTY1NTY4LC0zNDkwND
-Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
-LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
-EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
-LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
-k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
-XX0=
+eyJoaXN0b3J5IjpbLTIxMjkzNjgyNjIsMjM1OTY1NTY4LC0zND
+kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
+MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxXX0=
 -->
