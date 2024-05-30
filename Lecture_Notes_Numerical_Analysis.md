@@ -843,7 +843,7 @@ $$\frac{1}{2}\int_0^{\frac{\pi}{2}}\sin\theta\,d\theta=\frac{1}{2}.$$
 Thus the probability of intersection is
 $$\frac{1}{2}\bigg/\frac{\pi}{4}=\frac{2}{\pi}.$$
 
-By the law of large numbers, the ratio of needles intersecting the lines with all needles converges to $\frac{2}{\pi}\approx 0.6366$. Hence we have found yet another probabilistic algorithm to determine the value of $\pi$.
+By the law of large numbers, the ratio of needles intersecting the lines with all needles converges to $\frac{2}{\pi}\approx 0.6366$. Hence, we have found yet another probabilistic algorithm to determine the value of $\pi$.
 
 ## Initial value problems
 
@@ -946,11 +946,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMTc5ODI4LDIzNTk2NTU2OCwtMzQ5MD
-Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
-LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
-gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
-MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
-U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
-MV19
+eyJoaXN0b3J5IjpbMTI0Njk4NDA0OCwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
