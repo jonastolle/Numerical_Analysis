@@ -995,6 +995,7 @@ The stability of multistep methods depends on the convergence of the initial val
 **Example.** (Good bad example)
 
 $$y_{k+2}-3y_{k+1}+2y_{k}=h\left[\frac{13}{12}f(t_{k+2},y_{k+2})-\frac{5}{3}f(t_{k+1},y_{k+1})-\frac{5}{12}f(t_k,y_k)\right].$$
+This method satisfies the first condition. For the second condition, $p=q=1$, we get that $-1\not=\frac{13}{12}$, so the second condition is not satisfied and the method is not stable. Indeed
 
 
 ## Gradient descent
@@ -1092,7 +1093,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODE0ODA4NCwtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTMzMDA4ODQ4MiwtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
