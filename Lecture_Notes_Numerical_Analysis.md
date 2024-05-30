@@ -683,6 +683,10 @@ $$A_2=\frac{4(b-a)}{6}.$$
 As integrals and the methods are linear, this extends to all polynomials of $\deg\le 2$.
 
 This is the so-called *Simpson's rule*:
+$$\int_a^b f(x)\,dx\approx\frac{b-a}{6}\left[f(a)+4 f\left(\frac{a+b}{2}\right)+f(b)\right].$$
+
+The associated *composite rule* becomes:
+$$\int_a^b f(x)\,dx\approx \f$$
 
 ### Orthogonal polynomials
 
@@ -811,11 +815,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU4MDEzMTgsLTY3MDE1MDIwOSwxMz
-IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
-MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
-k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
-NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMT
-UxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUy
-MDM3ODVdfQ==
+eyJoaXN0b3J5IjpbMTMyNjA3NDQxMiwtNjcwMTUwMjA5LDEzMj
+IzMjg1MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgy
+MSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOT
+Y5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0
+OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNT
+E5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIw
+Mzc4NV19
 -->
