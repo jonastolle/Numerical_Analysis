@@ -817,7 +817,11 @@ $$g_i=\begin{cases}1,\;\;\text{if $p$ is inside $A$,}\\0,\;\;\text{otherwise.} \
 
 ### Buffon's needle
 
-Suppose we doing a random experiment with a large number of needles of length $L$ that we throw on the floow, which has parallel strips drawn on it which have all the same distance to their neighboring strip 
+Suppose we doing a random experiment with a large number of needles of same length $L$ that we throw on the floow, which has parallel strips drawn on it which have all the same distance $D$ to their neighboring strip.
+
+*What is the probability that a dropped needle intersects with a line?*
+
+Let $y$ be the distance from the center of the needle to the closest line and let $\theta$ be the acure angle of the i 
 
 ## Initial value problems
 
@@ -920,11 +924,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Njg0MjAyNCwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTg0NjI0OTYsMjM1OTY1NTY4LC0zND
+kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
+MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxXX0=
 -->
