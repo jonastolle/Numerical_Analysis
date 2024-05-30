@@ -779,7 +779,8 @@ We assume that the derviatives of $f$ are continuous, therefore Hermite interpol
 
 **Example.** Gauss rule on $[-1,1]$, $n=1$. Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$, $i=0,1,2$.
 *GS*: $\tilde{q}_0=1$.
-$$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\d$$
+$$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x.$$
+$$$$
 
 ## Probabilistic examples
 
@@ -904,7 +905,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkzNjgyNjIsMjM1OTY1NTY4LC0zND
+eyJoaXN0b3J5IjpbLTE2NzQ2OTEwNTAsMjM1OTY1NTY4LC0zND
 kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
 MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
 U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
