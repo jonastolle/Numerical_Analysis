@@ -782,7 +782,7 @@ We assume that the derviatives of $f$ are continuous, therefore Hermite interpol
 $$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x,$$
 where $\langle 1,1\rangle=2$, and $\langle x,1\rangle=0$.
 $$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\frac{\langle x^2,x\rangle}{\langle x,x\rangle}\cdot x=x^2-\frac{1}{3},$$
-where $\langle x,x\rangle=\langle x^2,1\rangle=\frac{2}{3}$ and $\langle x^2,1\rangle=\frac{.
+where $\langle x,x\rangle=\langle x^2,1\rangle=\frac{2}{3}$ and $\langle x^2,x\rangle=0$.
 The resulting orthogonal polynomials on $[-1,1]$ are called *Legendre polynomials*.
 $\tilde{q}_2$ (and $q_2$) has the roots $x=\pm\frac{1}{\sqrt{3}}$.
 The associated Newton quadrature rule is:
@@ -815,7 +815,8 @@ If our intergration problem can be cast into an averaging problem, the convergen
 $$g_i=\begin{cases}1,\;\;\text{if $p$ is inside $A$,}\\0,\;\;\text{otherwise.} \end{cases}$$
 *Idea:* Let us sample the points $p_i$ uniformly from $V$. In the limit, the number of "hits" over all samples tends to the ratio of the areas!
 
-### Buffon's needle 
+### Buffon's needle
+
 
 ## Initial value problems
 
@@ -918,11 +919,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU2MzIyMzQsMjM1OTY1NTY4LC0zND
-kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
-MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxXX0=
+eyJoaXN0b3J5IjpbMTU4NTA2NzkyMiwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
