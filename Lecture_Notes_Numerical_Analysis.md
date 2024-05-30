@@ -907,10 +907,12 @@ $$\gamma_n\le e^{n\alpha}\gamma_0+\frac{e^{n\alpha}-1}{\alpha}\beta.$$
 **Proof.** Iterating the inequality yields
 $$\gamma_n\le (1+\alpha)^2\gamma_{n-2}+[(1+\alpha)+1]\beta\le(1+\alpha)^n\gamma_0+\left[\sum_{j=0}^{n-1}(1+\alpha)^j\right]\beta.$$
 Note that by the Taylor formula,
-$$e^\alpha=e^0+e^0\alpha+\frac{\alpha^2}{2}e^\xi$$
+$$e^\alpha=e^0+e^0\alpha+\frac{\alpha^2}{2}e^\xi=1+\alpha+\frac{\alpha^2}{2}e^\xi$$
 with $\xi\in [0,\alpha].$
 Hence
-$$(1+\alpha)\le 1+\alpha+\
+$$1+\alpha\le 1+\alpha+\underbrace{\frac{\alpha^2}{2}e^\xi}_{>0}=e^\alpha.$$
+And thus,
+$$\gamma_n\le e
 
 ### Linear multistep methods
 
@@ -1009,11 +1011,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk5NzA2MTAsMTY0OTMyNTk4MywtNT
-A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
-MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
-kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
-OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
-EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
-OTIyM119
+eyJoaXN0b3J5IjpbODA4NTAyNDMyLDE2NDkzMjU5ODMsLTUwOD
+Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
+LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjNdfQ==
 -->
