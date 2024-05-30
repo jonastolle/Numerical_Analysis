@@ -688,7 +688,8 @@ $$\int_a^b f(x)\,dx\approx\frac{b-a}{6}\left[f(a)+4 f\left(\frac{a+b}{2}\right)+
 The associated *composite rule* becomes:
 $$\int_a^b f(x)\,dx\approx \frac{h}{6}\left[f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\ldots+4f(x_{n-1})+f(x_n)\right].$$
 Error for $n=2$:
-$$\frac
+$$\frac{1}{4!5!}(b-a)^5 f^{(4)}(\eta).$$
+Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 
 ### Orthogonal polynomials
 
@@ -817,11 +818,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1OTg0MDc5LC02NzAxNTAyMDksMTMyMj
-MyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIx
-LC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Nj
-k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
-MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
-kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
-Nzg1XX0=
+eyJoaXN0b3J5IjpbMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMj
+IzMjg1MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgy
+MSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOT
+Y5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0
+OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNT
+E5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIw
+Mzc4NV19
 -->
