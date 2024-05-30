@@ -790,8 +790,8 @@ $$\int_{-1}^1 1\,dx=2=A_0+A_1.$$
 $$\int_{-1}^1 x\,dx=0= \frac{-A_0}{\sqrt{3}}+\frac{A_1}{\sqrt{3}}.$$
 From this, we obtain easily that $A_0=A_1=1$. This weights could of course also been determined by integrating the Lagrange polynomials over $[-1,1]$.
 $$\int_a^b x^2\,dx=\frac{2}{3}=1\cdot\left(-\frac{1}{\sqrt{3}}\right)^2+1\cdot\left(\frac{1}{\sqrt{3}}\right)^2.$$
-$$\int_a^b x^2\,dx=\frac{2}{3}=1\cdot\left(-\frac{1}{\sqrt{3}}\right)^2+1\cdot\left(\frac{1}{\sqrt{3}}\right)^2.$$
-So, the Newton quadrature is indeed exact up to degree $2n+1=3$.
+$$\int_a^b x^3\,dx=0=1\cdot\left(-\frac{1}{\sqrt{3}}\right)^3+1\cdot\left(\frac{1}{\sqrt{3}}\right)^3.$$
+Thus, the Newton quadrature is indeed exact up to degree $2n+1=3$!
 
 ## Probabilistic examples
 
@@ -916,11 +916,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMxMTM0OSwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbMzc1MDc1MDIsMjM1OTY1NTY4LC0zNDkwND
+Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
+LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
+EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
+LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
+k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
+XX0=
 -->
