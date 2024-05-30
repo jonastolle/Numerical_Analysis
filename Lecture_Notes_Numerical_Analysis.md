@@ -826,7 +826,10 @@ Let $y$ be the distance from the center of the needle to the closest line and le
 We assume, for simplicity, $L=D=1$.
 
 Both $y$ and $\theta$ are random variables with distribution
-$$y\sim \operatorname{Unif}([0,\frac{1}{2}\right]\right)
+$$y\sim \operatorname{Unif}\left(\left[0,\frac{1}{2}\right]\right),$$
+where $y=0$ means that the needle is centered on a line and $y=\frac{1}{2}$ means that $y$ is perfectly centered between two lines.
+$$\theta\sim \operatorname{Unif}\left(\left[0,\frac{\pi}{2}\right]\right),$$
+where $\theta=0$ means that the nee
 
 ## Initial value problems
 
@@ -929,11 +932,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQzMjQ4MzMsMjM1OTY1NTY4LC0zND
-kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
-MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxXX0=
+eyJoaXN0b3J5IjpbMjA0NTgwNjYxNiwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
