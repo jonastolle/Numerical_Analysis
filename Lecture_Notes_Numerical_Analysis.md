@@ -612,9 +612,12 @@ $$=\underbrace{n\sum_{k=0}^{n-1}(x_{k+1}-x_k)B_k^{n-1}(t)}_{\text{Bézier}}.$$
 Hence, for the closed curves:
 $$\begin{cases}\frac{d}{dt}\beta^n(0)=n(x_1-x_0),\\
 \frac{d}{dt}\beta^n(1)=n(x_n-x_{n-1}).\end{cases}$$
-For smoothness, we need that $(x_1-x_0)\parallel (x_n-x_{n-1})$, 
+For smoothness, we need that $(x_1-x_0)\parallel (x_n-x_{n-1})$, i.e., $x_1-x_0$ and $x_n-x_{n-1}$ are parallel.
 
 ### Lifting
+
+Control points define the curve but the converse is not true.
+Consider:
 
 ### De Casteljau's algorithm
 
@@ -733,7 +736,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgwNTQ5MSwtNzY5NDMxMTYsMTA5Mz
+eyJoaXN0b3J5IjpbMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
 OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
 MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
