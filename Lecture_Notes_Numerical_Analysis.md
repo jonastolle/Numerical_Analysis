@@ -873,8 +873,10 @@ with $\xi_k\in [a,b]$.
 
 *Notation.* $y(t_k)$ denotes the exact solution to the IVP at $t=t_k$, whereas $y_k$ denotes the result of the method at step $k$.
 
-For Euler we get a truncation error
-$$\frac{y_{k+1}-y_k}{h}+f(t_k,y_k)+\\frac{h}{2}y''(\xi_k),$$
+For Euler, we get that
+$$\frac{y_{k+1}-y_k}{h}=f(t_k,y_k)+\underbrace{\frac{h}{2}y''(\xi_k)}_{\text{local error}\;O(h)}.$$
+Hence the Euler method is locally (in each point) or order $1$.
+
 
 
 ### Linear multistep methods
@@ -974,11 +976,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ0ODI0NjgsMTY0OTMyNTk4MywtNT
-A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
-MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
-kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
-OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
-EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
-OTIyM119
+eyJoaXN0b3J5IjpbNTI4MzYwMTk1LDE2NDkzMjU5ODMsLTUwOD
+Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
+LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjNdfQ==
 -->
