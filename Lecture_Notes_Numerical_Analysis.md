@@ -661,7 +661,8 @@ $$\sigma(A_N)=\frac{\sigma}{\sqrt{N}}.$$
 If our intergration problem can be cast into an averaging problem, the convergence rate will be $O(\frac{1}{\sqrt{N}})$.
 > **Note.** The rate is independent of the spatial dimension.
 
-**Example.** Estimating the value of $\pi$. The area of a circle is $A=\pi r^2$. Set $r=1$.
+**Example.** Estimating the value of $\pi$. The area of a circle is $A=\pi r^2$. Set $r=1$. Consider the box $V=[-1,1]\times [-1,1]$ with volume $|V|=4$. The ratio of the areas of circle enclosed by the box and the enclosing box is $\frac{\pi}{4}$. Let
+$$g_i=\begin{cases}1,\;\;\text[ 
 
 ### Buffon's needle 
 
@@ -766,11 +767,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk5MTc0MDMsMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
-Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
-NzUyNjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNjc3MTcyMywxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
+U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
+NTI2MV19
 -->
