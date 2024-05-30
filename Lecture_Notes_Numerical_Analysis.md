@@ -674,8 +674,8 @@ polynomials of certain order.
 $$\int_a^b f(x)\,dx=A_1 f(a)+A_2 f\left(\frac{a+b}{2]\right)+A_3 f(b),$$
 where we call the $A_i$ *weights*.
 $$\int_a^b 1\,dx=b-a\quad\Rightarrow A_1+A_2+A_3=b-a.$$
-$$\int_a^b x\,dx=b-a\quad\Rightarrow A_1+A_2+A_3=b-a.$$
-$$\int_a^b x^2\,dx=b-a\quad\Rightarrow A_1+A_2+A_3=b-a.$$
+$$\int_a^b x\,dx=\frac{b^2-a^2}{2}\quad\Rightarrow A_1 a+A_2\left(\frac{a+b}{2}\right)+A_3 b=\frac{b^2-a^2}{2}.$$
+$$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)\quad\Rightarrow A_1 a^2+A_2 \left(\frac{a+b}{2}\right)+A_3=b-a.$$
 As integrals and the methods are linear, this extends to all polynomials of $\deg\le 2$.
 
 ### Orthogonal polynomials
@@ -805,11 +805,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU5MTQ1OTAsLTY3MDE1MDIwOSwxMz
-IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
-MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
-k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
-NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMT
-UxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUy
-MDM3ODVdfQ==
+eyJoaXN0b3J5IjpbLTQwOTM2NDQ3MywtNjcwMTUwMjA5LDEzMj
+IzMjg1MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgy
+MSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOT
+Y5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0
+OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNT
+E5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIw
+Mzc4NV19
 -->
