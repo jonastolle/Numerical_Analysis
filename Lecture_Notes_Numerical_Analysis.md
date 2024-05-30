@@ -832,11 +832,16 @@ $$\theta\sim \operatorname{Unif}\left(\left[0,\frac{\pi}{2}\right]\right),$$
 where $\theta=0$ means that the needle is parallel to the lines and $\theta=\frac{\pi}{2}$ means that the needle is perpendicular to the lines.
 
 We may assume that $y$ and $\theta$ are independent random variables (*why?*).
-The condition for intersection with a line is
+
+By the law of sines, the condition for intersection with a line is
 $$2y\le \sin\theta.$$
 The joint probability distribution of two independent random variables is the product of the respective distributions on $[0,\frac{\pi}{2}]\times [0,\frac{1}{2}]$. Determining the probability requires calculation of the ratio of the area of the condition of intersection in relation to the total area $\frac{\pi}{4}$.
+
 The condition is fulfilled by
-$$\frac{1}{2}\int_0^{\frac{\pi}{2}}\sin\the
+$$\frac{1}{2}\int_0^{\frac{\pi}{2}}\sin\theta\,d\theta=\frac{1}{2}.$$
+
+Thus the probability of intersection is
+$$\frac{1}{2}}
 
 ## Initial value problems
 
@@ -939,7 +944,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODA3ODU2MiwyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbLTE1NzI5ODY2MiwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
