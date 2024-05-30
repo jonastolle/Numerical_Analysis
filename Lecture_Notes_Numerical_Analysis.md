@@ -561,7 +561,7 @@ Now $s$ has been defined over all subintervals. However, the $z_i$ are still unk
 Using the condition for continuity of the derivatives $s_i'(x_i)=s_{i+1}'(x_i)$ for all $i$ yields
 $$\frac{h}{2}z_i+\frac{1}{h}\left[(f_i-f_{i-1})+\frac{h^2}{6}(z_{i-1}-z_i)\right]=-\frac{h}{2}z_i+\frac{1}{h}\left[(f_{i+1}-f_i)+\frac{h^2}{6}(z_i-z_{i+1})\right],$$
 for $i=1,\ldots,n-1$.
-In fact, this constitutes a triagonal system:
+In fact, this constitutes a trigonal system:
 $$\frac{2h}{3}z_i+\frac{h}{6}z_{i-1}+\frac{h}{6}z_{i+1}=\frac{1}{h}(f_{i+1}-2f_i+f_{i-1})=:b_i.$$
 The values $z_0$ and $z_n$ at the interval boundary have to be moved to the right hand side, and thus:
 $$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
@@ -1120,11 +1120,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjMzNTg4MCwtODI3NzI3MDYxLDE2ND
-kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
-OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NF19
+eyJoaXN0b3J5IjpbMjg4MjUwNjEzLC04Mjc3MjcwNjEsMTY0OT
+MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
+LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0XX0=
 -->
