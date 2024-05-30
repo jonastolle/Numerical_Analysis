@@ -775,7 +775,7 @@ $$A_i:=\int_a^b\varphi_i(x)w(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\no
 *Error formula.* $(n+1)$-point rule with nodes $x_0,x_1,\ldots, x_n$:
 $$\text{error}=\frac{f^{(2(n+1))}(\xi(x))}{(2(n+1))!}\prod_{\substack{j=0\\j\not=i}}^n (x-x_j)^2.$$
 *Where does the square come from?*
-We assume that the derviatives of $f$ are continuous, therefore Hermite interpolation is the natural choice.
+We assume that the derivatives of $f$ are continuous, therefore Hermite interpolation is the natural choice.
 
 **Example.** Gauss rule on $[-1,1]$, $n=1$. Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$, $i=0,1,2$.
 *GS*: $\tilde{q}_0=1$.
@@ -817,11 +817,11 @@ $$g_i=\begin{cases}1,\;\;\text{if $p$ is inside $A$,}\\0,\;\;\text{otherwise.} \
 
 ### Buffon's needle
 
-Suppose we doing a random experiment with a large number of needles of same length $L$ that we throw on the floow, which has parallel strips drawn on it which have all the same distance $D$ to their neighboring strip.
+Suppose we doing a random experiment with a large number of needles of same length $L$ that we throw on the floor, which has parallel strips drawn on it which have all the same distance $D$ to their neighboring strip.
 
 *What is the probability that a dropped needle intersects with a line?*
 
-Let $y$ be the distance from the center of the needle to the closest line and let $\theta$ be the acure angle of the intersection point.
+Let $y$ be the distance from the center of the needle to the closest line and let $\theta$ be the acute angle of the intersection point.
 
 We assume, for simplicity, $L=D=1$.
 
@@ -847,7 +847,7 @@ By the law of large numbers, the ratio of needles intersecting the lines with al
 
 ## Initial value problems (IVPs)
 
-*Problem.* (Not necessarily linear) ordinary differential equation (ODE), with initial value $y_0$ at inital time $t_0$ up to a finite time horizon $T>t_0$:
+*Problem.* (Not necessarily linear) ordinary differential equation (ODE), with initial value $y_0$ at initial time $t_0$ up to a finite time horizon $T>t_0$:
 $$\begin{cases}y'(t)=f(t,y(t)),\\y(t_0)=y_0.\end{cases}$$
 
 *Assumptions.* Existence and uniqueness of the solutions are understood (by e.g. Picard iteration).
@@ -1120,7 +1120,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgyNTQ1OCwtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTE3ODc0Mjg1NCwtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
