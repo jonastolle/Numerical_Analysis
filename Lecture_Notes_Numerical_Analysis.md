@@ -788,7 +788,8 @@ $$\int_{-1}^1 f(x)\,dx=A_0 f\left(-\frac{1}{\sqrt{3}}\right))+A_1 f\left(\frac{1
 Let us check exactness:
 $$\int_{-1}^1 1\,dx=2=A_0+A_1.$$
 $$\int_{-1}^1 x\,dx=0= \frac{-A_0}{\sqrt{3}}+\frac{A_1}{\sqrt{3}}.$$
-$$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)=A_0 x_0^2+A_1 x_1^2.$$
+From this, we obtain easily that $A_0=A_1=1$. This weights could of course also been determined by integrating the Lagrange polynomials over $[-1,1
+$$\int_a^b x^2\,dx=\frac{2}{3}=1$$
 
 ## Probabilistic examples
 
@@ -913,7 +914,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc5NzQwNDIsMjM1OTY1NTY4LC0zND
+eyJoaXN0b3J5IjpbLTE4ODYzNzk5NzcsMjM1OTY1NTY4LC0zND
 kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
 MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
 U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
