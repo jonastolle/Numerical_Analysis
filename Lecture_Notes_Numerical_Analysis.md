@@ -782,7 +782,7 @@ We assume that the derviatives of $f$ are continuous, therefore Hermite interpol
 $$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x.$$
 $$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\frac{\langle x^2,x\rangle}{\langle x,x\rangle}\cdot x=x^2-\frac{1}{3}.$$
 The resulting orthogonal polynomials on $[-1,1]$ are called *Legendre polynomials*.
-$\tilde{q}_2$ and
+$\tilde{q}_2$ (and $q_2$) has the roots $x=\pm\frac{1}{\sqrt{3}}$.
 
 ## Probabilistic examples
 
@@ -907,11 +907,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg1NTUwMTAsMjM1OTY1NTY4LC0zND
-kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
-MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
-U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
-NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
-05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
-MTcxXX0=
+eyJoaXN0b3J5IjpbMzIxODA1NjU3LDIzNTk2NTU2OCwtMzQ5MD
+Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
+LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
+gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
+MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
+U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
+MV19
 -->
