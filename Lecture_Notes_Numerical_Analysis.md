@@ -298,7 +298,7 @@ Hence the method is quadratic. Note that $f'(x_k)$ does not vanish by continuity
 *What happens if $f'(x_\ast)=0$?*
 $$x_{k+1}-x_\ast=(x_\ast-x_k)^2\frac{f''(\xi_k)}{2\underbrace{f'(x_k)}_{\to0}}$$
 as $k\to\infty$.
-By Taylor's expansion ($\eta$="eta")
+By Taylor's expansion ($\eta$="eta"):
 $$f'(x_k)=\underbrace{f'(x_\ast)}_{=0}+(x_k-x_\ast)f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)$$
 for some $\eta_k\in [x_\ast,x_k]$, and hence
 $$x_{k+1}-x_\ast=f''(\eta_k)=(x_k-x_\ast)f''(\eta_k)(x_k-x_\ast).$$
@@ -963,11 +963,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MjQzODgsMTY0OTMyNTk4MywtNTA4ND
-cyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcyMDIs
-LTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMD
-QxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5
-LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-M119
+eyJoaXN0b3J5IjpbMTYzMTI3OTQ2NCwxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
