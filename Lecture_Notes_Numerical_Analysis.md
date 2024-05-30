@@ -605,7 +605,7 @@ $$=n\left[\frac{(n-1)!}{(k-1)!(n-k)!}t^{k-1}(1-t)^{n-k}-\frac{(n-1)!}{(k)!(n-k-1
 $$=n\left(B_{k-1}^{n-1}(t)-B_k^{n-1}(t)\right).$$
 Therefore,
 $$\frac{d}{dt}\beta^n(t)=n\sum_{k=0}^n\left(B_{k-1}^{n-1}(t)-B_k^{n-1}(t)\right) x_k$$
-$$=\left
+$$=n\left[\sum_{k=1}^{n}B_{k-1}^{n-1}(t)x_k-\sum_{k=0}^{n-1}B_k^{n-1}(t)x_k\right]$$
 
 ### Lifting
 
@@ -726,11 +726,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMjg2ODUwLC03Njk0MzExNiwxMDkzMD
-QxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5
-LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OV19
+eyJoaXN0b3J5IjpbLTE5NzUzMTk5NDIsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLT
+IxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTky
+NDMzNzQ5XX0=
 -->
