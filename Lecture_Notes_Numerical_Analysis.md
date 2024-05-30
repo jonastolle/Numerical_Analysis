@@ -662,7 +662,9 @@ Therefore, by the mean value theory of integration,
 $$=\frac{1}{2}f''(\eta)\int_a^b (x-a)(x-b)\,dx.$$
 $$=-\frac{1}{12}(b-a)^3 f''(\eta).$$
 
-**Composite rule:** 
+**Composite rule:** $h=\frac{b-a}{n}$, $x_i=a+ih$, $i=0,\ldots,n$.
+$$\int_a^b f(x)\,dx\approx \frac{h}{2}\left[f(x_0)+2f(x_1)+\ldots+2f(x_{n-1})+f(x_n)\right].$$
+Total error $O(h^2)\sim O(
 
 ### Orthogonal polynomials
 
@@ -791,11 +793,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODE5OTMyNCwtNjcwMTUwMjA5LDEzMj
-IzMjg1MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgy
-MSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOT
-Y5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0
-OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNT
-E5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIw
-Mzc4NV19
+eyJoaXN0b3J5IjpbMzQxNjgyMjIzLC02NzAxNTAyMDksMTMyMj
+MyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIx
+LC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Nj
+k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
+MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
+kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
+Nzg1XX0=
 -->
