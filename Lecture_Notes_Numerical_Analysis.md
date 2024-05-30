@@ -704,7 +704,8 @@ $$\|q\|:=\left(\int_a^b |q(x)|^2\,dx\right)^{1/2}.$$
 In other words, orthogonality: $\langle p,q\rangle =0$, then we write $p\perp q$.
 Orthonormality: $p\perp q$ and $\langle p,p\rangle =1=\langle q,q\rangle$.
 
-
+**Gram-Schmidt procedure.**
+*Idea.*
 
 ### Gauss quadrature
 
@@ -842,11 +843,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk5MjQ0MTgsLTM0OTA0NjYxOSwxOD
-U3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMx
-MTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMT
-Y4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0
-ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NC
-wxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQz
-NzI0NV19
+eyJoaXN0b3J5IjpbMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1Nz
+M3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2
+LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2OD
+kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
+MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
+g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
+NDVdfQ==
 -->
