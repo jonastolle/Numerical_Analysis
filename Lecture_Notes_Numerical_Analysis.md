@@ -992,6 +992,8 @@ See [Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differe
 
 The stability of multistep methods depends on the convergence of the initial values $y_1,\ldots,y_{s-1}$ to $y_0$ as $h\to 0$. The second condition yields a global error $O(h^p)$.
 
+**Example.** $m=1$, $a_0+a_1=0$, $0\cdot a_0+1\cdot
+
 **Example.** (Good bad example)
 
 $$y_{k+2}-3y_{k+1}+2y_{k}=h\left[\frac{13}{12}f(t_{k+2},y_{k+2})-\frac{5}{3}f(t_{k+1},y_{k+1})-\frac{5}{12}f(t_k,y_k)\right].$$
@@ -1012,7 +1014,7 @@ We note, however, that the method is consistent and the exact differential equat
 Returning to the proof of convergence for Euler, for the rounding error $\delta>0$,
 $$|d_{k+1}|\le (1+hL)|d_k|+\delta,$$
 we get,
-$$|d_{k+1}|\le e^{L(T-t_0)}\underbrace{|d_0|}_{\text{initial error or uncertainty}}+\underbrac{\frac{e^{L(T-t_0)}-1}{Lh}}_{\text{}}\delta$$
+$$|d_{k+1}|\le e^{L(T-t_0)}\underbrace{|d_0|}_{\text{initial error or uncertainty}}+\underbrace{\frac{e^{L(T-t_0)}-1}{Lh}\delta}_{\text{dominant term, if $h$ is sufficiently small}}$$
 
 ## Gradient descent
 
@@ -1109,11 +1111,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzAwMTQxNiwtODI3NzI3MDYxLDE2ND
-kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
-OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NF19
+eyJoaXN0b3J5IjpbMjEwNzgzNTg0LC04Mjc3MjcwNjEsMTY0OT
+MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
+LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0XX0=
 -->
