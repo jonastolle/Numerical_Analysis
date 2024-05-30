@@ -657,8 +657,11 @@ We have that
 $$\operatorname{var}(A_N)=\frac{1}{N^2}\sum_{i=1}^N\operatorname{var}(X_i)=\frac{\sigma^2}{N}.$$
 In order to get the right unit, we have to consider the standard deviation
 $$\sigma(A_N)=\frac{\sigma}{\sqrt{N}}.$$
-Consequence:
-If our intergration problem can be cast into an ave
+*Consequence:*
+If our intergration problem can be cast into an averaging problem, the convergence rate will be $O(\frac{1}{\sqrt{N}})$.
+> **Note.** The rate is independent of the spatial dimension.
+
+**Example.** Estimating the value of $\pi$. The area of a circle is $A=\pi r^2$. Set $r=1$.
 
 ### Buffon's needle 
 
@@ -763,11 +766,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MDQxNzUsMTMyMjMyODUxNiwtNzY5ND
-MxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTks
-MTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNj
-Y0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3
-NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1Nz
-QzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUy
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjk5MTc0MDMsMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
+Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
+NzUyNjFdfQ==
 -->
