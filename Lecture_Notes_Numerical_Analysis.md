@@ -629,7 +629,10 @@ For control points $x_0,x_1,\ldots,x_n$ the algorithm of De Casteljau is as foll
 1. Define constant curves $\beta_i^0(t)=x_i$.
 2. Set $$\beta_i^r(t)=(1-t)\beta_{i}^{r-1}(t)+t\beta_{i+1}^{r-1}(t),\quad r=1,\ldots, n,\quad i=0,\ldots,n-r.$$ Th 
 
-The algorithm terminates at $\beta_0^n 
+The algorithm terminates at $\beta_0^n(t)$ and has ${n\choose 2}$ operations.
+
+There is also a reverse algorithm for splitting Bézier curves.
+ 
 ## Numerical integration
 
 ### Newton-Cotes quadrature rules
@@ -745,11 +748,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NDk5MzU3LDEzMjIzMjg1MTYsLTc2OT
-QzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5
-LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMj
-Y2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4
-NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NT
-c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
-MjYxXX0=
+eyJoaXN0b3J5IjpbLTExNTEyNTk1NTUsMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
+Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
+NzUyNjFdfQ==
 -->
