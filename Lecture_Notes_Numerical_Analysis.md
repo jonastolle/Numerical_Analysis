@@ -749,7 +749,7 @@ Let us use the orthogonal polynomials in the following way.
 Then
 $$\int_a^b f(x)\,dx\approx\sum_{i=0}^n A_i f(x_i),$$
 where
-$$A_i=\int_a^b\varphi_i(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}}^n\frac{x-x_j}{x_i-x_j},$$
+$$A_i:=\int_a^b\varphi_i(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}}^n\frac{x-x_j}{x_i-x_j},$$
 is exact for all polynomials of degree $2n+1$ or less.
 
 **Proof.** Let $f$ be a polynomial with $\deg f= 2n+1$. By the polynomial division algorithm,
@@ -765,7 +765,10 @@ We can extend the notion of orthogonal polynomials to so-called *weighted orthog
 $$\langle p,q\rangle_w=\int_a^b p(x)q(x)w(x)\,dx,$$
 where $w$ is a positive *weight function*.
 
-> **Example.** If $w(x)=e^{-x}$, we get the so-called Laguerre orthogonal polynomials. If $w(x)=e^{-\frac{x^2}{2}}$, we get the so-called Hermite orthogonal polynomials, which are meaningful in probability theory (the weight is the density of the Gaussian normal distribution up to multiplication by a normalization fact 
+> **Example.** If $w(x)=e^{-x}$, we get the so-called Laguerre orthogonal polynomials. If $w(x)=e^{-\frac{x^2}{2}}$, we get the so-called Hermite orthogonal polynomials, which are meaningful in probability theory (the weight is the density of the Gaussian normal distribution up to multiplication by a normalization constant).
+
+**Theorem.** The previous theorem holds a $\langle\cdot,\cdot\rangle_w$-orthogonal polynomial $q_{n+1}$ with
+$$A_i:=\int_a^b\varphi_i
 
 ## Probabilistic examples
 
@@ -890,7 +893,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTM0ODg3NSwyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbLTMyMDEzNzIxMCwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
