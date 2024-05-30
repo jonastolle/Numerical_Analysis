@@ -977,7 +977,12 @@ where $a_s=1$ and the coefficients $a_0,\ldots, a_{s-1}$ and $b_0,\ldots,b_s$ de
 
 The method is called *explicit* if $b_s=0$, and *implicit* otherwise.
 
-We call the multistep method consitsten
+We call the multistep method *consistent* if the truncation error is $O(h)$ or better.
+
+**Theorem.** The linear multistep method is consistent if and only if
+$$\sum_{k=0}^{s-1}a_k=-1$$
+and
+$$\sum_{k=0}^s b_k=s+\sum_{k=0}
 
 ## Gradient descent
 
@@ -1074,11 +1079,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc2NDQxNzIsLTgyNzcyNzA2MSwxNj
-Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
-MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
-c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
-Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
-EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
-ODI4NzRdfQ==
+eyJoaXN0b3J5IjpbMTg5NTY5MDcwNSwtODI3NzI3MDYxLDE2ND
+kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
+OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NF19
 -->
