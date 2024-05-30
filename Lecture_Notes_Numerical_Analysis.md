@@ -936,12 +936,13 @@ apply your favorite quadrature rule, for instance:
 $$\frac{h}{2}[f(t,y(t))+f(t+h,y(t+h))]+O(h^3).$$
 Combined, we get:
 $$y_{k+1}= y_k+\frac{h}{2}[f(t_k,y_k)+f(t_{k+1},y_{k+1})].$$
-This method is *impicit*. Every step requires a solution of a nonlin
+This method is *impicit*. Every step requires a solution of a nonlinear (fixed point) problem.
 
-
-Heun's method and Euler's method are explicit.
+Heun's method and Euler's method are *explicit*.
 
 ### Linear multistep methods
+
+
 
 ## Gradient descent
 
@@ -1038,11 +1039,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MDc5MTMxLDE2NDkzMjU5ODMsLTUwOD
-Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
-LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTExNjA3MDE1OTksMTY0OTMyNTk4MywtNT
+A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
+MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
+kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
+OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
+EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
+OTIyM119
 -->
