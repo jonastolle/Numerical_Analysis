@@ -784,11 +784,10 @@ $$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\f
 The resulting orthogonal polynomials on $[-1,1]$ are called *Legendre polynomials*.
 $\tilde{q}_2$ (and $q_2$) has the roots $x=\pm\frac{1}{\sqrt{3}}$.
 The associated Newton quadrature rule is:
-$$\int_{-1}^1 f(x)\,dx=A_0 f\left(\right))+A_1 f\left(\right)).$$
-
-Let us check the quadrature:
-$$\int_{-1}^1 1\,dx=b-a=A_0+A_1.$$
-$$\int_a^b x\,dx=\frac{b^2-a^2}{2}= A_0 x_0+A_1 x_1.$$
+$$\int_{-1}^1 f(x)\,dx=A_0 f\left(-\frac{1}{\sqrt{3}}\right))+A_1 f\left(\frac{1}{\sqrt{3}}\right).$$
+Let us check exactness:
+$$\int_{-1}^1 1\,dx=2=A_0+A_1.$$
+$$\int_{-1}^1 x\,dx=0= \frac{-A_0}{\sqrt{3}}+\frac{A_1}{\sqrt{3}}.$$
 $$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)=A_0 x_0^2+A_1 x_1^2.$$
 
 ## Probabilistic examples
@@ -914,7 +913,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY4NDg1NzEsMjM1OTY1NTY4LC0zND
+eyJoaXN0b3J5IjpbLTEyNjc5NzQwNDIsMjM1OTY1NTY4LC0zND
 kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
 MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
 U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
