@@ -1000,7 +1000,11 @@ for
 $$y'=0,\quad y(0)=1,$$
 which has the explicit solution $y(t)=1$, we consider a small pertubation of the initial value, $\delta>0$,
 so that
-$$y_0=1,\qua
+$$y_0=1,\quad y_1=1+\delta,$$
+$$y_2=3y_1-2y_0=1+3\delta,$$
+$$\cdots$$
+$$y_k=3y_{k-1}-2y_{k-2}=1+(2^k-1)\delta.$$
+Hence
 
 
 ## Gradient descent
@@ -1098,7 +1102,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTUzMzk0NSwtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTY4OTk5ODc5NSwtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
