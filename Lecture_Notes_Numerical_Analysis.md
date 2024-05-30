@@ -767,7 +767,7 @@ where $w$ is a positive *weight function*.
 
 One (mathematical) advantage: Works also on $\mathbb{R}=(-\infty,\infty)$.
 
-> **Example.** If $w(x)=e^{-x}$, we get the so-called *Laguerre orthogonal polynomials*. If $w(x)=e^{-\frac{x^2}{2}}$, we get the so-called *Hermite orthogonal polynomials*, which are meaningful in probability theory (the weight is the density of the Gaussian normal distribution up to multiplication by a normalization constant).
+> **Example.** If $w(x)=e^{-x}$, we get the so-called *Laguerre polynomials*. If $w(x)=e^{-\frac{x^2}{2}}$, we get the so-called *Hermite polynomials*, which are meaningful in probability theory (the weight is the density of the Gaussian normal distribution up to multiplication by a normalization constant).
 
 **Theorem.** The previous theorem holds a $\langle\cdot,\cdot\rangle_w$-orthogonal polynomial $q_{n+1}$ with
 $$A_i:=\int_a^b\varphi_i(x)w(x)\,dx,\quad\varphi_i(x)=\prod_{\substack{j=0\\j\not=i}}^n\frac{x-x_j}{x_i-x_j}.$$
@@ -780,8 +780,9 @@ We assume that the derviatives of $f$ are continuous, therefore Hermite interpol
 **Example.** Gauss rule on $[-1,1]$, $n=1$. Notice, since we only want the roots, there is no need to normalize $\tilde{q}_i$, $i=0,1,2$.
 *GS*: $\tilde{q}_0=1$.
 $$\tilde{q}_1=x\cdot 1-\frac{\langle x,1\rangle}{\langle 1,1\rangle}\cdot 1=x-\frac{\int_{-1}^1 x\,dx}{\int_{-1}^1 1\,dx}\cdot 1=x.$$
-$$$$
+$$\tilde{q}_2=x\cdot x-\frac{\langle x^2,1\rangle}{\langle 1,1\rangle}\cdot 1-\frac{\langle x^2,x\rangle}{\langle x,x\rangle}\cdot x=x^2-\frac{1}{3}.$$
 The resulting orthogonal polynomials on $[-1,1]$ are called *Legendre polynomials*.
+$\tilde{q}_2$ and
 
 ## Probabilistic examples
 
@@ -906,11 +907,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjI3Nzk0LDIzNTk2NTU2OCwtMzQ5MD
-Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
-LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
-gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
-MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
-U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
-MV19
+eyJoaXN0b3J5IjpbLTE0Njg1NTUwMTAsMjM1OTY1NTY4LC0zND
+kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
+MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxXX0=
 -->
