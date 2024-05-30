@@ -612,7 +612,7 @@ $$=\underbrace{n\sum_{k=0}^{n-1}(x_{k+1}-x_k)B_k^{n-1}(t)}_{\text{Bézier}}.$$
 Hence, for the closed curves:
 $$\begin{cases}\frac{d}{dt}\beta^n(0)=n(x_1-x_0),\\
 \frac{d}{dt}\beta^n(1)=n(x_n-x_{n-1}).\end{cases}$$
-
+For smoothness, we need that $(x_1-x_0)\parallel (x_n-x_{n-1})$, 
 
 ### Lifting
 
@@ -733,11 +733,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1OTAxNzEwLC03Njk0MzExNiwxMDkzMD
-QxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5
-LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-MywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMT
-A2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3NTI2MSwtMTk5MjQz
-Mzc0OV19
+eyJoaXN0b3J5IjpbLTE1NzgwNTQ5MSwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDldfQ==
 -->
