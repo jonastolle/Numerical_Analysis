@@ -979,6 +979,9 @@ The method is called *explicit* if $b_s=0$, and *implicit* otherwise.
 
 We call the multistep method *consistent* if the truncation error is $O(h)$ or better.
 
+**Bad Example.**
+$$y'=-15 y
+
 **Theorem.** The linear multistep method is consistent if and only if
 $$\sum_{k=0}^{s-1}a_k=-1$$
 and
@@ -993,7 +996,8 @@ See [Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differe
 The stability of multistep methods depends on the convergence of the initial values $y_1,\ldots,y_{s-1}$ to $y_0$ as $h\to 0$. The second condition yields a global error $O(h^p)$.
 
 **Example.** $m=1$, $a_0+a_1=0$, $0\cdot a_0+1\cdot a_1=b_1$, and by the normalization assumption, $a_1=1$, $a_0=-1$, $b_1=1$, and thus we get,
-$$y_{k+1}=y_k+h f(t_{k+1},y_{k+1
+$$y_{k+1}=y_k+h f(t_{k+1},y_{k+1})$$
+backward Euler!
 
 **Example.** (Good bad example)
 
@@ -1112,7 +1116,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mjg1NTAyMCwtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbMTA0MTM3NzE0MywtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
