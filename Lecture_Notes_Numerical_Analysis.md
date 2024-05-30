@@ -942,6 +942,9 @@ Heun's method and Euler's method are *explicit*.
 
 ### Linear multistep methods
 
+$$y(t_{k+1})=y(t_k)+\int_{t_k}^{t_{k+1}}f(s,y(s))\,ds.$$
+
+Adams-Bashforth 
 
 
 ## Gradient descent
@@ -1039,7 +1042,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA3MDE1OTksMTY0OTMyNTk4MywtNT
+eyJoaXN0b3J5IjpbLTEyODkwOTg1MjksMTY0OTMyNTk4MywtNT
 A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
 MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
 kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
