@@ -897,10 +897,15 @@ $$d_{k+1}=d_k+h[f(t_k,y(t_k))-f(t_k,y_k)]+\frac{h^2}{2}y''(\xi_k).$$
 We get that
 $$|d_{k+1}|\le |d_k|+hL|d_k|+\frac{h^2}{2}M=(1+hL)|d_k|+\frac{h^2}{2}M.$$
 
-We shall need a lemma.
+We shall need a lemma on recursive inequalities.
 
 **Lemma.** If for $\alpha,\beta>0$,
-$$\gamma_{k+1}\le(1+\alpha)
+$$\gamma_{k+1}\le(1+\alpha)\gamma_k+\beta,$$
+then
+$$\gamma_n\le e^{n\alpha}\gamma_0+\frac{e^{n\alpha}-1}{\alpha}\beta.$$
+
+**Proof.** Iterating the inequality yields
+$$\gamma_n]l
 
 ### Linear multistep methods
 
@@ -999,7 +1004,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc3MTQwNTMsMTY0OTMyNTk4MywtNT
+eyJoaXN0b3J5IjpbLTE3ODA3NjExMTYsMTY0OTMyNTk4MywtNT
 A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
 MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
 kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
