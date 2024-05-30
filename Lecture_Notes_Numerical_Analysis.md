@@ -696,6 +696,11 @@ Error for the composite: $O(h^4)$. The method is exact for cubic polynomials!
 
 ### Orthogonal polynomials
 
+Define the inner product of two real-valued polynomials on $[a,b]$ (depends on $a$ and $b$!) by:
+$$\langle p,q\rangle=\int_a^b p(x)q(x)\,dx.$$
+
+### Gauss quadrature
+
 *Idea.* Choose the nodes and the weights simultaneously.
 One interval:
 $$\int_a^b f(x)\,dx=A_0 f(x_1)+A_1 f(x_1),$$
@@ -706,7 +711,6 @@ $$\int_a^b x\,dx=\frac{b^2-a^2}{2}= A_0 x_0+A_1 x_1.$$
 $$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)=A_0 x_0^2+A_1 x_1^2.$$
 The resulting system is nonlinear!
 
-### Gauss quadrature
 
 ## Probabilistic examples
 
@@ -831,11 +835,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njg5MTIyMywtMzQ5MDQ2NjE5LDE4NT
-czNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzEx
-NiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNj
-g5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4
-NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LD
-E4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3
-MjQ1XX0=
+eyJoaXN0b3J5IjpbMjcwMTY0MzMxLC0zNDkwNDY2MTksMTg1Nz
+M3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2
+LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2OD
+kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
+MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
+g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
+NDVdfQ==
 -->
