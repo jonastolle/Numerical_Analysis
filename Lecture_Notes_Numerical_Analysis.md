@@ -375,8 +375,8 @@ We need at least $2$ data points. We usually just assume that $x_i\not=x_j$ for 
 We are looking for a polynomial $p_2(x)=\sum_{j=0}^2 c_j x^j$, which is chosen to be 2nd order, because we have $3$ data points and $3$ unknown coefficients.
 We can formulate the problem in matrix form:
 $$\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}y_0\\y_1\\y_2\end{pmatrix},$$
-which is a Vandermonde matrix which has determinant
-$$\det\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}=\prod_{\{i<j}(x_j-x_i)\not=0,$$ and is thus invertible. Here,
+which is a so-called *Vandermonde matrix* which has determinant
+$$\det\begin{pmatrix}1 & x_0 & x_0^2\\ 1 & x_1 & x_1^2\\ 1 &x_2 & x_2^2\end{pmatrix}=\prod_{i<j}(x_j-x_i)\not=0,$$ and is thus invertible. Here,
 $$\begin{pmatrix}1 & 1 & 1\\ 1 & 2 & 4\\ 1 &3 & 9\end{pmatrix}\cdot \begin{pmatrix}c_0\\c_1\\c_2\end{pmatrix}=\begin{pmatrix}2\\3\\6\end{pmatrix}.$$
 As a result, $c_0=3$, $c_1=-2$, and $c_2=1$, and thus,
 $$p_2(x)=x^2-2x+3.$$
@@ -831,11 +831,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAyNzA0NTIsLTM0OTA0NjYxOSwxOD
-U3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMx
-MTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMT
-Y4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0
-ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NC
-wxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQz
-NzI0NV19
+eyJoaXN0b3J5IjpbMTM3Njg5MTIyMywtMzQ5MDQ2NjE5LDE4NT
+czNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzEx
+NiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNj
+g5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4
+NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LD
+E4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNjU3NDM3
+MjQ1XX0=
 -->
