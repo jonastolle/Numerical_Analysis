@@ -6,7 +6,9 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 29.5.2024*
+*Last updated: 30.5.2024*
+
+Largely based the lecture transcript by Harri Hakula, 2021.
 
 > **Intended learning outcomes.** After the course, the student will be able to...
 > - explain the fundamental concepts of numerical analysis, like condition number, stabilty, and convergence rate;
@@ -699,9 +701,10 @@ One interval:
 $$\int_a^b f(x)\,dx=A_0 f(x_1)+A_1 f(x_1),$$
 with *weights* $A_0$, $A_1$, and *nodes* $x_0$, $x_1$, for $n=1$, this is a $(n+1)=2$-rule.
 The coefficients are determined by the usual process:
-$$\int_a^b 1\,dx=b-a=A_0+A_1$$
-$$\int_a^b x\,dx=\frac{b^2-a^2}{2}\quad\Rightarrow A_1 a+A_2\left(\frac{a+b}{2}\right)+A_3 b=\frac{b^2-a^2}{2}.$$
-$$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)\quad\Rightarrow A_1 a^2+A_2 \left(\frac{a+b}{2}\right)^2+A_3 b^2=\frac{1}{3}(b^3-a^3).$$
+$$\int_a^b 1\,dx=b-a=A_0+A_1.$$
+$$\int_a^b x\,dx=\frac{b^2-a^2}{2}= A_0 x_0+A_1 x_1.$$
+$$\int_a^b x^2\,dx=\frac{1}{3}(b^3-a^3)=A_0 x_0^2+A_1 x_1^2.$$
+The resulting system is nonlinear!
 
 ### Gauss quadrature
 
@@ -828,7 +831,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDgyNDY3MiwxODU3Mzc3MjAyLC02Nz
+eyJoaXN0b3J5IjpbLTM0OTA0NjYxOSwxODU3Mzc3MjAyLC02Nz
 AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
 NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
 c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
