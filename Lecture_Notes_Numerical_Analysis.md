@@ -919,9 +919,7 @@ Returning to the proof of the theorem, we get that
 $$|d_k|\le e^{khL}|d_0|+\frac{e^{khL}-1}{Lh}\frac{h^2}{2}M.$$
 Now for $kh\le T-t_0$,
 $$\max_{k}|d_k|\le e^{L(T-t_0)}|d_0|+\frac{e^{L(T-t_0)}-1}{L}\frac{h}{2}M.$$
-$|d_0|
-\
-
+$|d_0|\to 0$ as $h\to 0$ by the 3rd assumption. Hence, the method converges uniformly with linear convergence rate. $\Box$
 
 ### Linear multistep methods
 
@@ -1020,7 +1018,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzA1OTU0OSwxNjQ5MzI1OTgzLC01MD
+eyJoaXN0b3J5IjpbLTE0NzI0MTE4NCwxNjQ5MzI1OTgzLC01MD
 g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
 MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
 MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
