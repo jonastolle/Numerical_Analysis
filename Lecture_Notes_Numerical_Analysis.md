@@ -847,14 +847,19 @@ By the law of large numbers, the ratio of needles intersecting the lines with al
 
 ## Initial value problems (IVPs)
 
-*Problem.* (Not necessarily linear) ordinary differential equation (ODE), with initial value $y_0$ at inital time $t_0$ up to a time horizon :
+*Problem.* (Not necessarily linear) ordinary differential equation (ODE), with initial value $y_0$ at inital time $t_0$ up to a finite time horizon $T>t_0$:
 $$\begin{cases}y'(t)=f(t,y(t)),\\y(t_0)=y_0.\end{cases}$$
 
 *Assumptions.* Existence and uniqueness of the solutions are understood (by e.g. Picard iteration).
 Let us assume that $f$ is continuous as a function from $[t_0,T]\times\mathbb{R}\to\mathbb{R}$ and Lipschitz continuous in the following sense:
-For every $y,z\in\mathbb{R}$, $t\in [t_0,T]
+There exists $L>0$ such that for every $y,z\in\mathbb{R}$, $t\in [t_0,T]$,
+$$|f(t,y)-f(t,z)|\le L|y-z|.$$
 
 ### Euler's method
+
+Fix a constant step size $h>0$.
+
+1. 
 
 ### Linear multistep methods
 
@@ -953,11 +958,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMTc3MTUsMTY0OTMyNTk4MywtNTA4ND
-cyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcyMDIs
-LTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMD
-QxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5
-LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMz
-A2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIy
-M119
+eyJoaXN0b3J5IjpbLTE0MzM2NjMyMDAsMTY0OTMyNTk4MywtNT
+A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
+MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
+kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
+OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
+EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
+OTIyM119
 -->
