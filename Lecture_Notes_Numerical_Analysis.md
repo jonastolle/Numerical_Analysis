@@ -1005,7 +1005,7 @@ $$y_2=3y_1-2y_0=1+3\delta,$$
 $$\cdots$$
 $$y_k=3y_{k-1}-2y_{k-2}=1+(2^k-1)\delta.$$
 Hence, for $\delta\sim 2^{-53}$, and $k=100$, we get the error $\sim 2^{47}$.
-We note, however, that the method is consistent and the exact differential
+We note, however, that the method is consistent and the exact differential equation is stable (in the mathematical sense), and the perturbation $y_\delta(t)=1+\delta$ converges uniformly to the exact solution $y(t)=1$ as $\delta\to0$.
 
 
 ## Gradient descent
@@ -1103,7 +1103,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MTYxNzU4LC04Mjc3MjcwNjEsMTY0OT
+eyJoaXN0b3J5IjpbNDI1Nzg0NTg1LC04Mjc3MjcwNjEsMTY0OT
 MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
 LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
 k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
