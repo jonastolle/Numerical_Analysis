@@ -891,7 +891,11 @@ $$\max |y(t_k)-y_k|\to 0$$ as $h\to 0$?
 
 Then Euler's method is uniformly convergent to the exact solution on $[t_0,T]$ and the global error is $O(h)$.
 
-**Proof.** Set 
+**Proof.** Set $d_j:=y(t_j)-y_j$.
+By Taylor and Euler:
+$$d_{k+1}=d_k+h[f(t_k,y(t_k))-f(t_k,y_k)]+\frac{h^2}{2}y''(\xi_k).$$
+We get that
+$$|d_{
 
 ### Linear multistep methods
 
@@ -990,7 +994,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Njc4ODA2OCwxNjQ5MzI1OTgzLC01MD
+eyJoaXN0b3J5IjpbLTI0Nzg1ODA1OSwxNjQ5MzI1OTgzLC01MD
 g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
 MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
 MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
