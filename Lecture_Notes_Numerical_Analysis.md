@@ -710,7 +710,7 @@ $$\{1,x,x^2,\ldots,x^k,\ldots\}\longrightarrow \{q_0,q_1,\ldots,q_k,\ldots\},\qu
 >**Note.** The GS procedure depends on the inner product, and thus, here, on $a$ and $b$.
 
 1. $$q_0=\frac{1}{\|1\|}=\frac{1}{\left(\int_a^b 1^2\,dx\right)^{1/2}}=\frac{1}{\sqrt{b-a}}.$$
-2. For $j=1,2,\ldots$, $$\tilde{q}_j(x)=x$$
+2. For $j=1,2,\ldots$, $$\tilde{q}_j(x)=xq_{j-1}(x)-\sum_{i=0}^{j-1}\langle x q_{j-1},q_i\rangle q_i(x),$$ and $$q_j(x):=\frac{\tilde{q}_j}{\|\tilde{q}_j\| 
 
 ### Gauss quadrature
 
@@ -848,11 +848,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMzI3NzAsMjM1OTY1NTY4LC0zNDkwND
-Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
-LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
-EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
-LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
-k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
-XX0=
+eyJoaXN0b3J5IjpbODQxNTEwNzgzLDIzNTk2NTU2OCwtMzQ5MD
+Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
+LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
+gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
+MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
+U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
+MV19
 -->
