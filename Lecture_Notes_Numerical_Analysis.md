@@ -1004,7 +1004,8 @@ $$y_0=1,\quad y_1=1+\delta,$$
 $$y_2=3y_1-2y_0=1+3\delta,$$
 $$\cdots$$
 $$y_k=3y_{k-1}-2y_{k-2}=1+(2^k-1)\delta.$$
-Hence
+Hence, for $\delta\sim 2^{-53}$, and $k=100$, we get the error $\sim 2^{47}$.
+We note, however, that the method is consistent and the exact differential
 
 
 ## Gradient descent
@@ -1102,11 +1103,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTk5ODc5NSwtODI3NzI3MDYxLDE2ND
-kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
-OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NF19
+eyJoaXN0b3J5IjpbMjk4MTYxNzU4LC04Mjc3MjcwNjEsMTY0OT
+MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
+LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0XX0=
 -->
