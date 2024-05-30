@@ -678,14 +678,14 @@ and
 $$|w_\ast|\le R,\quad |v_k|\le L,\quad k=1,\ldots,N+1.$$
 
 **Proof.** A direct computation shows (polarization identity)
-$$\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_k-w_\ast|^2+\eta^2|v_{k+1}|^2-|w_k-w_\ast-\eta v_{k+1}|^2\right)=\frac{1}{2\eta}\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}|v_{k+1}|^2.$$
+$$\langle v_{k+1},w_k-w_\ast\rangle =\frac{1}{2\eta}\left(|w_k-w_\ast|^2+\eta^2|v_{k+1}|^2-|w_k-w_\ast-\eta v_{k+1}|^2\right)=\frac{1}{2\eta}\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}|v_{k+1}|^2.$$
 Adding up with respect to $k$ yields
-$$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\sum_{k=0}^N\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2.$$
+$$\sum_{k=0}^N\langle v_{k+1},w_k-w_\ast\rangle =\frac{1}{2\eta}\sum_{k=0}^N\left(|w_k-w_\ast|^2-|w_{k+1}-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2.$$
 The first term is a telescoping sum and $w_0=0$, so that we get
-$$\sum_{k=0}^N\langle v_{k+1},w_n-w_\ast\rangle =\frac{1}{2\eta}\left(|w_\ast|^2-|w_N-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2,$$
+$$\sum_{k=0}^N\langle v_{k+1},w_k-w_\ast\rangle =\frac{1}{2\eta}\left(|w_\ast|^2-|w_N-w_\ast|^2\right)+\frac{\eta}{2}\sum_{k=0}^N|v_{k+1}|^2,$$
 which proves the first assertion.
 For the second assertion it is enough to observe that under our conditions
-$$\frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2\le \frac{R^2}{2\eta}+\frac{\eta(N+1)L^2}{2}=RL(N+1)$$
+$$\frac{|w_\ast|^2}{2\eta}+\frac{\eta}{2}\sum_{k=0}^N |v_{k+1}|^2\le \frac{R^2}{2\eta}+\frac{\eta(N+1)L^2}{2}=RL\sqrt{N+1}$$
 $\Box$
 
 **Proof of the Theorem.** Recalling that $f$ is convex, we get that
@@ -705,11 +705,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC
-0zMzY1NzUyNjEsLTE5OTI0MzM3NDksMTAxNzgyOTY3NCwtMTI4
-NjM2OTc4XX0=
+eyJoaXN0b3J5IjpbLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2OD
+YwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEz
+NSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtND
+E3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3
+NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMT
+Y0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4
+Mjk2NzRdfQ==
 -->
