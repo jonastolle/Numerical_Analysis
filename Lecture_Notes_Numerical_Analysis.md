@@ -926,9 +926,13 @@ $|d_0|\to 0$ as $h\to 0$ by the 3rd assumption. Hence, the method converges unif
 *Idea.* Predictor –corrector.
 
 $$\tilde{y}_{k+1}=y_k+h f(t_k,y_k)\quad\text{(prediction)}$$
-$$y_{k+1}=y_k+\frac{h}{2}[f(t_k,y_k)+f(]\text{(correction)}$$
+$$y_{k+1}=y_k+\frac{h}{2}[f(t_k,y_k)+f(t_{k+1},\tilde{y}_{k+1})]\quad\text{(correction)}$$
 
 **Explicit vs. Implicit**
+
+*Quadrature.* Integral formulation of the IVP:
+$$y(t+h)=y(t)+\int_t^{t+h}f(s,y(s))\,ds,$$
+apply your favorite quadrature 
 
 Heun's method and Euler's method are explicit.
 
@@ -1029,11 +1033,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNzE1Njg0LDE2NDkzMjU5ODMsLTUwOD
-Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
-LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTIyNTg0NTU5NywxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
