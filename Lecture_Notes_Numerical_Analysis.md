@@ -979,8 +979,12 @@ The method is called *explicit* if $b_s=0$, and *implicit* otherwise.
 
 We call the multistep method *consistent* if the truncation error is $O(h)$ or better.
 
+*Why do we need multistep methods?*
+
 **Bad Example.**
-$$y'=-15 y
+$$y'=-15 y,\quad y(0)=1.$$
+Exact solution $y(t)=e^{-15t}$. For $h=\frac{1}{4}$ Euler's method oscillates about zero.
+Adams-Moulton an
 
 **Theorem.** The linear multistep method is consistent if and only if
 $$\sum_{k=0}^{s-1}a_k=-1$$
@@ -1116,7 +1120,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTM3NzE0MywtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTgzODQzNTM2NywtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
