@@ -821,7 +821,12 @@ Suppose we doing a random experiment with a large number of needles of same leng
 
 *What is the probability that a dropped needle intersects with a line?*
 
-Let $y$ be the distance from the center of the needle to the closest line and let $\theta$ be the acure angle of the i 
+Let $y$ be the distance from the center of the needle to the closest line and let $\theta$ be the acure angle of the intersection point.
+
+We assume, for simplicity, $L=D=1$.
+
+Both $y$ and $\theta$ are random variables with distribution
+$$y\sim \operatorname{Unif}([0,\frac{1}{2}\right]\right)
 
 ## Initial value problems
 
@@ -924,7 +929,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NjI0OTYsMjM1OTY1NTY4LC0zND
+eyJoaXN0b3J5IjpbLTE0MzQzMjQ4MzMsMjM1OTY1NTY4LC0zND
 kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
 MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
 U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
