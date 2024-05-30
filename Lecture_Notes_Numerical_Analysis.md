@@ -586,6 +586,10 @@ $$B_k^n(t)=(1-t)B_k^{n-1}(t)+tB_{k-1}^{n-1}(t).$$
 
 ### Bézier curves
 
+Fix a finite set $X=\{x_0,x_1\ldots,x_k\}$ of control points $x_i\in\mathbb{R}^n$.
+
+
+
 ### Lifting
 
 ### De Casteljau's algorithm
@@ -705,11 +709,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2OD
-YwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEz
-NSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtND
-E3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3
-NywxNTE5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMT
-Y0NTIwMzc4NSwtMzM2NTc1MjYxLC0xOTkyNDMzNzQ5LDEwMTc4
-Mjk2NzRdfQ==
+eyJoaXN0b3J5IjpbMjE0NDMzODczOSwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
+EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
+MzM3NDldfQ==
 -->
