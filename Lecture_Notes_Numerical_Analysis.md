@@ -618,6 +618,8 @@ For smoothness, we need that $(x_1-x_0)\parallel (x_n-x_{n-1})$, i.e., $x_1-x_0$
 
 Control points define the curve but the converse is not true.
 Consider:
+$$\beta^n(t)=\sum_{k=0}^n B_k^n(t) x_k=\sum_{k=0}^{n+1} B_k^{n+1}(t)y_k=\alpha^{n+1}(t).$$
+Let us use the conve
 
 ### De Casteljau's algorithm
 
@@ -736,11 +738,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMj
-EwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1NzUyNjEsLTE5OTI0
-MzM3NDldfQ==
+eyJoaXN0b3J5IjpbNTUzMDQ1Mjg0LDEzMjIzMjg1MTYsLTc2OT
+QzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5
+LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMj
+Y2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4
+NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NT
+c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
+MjYxXX0=
 -->
