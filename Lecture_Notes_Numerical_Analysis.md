@@ -599,9 +599,9 @@ $\Rightarrow$ $\beta^n(1)=x_n$.
 We get closed curves if $x_0=x_n$.
 
 *What about the continuous tangents?*
-Recall $
+Recall that ${n\choose k}=\frac{n!}{k!(n-k)!}$.
 $$\frac{d}{dt}B_k^n(t)={n\choose k}\left(k t^{k-1}(1-t)^{n-k}-(n-k)t^k(1-t)^{n-k-1}\right)$$
-
+$$=n\left[\frac{(n-\right]$$
 
 ### Lifting
 
@@ -722,7 +722,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTk1MDA5NSwtNzY5NDMxMTYsMTA5Mz
+eyJoaXN0b3J5IjpbLTI4MTg2MDkwMCwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
 OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
 MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
