@@ -880,6 +880,10 @@ The method is consistent:
 $$\lim_{h\to 0}\frac{y_{k+1}-y_k}{h}=y'(t_k)=f(t_k,y(t_k)).$$
 > Note that $k$ depends on $h$, which we omit in the notation.
 
+What about the global error, that is, uniform convergence on $[t_0,T]$?
+$$\sup|y(t_k)-y_k|\to 0$$ as $h\to 0$?
+
+**Theorem.** Assume the following
 
 ### Linear multistep methods
 
@@ -978,11 +982,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU4MjY1NzYsMTY0OTMyNTk4MywtNT
-A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
-MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
-kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
-OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
-EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
-OTIyM119
+eyJoaXN0b3J5IjpbNjI4NTQ5NzM5LDE2NDkzMjU5ODMsLTUwOD
+Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
+LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
+A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
+OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
+MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
+MjNdfQ==
 -->
