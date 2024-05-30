@@ -951,7 +951,11 @@ $$y_{k+1}=y_k+\int_{t_k}^{t_{k+1}} p_{m-1}(s)\,ds=y_k+h\sum_{l=0}^{m-1}b_l f(t_{
 where
 $$b_l=\frac{1}{h}\int_{t_k}^{t_{k+1}}\left(\prod_{\substack{j=0\\ j\not=l}}^{m-1}\frac{s-t_{k-j}}{t_{k-l}-t_{k-j}}\right)\,ds.$$
 
-*What methods can be reco
+*What methods can be recovered?*
+For $m=1$, $l=0$, we get $b_0=1$ and thus Euler's method!
+The truncation error is $O(h^m)$.
+
+$$Adams-Moulton** 
 
 ## Gradient descent
 
@@ -1048,11 +1052,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEwNDQ5ODcsMTY0OTMyNTk4MywtNT
-A4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcy
-MDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMD
-kzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5
-OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LD
-EyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYz
-OTIyM119
+eyJoaXN0b3J5IjpbLTkwNDgzOTM4NCwxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
