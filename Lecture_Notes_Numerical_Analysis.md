@@ -936,7 +936,7 @@ apply your favorite quadrature rule, for instance:
 $$\frac{h}{2}[f(t,y(t))+f(t+h,y(t+h))]+O(h^3).$$
 Combined, we get:
 $$y_{k+1}= y_k+\frac{h}{2}[f(t_k,y_k)+f(t_{k+1},y_{k+1})].$$
-This method is *impicit*. Every step requires a solution of a nonlinear (fixed point) problem.
+This method is *implicit*. Every step requires a solution of a nonlinear (fixed point) problem.
 
 Heun's method and Euler's method are *explicit*.
 
@@ -1009,7 +1009,7 @@ $$y_{k+2}-3y_{k+1}+2y_{k}=h\left[\frac{13}{12}f(t_{k+2},y_{k+2})-\frac{5}{3}f(t_
 This method satisfies the first condition. For the second condition, $p=q=1$, we get that $-1\not=\frac{13}{12}$, so the second condition is not satisfied and the method is not stable. Indeed,
 for
 $$y'=0,\quad y(0)=1,$$
-which has the explicit solution $y(t)=1$, we consider a small pertubation of the initial value, $\delta>0$,
+which has the explicit solution $y(t)=1$, we consider a small perturbation of the initial value, $\delta>0$,
 so that
 $$y_0=1,\quad y_1=1+\delta,$$
 $$y_2=3y_1-2y_0=1+3\delta,$$
@@ -1120,11 +1120,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc0Mjg1NCwtODI3NzI3MDYxLDE2ND
-kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
-OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NF19
+eyJoaXN0b3J5IjpbLTEwNDg4NzIxMTQsLTgyNzcyNzA2MSwxNj
+Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
+MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
+c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
+Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
+EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
+ODI4NzRdfQ==
 -->
