@@ -901,8 +901,8 @@ $$f(\bar{w}_N)-m\le\frac{RL}{\sqrt{N+1}}.$$
 
 **Remark.**
 1. Assume that $f$ has a global minimum in $w_\ast\in\mathbb{R}^d$. Then, the above result ensures the convergence of $f(\bar{w}_N)$ to the minimum $f(w_\ast)$, provided that $R\ge |w_\ast|$. Indeed, the claimed estimate, together with $$f(\bar{w}_N)-f(w_\ast)\ge 0$$ yields $$|f(\bar{w}_N)-f(w_\ast)|\le \frac{RL}{\sqrt{N+1}}.$$
-2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\mathbb{N}}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex*.
-3. The convergence rate is sublinear unless $f$ is so-called *strongly convex*, which gives a linear convergence rate.
+2. It is not guaranteed that $\{\bar{w}_N\}_{N\in\mathbb{N}}$ converges to $w_\ast$ unless $w_\ast$ is the unique minimizer (e.g. if $f$ is so-called *strictly convex* (i.e., the ie.
+3. The convergence rate is sublinear unless $f$ is so-called *strongly convex* (i.e., $f-\delta|\cdot|^2$ is convex for some $\delta>0$), which gives a linear convergence rate.
 
 We start by proving an auxiliary result.
 
@@ -946,11 +946,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njk4NDA0OCwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbNTg4NjgxMjU3LDIzNTk2NTU2OCwtMzQ5MD
+Q2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2
+LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1ND
+gxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUx
+MSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOT
+U5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3
+MV19
 -->
