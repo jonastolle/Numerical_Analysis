@@ -641,9 +641,12 @@ Integration schemes are called quadratures. Therefore, numerical integration met
 
 ### Newton-Cotes quadrature rules
 
-
+Let $f:[a,b]\to\mathbb{R}$.
 *Idea.* Approximate
-$$\int_a^b f(x)\,dx=I$$
+$$\int_a^b f(x)\,dx=:I$$ by the integral of an interpolation polynomial
+$$I\approx\int_a^b p_k(x)\,dx=:Q(p_k),$$
+where $p_k$ is an interpolant of $f$ over $[a,b]$.
+
 
 ### Orthogonal polynomials
 
@@ -772,7 +775,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDI0NjIwNSwxMzIyMzI4NTE2LC03Nj
+eyJoaXN0b3J5IjpbMTAzOTk1MjMwMCwxMzIyMzI4NTE2LC03Nj
 k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
 OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
 I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
