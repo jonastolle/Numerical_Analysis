@@ -462,7 +462,8 @@ $x_0$: $p(x_0)=q(x_0)=f_0$.
 $x_1,\ldots,x_{k-1}$: $p(x_i)=q(x_i)$.
 $x_k$: $p(x_k)=q(x_k)+\underbrace{\frac{x_k-x_0}{x_k-x_0}}_{=1}(r(x_k)-q(x_k)=r(x_k)$.
 The highest order term has the coefficient
-$$\frac{p^{(k)}(x)}{k!}=\frac{r(x)-q(x)}{x_k-x_0},$$
+$$\frac{p^{(k)}(x)}{k!}=\frac{r_{k-1}-q_{k-1}}{x_k-x_0},$$
+where $r_{k-1}=f[x_1,x_2,\ldots,x_k]=\frac{r^{(k-1)}}{(k-1)!}$ and $q_{k-1}=f[x_0,x_2,\ldots,x_{k-1}]=\frac{r^{(k-1)}}{(k-1)!}$
 which in fact does not depend on $x$, which can be proved by the general Leibniz rule. $\Box$
 
 
@@ -818,11 +819,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMj
-IzMjg1MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgy
-MSwtNzU0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOT
-Y5ODk5NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0
-OTIwLC05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNT
-E5Mzc5MTcxLC02NTc0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIw
-Mzc4NV19
+eyJoaXN0b3J5IjpbLTE1OTkwOTI0OCwxODU3Mzc3MjAyLC02Nz
+AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
+NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
+c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
+MDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMj
+QzMDcyODc3LDE1MTkzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5
+OTU4M119
 -->
