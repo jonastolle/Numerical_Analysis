@@ -829,7 +829,7 @@ Both $y$ and $\theta$ are random variables with distribution
 $$y\sim \operatorname{Unif}\left(\left[0,\frac{1}{2}\right]\right),$$
 where $y=0$ means that the needle is centered on a line and $y=\frac{1}{2}$ means that $y$ is perfectly centered between two lines.
 $$\theta\sim \operatorname{Unif}\left(\left[0,\frac{\pi}{2}\right]\right),$$
-where $\theta=0$ means that the nee
+where $\theta=0$ means that the needle is parallel to the lines and $\theta=\frac{\pi}{2}$ means that the needle is perpendicular to the lines.
 
 ## Initial value problems
 
@@ -932,7 +932,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTgwNjYxNiwyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbMjE0MTg0Mzc4MCwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
