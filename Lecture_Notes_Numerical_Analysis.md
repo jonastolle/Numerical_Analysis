@@ -982,7 +982,10 @@ We call the multistep method *consistent* if the truncation error is $O(h)$ or b
 **Theorem.** The linear multistep method is consistent if and only if
 $$\sum_{k=0}^{s-1}a_k=-1$$
 and
-$$\sum_{k=0}^s b_k=s+\sum_{k=0}
+$$\sum_{k=0}^s b_k=s+\sum_{k=0}^{s-1} k a_k.$$
+If, moreover,
+$$q\sum_{k=0}^s k^{q-1} b_k=s^q+\sum_{k=0}^{s-1} k^q a_k,$$
+for every $q=1,\ldots,p$, then
 
 ## Gradient descent
 
@@ -1079,7 +1082,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTY5MDcwNSwtODI3NzI3MDYxLDE2ND
+eyJoaXN0b3J5IjpbLTMyNTg3ODEyMiwtODI3NzI3MDYxLDE2ND
 kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
 OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
 Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
