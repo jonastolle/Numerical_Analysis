@@ -594,8 +594,12 @@ $$\operatorname{conv}(X)=\left\{y\in\mathbb{R}^n\;\colon\; y=\sum_{k=0}^k \lambd
 **Definition.** The Bézier curve $\beta^n$ is defined,
 $$\beta^n(t)=\sum_{k=0}^n x_k B_k^n(t).$$
 Sanity check: $t=0$, $B_k^n(0)=0$, except $B_0^n(0)=1$.
-$\Rightarrow$ $\beta^n(0)=x_0$
+$\Rightarrow$ $\beta^n(0)=x_0$,
+$\Rightarrow$ $\beta^n(1)=x_n$.
+We get closed curves if $x_0=x_n$.
 
+*What about the continuous tangents?*
+$$\fra
 
 
 ### Lifting
@@ -717,7 +721,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODI2NDk5NiwtNzY5NDMxMTYsMTA5Mz
+eyJoaXN0b3J5IjpbMjAxODcyNzc3MiwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
 OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
 MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
