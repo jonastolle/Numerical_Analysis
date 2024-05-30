@@ -1009,6 +1009,9 @@ We note, however, that the method is consistent and the exact differential equat
 
 **Example.** (Effect of rounding error)
 
+Returning to the proof of convergence for Euler:
+$$|d_k|$$
+$$|d_k|\le e^{khL}|d_0|+\frac{e^{khL}-1}{Lh}\frac{h^2}{2}M.$$
 
 ## Gradient descent
 
@@ -1105,7 +1108,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY5ODUzMjAsLTgyNzcyNzA2MSwxNj
+eyJoaXN0b3J5IjpbLTEzNTU1ODE0MTYsLTgyNzcyNzA2MSwxNj
 Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
 MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
 c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
