@@ -650,6 +650,10 @@ where $p_k$ is an interpolant of $f$ over $[a,b]$.
 **Lagrange:**
 $$\int_a^b f(x)\,dx\approx \sum_{i=0}^n f(x_i)\int_a^b\left(\prod_{\substack{j=0\\i\not=j}}\frac{x-x_j}{x_i-x_j}\right)\,dx.$$
 
+Let $n=1$:
+$$p_1(x)=f(a)\frac{x-b}{a-b}+f(b)\frac{x-a}{b-a},$$
+so
+
 ### Orthogonal polynomials
 
 ### Gauss quadrature
@@ -777,11 +781,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
-U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
-NTI2MV19
+eyJoaXN0b3J5IjpbLTE2MTE2NzEwOTcsLTY3MDE1MDIwOSwxMz
+IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
+MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
+k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
+NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMT
+UxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUy
+MDM3ODVdfQ==
 -->
