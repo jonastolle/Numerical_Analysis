@@ -561,7 +561,7 @@ Now $s$ has been defined over all subintervals. However, the $z_i$ are still unk
 Using the condition for continuity of the derivatives $s_i'(x_i)=s_{i+1}'(x_i)$ for all $i$ yields
 $$\frac{h}{2}z_i+\frac{1}{h}\left[(f_i-f_{i-1})+\frac{h^2}{6}(z_{i-1}-z_i)\right]=-\frac{h}{2}z_i+\frac{1}{h}\left[(f_{i+1}-f_i)+\frac{h^2}{6}(z_i-z_{i+1})\right],$$
 for $i=1,\ldots,n-1$.
-In fact, this constitutes a trigonal system:
+In fact, this constitutes a triangular system:
 $$\frac{2h}{3}z_i+\frac{h}{6}z_{i-1}+\frac{h}{6}z_{i+1}=\frac{1}{h}(f_{i+1}-2f_i+f_{i-1})=:b_i.$$
 The values $z_0$ and $z_n$ at the interval boundary have to be moved to the right hand side, and thus:
 $$b_1:=\frac{1}{h}(f_2-2f_1+f_0)-\frac{h}{6}z_0$$
@@ -723,7 +723,7 @@ $$\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle=0,\quad i\le j-3.$$
 As a consequence, the GS procedure reduces to
 $$\tilde{q}_{j}(x)=xq_{j-1}(x)-\langle x q_{j-1},q_{j-1}\rangle q_{j-1}(x)-\langle x q_{j-1},q_{j-2}\rangle q_{j-2}(x)$$
 which is a three-term recurrence rule!
->Note. The trick $\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle$ relies heavily on the fact that the inner product is defined by an intergral and that we are dealing with polynomials. The GS procedure works generally in pre-Hilbert spaces, however, then we do not expect this kind of simplification.
+>Note. The trick $\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle$ relies heavily on the fact that the inner product is defined by an integral and that we are dealing with polynomials. The GS procedure works generally in pre-Hilbert spaces, however, then we do not expect this kind of simplification.
 
 **Claim.** The GS procedure works.
 **Proof.**
@@ -808,7 +808,7 @@ $$\operatorname{var}(A_N)=\frac{1}{N^2}\sum_{i=1}^N\operatorname{var}(X_i)=\frac
 In order to get the right unit, we have to consider the standard deviation
 $$\sigma(A_N)=\frac{\sigma}{\sqrt{N}}.$$
 *Consequence:*
-If our intergration problem can be cast into an averaging problem, the convergence rate will be $O(\frac{1}{\sqrt{N}})$.
+If our integration problem can be cast into an averaging problem, the convergence rate will be $O(\frac{1}{\sqrt{N}})$.
 > **Note.** The rate is independent of the spatial dimension.
 
 **Example.** Estimating the value of $\pi$. The area of a circle is $A=\pi r^2$. Set $r=1$. Consider the box $V=[-1,1]\times [-1,1]$ with volume $|V|=4$. The ratio of the areas of circle enclosed by the box and the enclosing box is $\frac{\pi}{4}$. Let
@@ -1120,11 +1120,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4MjUwNjEzLC04Mjc3MjcwNjEsMTY0OT
-MyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2OCwtMzQ5MDQ2NjE5
-LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0XX0=
+eyJoaXN0b3J5IjpbLTE5NjgyNTQ1OCwtODI3NzI3MDYxLDE2ND
+kzMjU5ODMsLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYx
+OSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NF19
 -->
