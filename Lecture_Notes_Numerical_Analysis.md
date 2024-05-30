@@ -817,7 +817,7 @@ $$g_i=\begin{cases}1,\;\;\text{if $p$ is inside $A$,}\\0,\;\;\text{otherwise.} \
 
 ### Buffon's needle
 
-Suppose we doing a probabilistic experiment
+Suppose we doing a random experiment with a large number of needles of length $L$ that we throw on the floow, which has parallel strips drawn on it which have all the same distance to their neighboring strip 
 
 ## Initial value problems
 
@@ -920,7 +920,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTUwMzQyNywyMzU5NjU1NjgsLTM0OT
+eyJoaXN0b3J5IjpbMTU3Njg0MjAyNCwyMzU5NjU1NjgsLTM0OT
 A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
 NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
 Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
