@@ -719,7 +719,9 @@ Above, as usually, we denote the polynomial $p(x)=x$ with the symbol $x$.
 Thus,
 $$\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle=0,\quad i\le j-3.$$
 As a consequence, the GS procedure reduces to
-$$\tilde{q}_{j}(x)=xq_{j-1}(x)-\langle
+$$\tilde{q}_{j}(x)=xq_{j-1}(x)-\langle x q_{j-1},q_{j-1}\rangle q_{j-1}(x)-\langle x q_{j-1},q_{j-2}\rangle q_{j-2}(x)$$
+which is a three-term recurrence rule!
+>Note. The trick $\langle x q_{j-1},q_i\rangle=\langle q_{j-1},xq_i\rangle$ relies heavily on the fact that the inner product is defined by an intergral and that we are 
 
 ### Gauss quadrature
 
@@ -857,11 +859,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzIxNjU2NywyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTkzNDY5OTYsMjM1OTY1NTY4LC0zND
+kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
+MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
+U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
+NTExLDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC
+05NTk2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5
+MTcxXX0=
 -->
