@@ -653,8 +653,8 @@ Let $X_i$, $i\in\mathbb{N}$, be i.i.d. (independent, identically distributed) ra
 $$A_N:=\frac{1}{N}\sum_{i=1}^N X_i,$$
 we have that
 $$\operatorname{var}(A_N)=\frac{1}{N^2}\sum_{i=1}^N\operatorname{var}(X_i)=\frac{\sigma^2}{N}.$$
-By the law of large numbers,
-$$\lim_{N\to\infty}\E[A_N]=\mu.$$
+By the law of large numbers, we have almost surely
+$$\lim_{N\to\infty}A_N=\mu.$$
 
 ### Buffon's needle 
 
@@ -759,11 +759,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODIwMDg5OCwxMzIyMzI4NTE2LC03Nj
-k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
-OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
-I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
-ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
-U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
-NTI2MV19
+eyJoaXN0b3J5IjpbLTIwNjgzMDc1OTEsMTMyMjMyODUxNiwtNz
+Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
+OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
+AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
+Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
+Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
+NzUyNjFdfQ==
 -->
