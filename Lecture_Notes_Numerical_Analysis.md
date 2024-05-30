@@ -887,7 +887,11 @@ $$\max |y(t_k)-y_k|\to 0$$ as $h\to 0$?
 
 1. $f$ is Lipschitz in the second component.
 2. $\max |y''(t_k)|\le M$ for some global constant $M>0$.
-3. 
+3. $y_0\to y(t_0)$ as $h\to 0$.
+
+Then Euler's method is uniformly convergent to the exact solution on $[t_0,T]$ and the global error is $O(h)$.
+
+**Proof.** Set 
 
 ### Linear multistep methods
 
@@ -986,11 +990,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMzIxOTc3LDE2NDkzMjU5ODMsLTUwOD
-Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
-LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
-A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
-OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMj
-MwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4Mjg3NCwxODU2Mzky
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTk2Njc4ODA2OCwxNjQ5MzI1OTgzLC01MD
+g0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1NzM3NzIw
+MiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2LDEwOT
+MwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2ODkyNjk5
+ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3MzksMT
+IzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMTg1NjM5
+MjIzXX0=
 -->
