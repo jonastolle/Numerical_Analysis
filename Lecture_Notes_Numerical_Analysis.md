@@ -664,7 +664,9 @@ $$=-\frac{1}{12}(b-a)^3 f''(\eta).$$
 
 **Composite rule:** $h=\frac{b-a}{n}$, $x_i=a+ih$, $i=0,\ldots,n$.
 $$\int_a^b f(x)\,dx\approx \frac{h}{2}\left[f(x_0)+2f(x_1)+\ldots+2f(x_{n-1})+f(x_n)\right].$$
-Total error $O(h^2)\sim O(
+Total error: $O(h^2)\sim O(\frac{1}{n^2})$. We say that the method is quadratic.
+
+Let $n=2$. The method is exact for degree $2$ (or lower). In this context, exactness means, that the integral and the method give the exact same result for polyn
 
 ### Orthogonal polynomials
 
@@ -793,11 +795,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNjgyMjIzLC02NzAxNTAyMDksMTMyMj
-MyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIx
-LC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Nj
-k4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5
-MjAsLTk1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MT
-kzNzkxNzEsLTY1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAz
-Nzg1XX0=
+eyJoaXN0b3J5IjpbLTEyMjk5OTI4NDAsLTY3MDE1MDIwOSwxMz
+IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
+MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
+k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
+NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMT
+UxOTM3OTE3MSwtNjU3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUy
+MDM3ODVdfQ==
 -->
