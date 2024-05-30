@@ -843,7 +843,7 @@ $$\frac{1}{2}\int_0^{\frac{\pi}{2}}\sin\theta\,d\theta=\frac{1}{2}.$$
 Thus the probability of intersection is
 $$\frac{1}{2}\bigg/\frac{\pi}{4}=\frac{2}{\pi}.$$
 
-By the law of large numbers, the ratio of needles Hence we have found 
+By the law of large numbers, the ratio of needles intersecting the lines with all needles converges to $\frac{2}{\pi}\approx$. Hence we have found yet another probabilistic algorithm to determine the value of $\pi$.
 
 ## Initial value problems
 
@@ -946,7 +946,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1NzkxNjYsMjM1OTY1NTY4LC0zND
+eyJoaXN0b3J5IjpbLTExNzc4NjcxNjEsMjM1OTY1NTY4LC0zND
 kwNDY2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1
 MTYsLTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNz
 U0ODEzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5
