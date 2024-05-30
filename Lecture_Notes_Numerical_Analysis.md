@@ -1119,12 +1119,13 @@ $\Box$
 5. Ernst Hairer, Gerhard Wanner, Syvert P. Nørsett.  Solving Ordinary Differential Equations I: Nonstiff Problems. Springer, 2nd ed., 1993.
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
+8. Harri Hakula. Numerical Analysis. Lecture transcript, Aalto University, 2021.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg4NzIxMTQsLTgyNzcyNzA2MSwxNj
-Q5MzI1OTgzLC01MDg0NzI3ODgsMjM1OTY1NTY4LC0zNDkwNDY2
-MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLT
-c2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEz
-Nzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLD
-EwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2
-ODI4NzRdfQ==
+eyJoaXN0b3J5IjpbNTEyNzM4NjY4LC0xMDQ4ODcyMTE0LC04Mj
+c3MjcwNjEsMTY0OTMyNTk4MywtNTA4NDcyNzg4LDIzNTk2NTU2
+OCwtMzQ5MDQ2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIwOSwxMz
+IyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4
+MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLT
+k2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0
+NDkyMF19
 -->
