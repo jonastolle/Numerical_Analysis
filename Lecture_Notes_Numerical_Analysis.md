@@ -651,7 +651,10 @@ Integration schemes are called quadratures. Therefore, numerical integration met
 
 Let $X_i$, $i\in\mathbb{N}$, be i.i.d. (independent, identically distributed) random variables with *mean* $\mu$ and *variance* $\sigma^2$. Then for the arithmetic mean (also called *Césaro sum*)
 $$A_N:=\frac{1}{N}\sum_{i=1}^N X_i,$$
-we have the 
+we have that
+$$\operatorname{var}(A_N)=\frac{1}{N^2}\sum_{i=1}^N\operatorname{var}(X_i)=\frac{\sigma^2}{N}.$$
+By the law of large numbers,
+$$\lim_{N\to\infty}\E[A_N]=\mu.$$
 
 ### Buffon's needle 
 
@@ -756,11 +759,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4NDU3NTExLDEzMjIzMjg1MTYsLTc2OT
-QzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5
-LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMj
-Y2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4
-NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NT
-c0MzcyNDUsLTIxMDYxOTk1ODMsMTY0NTIwMzc4NSwtMzM2NTc1
-MjYxXX0=
+eyJoaXN0b3J5IjpbLTgxODIwMDg5OCwxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
+U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
+NTI2MV19
 -->
