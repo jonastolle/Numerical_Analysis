@@ -705,7 +705,8 @@ In other words, orthogonality: $\langle p,q\rangle =0$, then we write $p\perp q$
 Orthonormality: $p\perp q$ and $\langle p,p\rangle =1=\langle q,q\rangle$.
 
 **Gram-Schmidt procedure.**
-*Idea.*
+*Idea.* Transform a basis to an orthogonal one:
+$$\{1,x,x^2,\ldots,x^k,\ldots\}\longrightarrow \{q_0,q_1,\ldots,q_k,\ldots\},\quad\text$$
 
 ### Gauss quadrature
 
@@ -843,11 +844,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1OTY1NTY4LC0zNDkwNDY2MTksMTg1Nz
-M3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYsLTc2OTQzMTE2
-LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0ODEzNzk5LDE2OD
-kyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTExLDEwMjY2NDg3
-MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NTk2ODI4NzQsMT
-g1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcxLC02NTc0Mzcy
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTE1MjgyNjYzMSwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
