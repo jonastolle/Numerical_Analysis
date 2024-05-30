@@ -463,8 +463,8 @@ $x_1,\ldots,x_{k-1}$: $p(x_i)=q(x_i)$.
 $x_k$: $p(x_k)=q(x_k)+\underbrace{\frac{x_k-x_0}{x_k-x_0}}_{=1}(r(x_k)-q(x_k)=r(x_k)$.
 The highest order term has the coefficient
 $$\frac{p^{(k)}(x)}{k!}=\frac{r_{k-1}-q_{k-1}}{x_k-x_0},$$
-where $r_{k-1}=f[x_1,x_2,\ldots,x_k]=\frac{r^{(k-1)}}{(k-1)!}$ and $q_{k-1}=f[x_0,x_2,\ldots,x_{k-1}]=\frac{r^{(k-1)}}{(k-1)!}$
-which in fact does not depend on $x$, which can be proved by the general Leibniz rule. $\Box$
+where $r_{k-1}=f[x_1,x_2,\ldots,x_k]=\frac{r^{(k-1)}}{(k-1)!}$ and $q_{k-1}=f[x_0,x_2,\ldots,x_{k-1}]=\frac{q^{(k-1)}}{(k-1)!}$,
+which can be proved by the general Leibniz rule. $\Box$
 
 
 ### Interpolation error
@@ -819,7 +819,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkwOTI0OCwxODU3Mzc3MjAyLC02Nz
+eyJoaXN0b3J5IjpbMTc1Mjk3NDQ5MCwxODU3Mzc3MjAyLC02Nz
 AxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5MzA0MTg0
 NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4OSwtOT
 c5NjUxMTM1LC05Njk4OTk1MTEsMTAyNjY0ODczOSwxMjMwNjMw
