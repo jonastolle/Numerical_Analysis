@@ -834,7 +834,9 @@ where $\theta=0$ means that the needle is parallel to the lines and $\theta=\fra
 We may assume that $y$ and $\theta$ are independent random variables (*why?*).
 The condition for intersection with a line is
 $$2y\le \sin\theta.$$
-The joint probability distribution of two independent random variables is the product of the respective distributions on $[0,\frac{\pi}{2}]\times [0,\frac{1}{2}]$. Determining the probability requires calculation of the ratio of the areas, 
+The joint probability distribution of two independent random variables is the product of the respective distributions on $[0,\frac{\pi}{2}]\times [0,\frac{1}{2}]$. Determining the probability requires calculation of the ratio of the area of the condition of intersection in relation to the total area $\frac{\pi}{4}$.
+The condition is fulfilled by
+$$\frac{1}{2}\int_0^{\frac{\pi}{2}}\sin\the
 
 ## Initial value problems
 
@@ -937,11 +939,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NDc1MjIsMjM1OTY1NTY4LC0zNDkwND
-Y2MTksMTg1NzM3NzIwMiwtNjcwMTUwMjA5LDEzMjIzMjg1MTYs
-LTc2OTQzMTE2LDEwOTMwNDE4NDYsLTM2ODYwNDgyMSwtNzU0OD
-EzNzk5LDE2ODkyNjk5ODksLTk3OTY1MTEzNSwtOTY5ODk5NTEx
-LDEwMjY2NDg3MzksMTIzMDYzMDAwMSwtNDE3NDQ0OTIwLC05NT
-k2ODI4NzQsMTg1NjM5MjIzLDI0MzA3Mjg3NywxNTE5Mzc5MTcx
-XX0=
+eyJoaXN0b3J5IjpbLTgyODA3ODU2MiwyMzU5NjU1NjgsLTM0OT
+A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
+NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
+Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
+MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
+k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
+NzFdfQ==
 -->
