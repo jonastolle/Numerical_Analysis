@@ -912,7 +912,7 @@ with $\xi\in [0,\alpha].$
 Hence
 $$1+\alpha\le 1+\alpha+\underbrace{\frac{\alpha^2}{2}e^\xi}_{>0}=e^\alpha.$$
 And thus,
-$$\gamma_n\le e
+$$\gamma_n\le e^{n\alpha}\gamma_0+\frac{1-(1+\alpha)^n}{1-(1-\alpha)}\beta\lee^{n\alpha}\gamma_0+\frac{1-(1+\alpha)^n}{1-(1-\alpha)}.$$
 
 ### Linear multistep methods
 
@@ -1011,7 +1011,7 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4NTAyNDMyLDE2NDkzMjU5ODMsLTUwOD
+eyJoaXN0b3J5IjpbMjI0NjU4NjY4LDE2NDkzMjU5ODMsLTUwOD
 Q3Mjc4OCwyMzU5NjU1NjgsLTM0OTA0NjYxOSwxODU3Mzc3MjAy
 LC02NzAxNTAyMDksMTMyMjMyODUxNiwtNzY5NDMxMTYsMTA5Mz
 A0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3OTksMTY4OTI2OTk4
