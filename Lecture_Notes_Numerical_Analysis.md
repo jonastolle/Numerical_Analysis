@@ -635,6 +635,8 @@ There is also a reverse algorithm for splitting Bézier curves.
  
 ## Numerical integration
 
+Integration schemes are called quadratures. Therefore, numerical 
+
 ### Newton-Cotes quadrature rules
 
 ### Orthogonal polynomials
@@ -748,11 +750,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEyNTk1NTUsMTMyMjMyODUxNiwtNz
-Y5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NTQ4MTM3
-OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1MTEsMT
-AyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLTk1OTY4
-Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkxNzEsLT
-Y1NzQzNzI0NSwtMjEwNjE5OTU4MywxNjQ1MjAzNzg1LC0zMzY1
-NzUyNjFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTc1OTM3MywxMzIyMzI4NTE2LC03Nj
+k0MzExNiwxMDkzMDQxODQ2LC0zNjg2MDQ4MjEsLTc1NDgxMzc5
+OSwxNjg5MjY5OTg5LC05Nzk2NTExMzUsLTk2OTg5OTUxMSwxMD
+I2NjQ4NzM5LDEyMzA2MzAwMDEsLTQxNzQ0NDkyMCwtOTU5Njgy
+ODc0LDE4NTYzOTIyMywyNDMwNzI4NzcsMTUxOTM3OTE3MSwtNj
+U3NDM3MjQ1LC0yMTA2MTk5NTgzLDE2NDUyMDM3ODUsLTMzNjU3
+NTI2MV19
 -->
