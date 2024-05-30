@@ -845,7 +845,12 @@ $$\frac{1}{2}\bigg/\frac{\pi}{4}=\frac{2}{\pi}.$$
 
 By the law of large numbers, the ratio of needles intersecting the lines with all needles converges to $\frac{2}{\pi}\approx 0.6366$. Hence, we have found yet another probabilistic algorithm to determine the value of $\pi$.
 
-## Initial value problems
+## Initial value problems (IVPs)
+
+*Problem.*
+$$\begin{cases}y'(t)=f(t,y(t)),\\y(t_0)=y_0.\end{cases}$$
+
+*Assumptions.*
 
 ### Euler's method
 
@@ -946,11 +951,11 @@ $\Box$
 6. [Real Analysis](https://en.wikibooks.org/wiki/Real_Analysis), Wikibooks, Creative Commons BY-SA 4.0.
 7. Stefano Pagliarani. An introduction to discrete-time stochastic processes and their applications. Lecture notes, Alma Mater Studiorum - Università di Bologna, 2024.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODQ3Mjc4OCwyMzU5NjU1NjgsLTM0OT
-A0NjYxOSwxODU3Mzc3MjAyLC02NzAxNTAyMDksMTMyMjMyODUx
-NiwtNzY5NDMxMTYsMTA5MzA0MTg0NiwtMzY4NjA0ODIxLC03NT
-Q4MTM3OTksMTY4OTI2OTk4OSwtOTc5NjUxMTM1LC05Njk4OTk1
-MTEsMTAyNjY0ODczOSwxMjMwNjMwMDAxLC00MTc0NDQ5MjAsLT
-k1OTY4Mjg3NCwxODU2MzkyMjMsMjQzMDcyODc3LDE1MTkzNzkx
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTY0OTMyNTk4MywtNTA4NDcyNzg4LDIzNT
+k2NTU2OCwtMzQ5MDQ2NjE5LDE4NTczNzcyMDIsLTY3MDE1MDIw
+OSwxMzIyMzI4NTE2LC03Njk0MzExNiwxMDkzMDQxODQ2LC0zNj
+g2MDQ4MjEsLTc1NDgxMzc5OSwxNjg5MjY5OTg5LC05Nzk2NTEx
+MzUsLTk2OTg5OTUxMSwxMDI2NjQ4NzM5LDEyMzA2MzAwMDEsLT
+QxNzQ0NDkyMCwtOTU5NjgyODc0LDE4NTYzOTIyMywyNDMwNzI4
+NzddfQ==
 -->
