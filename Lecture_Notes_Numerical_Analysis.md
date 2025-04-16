@@ -6,7 +6,7 @@
 
 *Lecture notes for MS-C1650 Numerical Analysis, Aalto University*
 
-*Last updated: 30.5.2024*
+*Last updated: 16.4.2025*
 
 Largely based the lecture transcript by Harri Hakula, 2021.
 
@@ -32,13 +32,13 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 
 >**Example.** (Toy floating point system). Binary floats of the type
 >$$(1.b_1b_2)_2$$ with exponents $e=-1,0,1$.
->Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and >$(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
-> $e$ |    |   |    
->---|--|--|--
->$1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$
->$2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$
->$\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$
-> Important quantity: $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
+>Hence $(1.00)_2=1$, $(1.01)_2=\frac{5}{4}$, $(1.10)_2=\frac{3}{2}$, and $(1.11)_2=\frac{7}{4}$. By multiplying with the exponents $2^{-1}=\frac{1}{2}$, $2^0=1$, $2^1=2$, we get the whole set:
+> $e$  | $(1.00)_2 2^e$   |   $(1.01)_2 2^e $   | $(1.10)_2 2^e $ |  $(1.11)_2 2^e $
+>--|--|--|--|--
+> 0 | $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$ |
+> 1 | $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$ |
+> -1 |$\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$ |
+> | Important quantity: $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
 
 Define the machine epsilon by $\varepsilon:=2^{-p}=(1.00\ldots 01)_2-1$.
 
