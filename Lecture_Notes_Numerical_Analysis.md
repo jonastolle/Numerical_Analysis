@@ -38,7 +38,7 @@ If $k=2$, we have binary floats. In the binary case, we observe that we can alwa
 > 0 | $1$ | $\frac{5}{4}$ | $\frac{3}{2}$  | $\frac{7}{4}$ |
 > 1 | $2$ | $\frac{5}{2}$ | $3$ | $\frac{7}{2}$ |
 > -1 |$\frac{1}{2}$ | $\frac{5}{8}$ | $\frac{3}{4}$ | $\frac{7}{8}$ |
-> | Important quantity: $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
+>  Important quantity: $(1.01)_2-1=\frac{1}{4}$, the so-called *machine epsilon*.
 
 Define the machine epsilon by $\varepsilon:=2^{-p}=(1.00\ldots 01)_2-1$.
 
